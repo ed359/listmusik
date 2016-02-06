@@ -33,4 +33,5 @@ A simple music organiser
 
 ## Release History
 
-* 0.1.0 Initial release
+  - 0.2.0 File and playlist reading feature-complete
+  - 0.1.0 Initial release

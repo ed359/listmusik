@@ -1,6 +1,11 @@
 {
-  "esversion": 6,
   "undef": true,
   "laxcomma": true,
-  "validthis": true
+  "validthis": true,
+  "node": true,
+  "jquery": true,
+  "globals": {
+    "window": true,
+    "document": true
+  }
 }
