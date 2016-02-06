@@ -22,22 +22,14 @@
     "itunes"
   ],
   "author": "Ewan Davies <ewan.davies@gmail.com>",
-  "license" : "GPL-3.0",
+  "license": "GPL-3.0",
   "dependencies": {
-    "bootstrap": "^3.3.6",
-    "bootstrap-treeview": "^1.2.0",
     "escape-string-regexp": "^1.0.4",
     "ffmetadata": "^1.4.0",
     "file-url": "^1.0.1",
     "itunes-data": "^0.1.1",
     "jade": "^1.11.0",
-    "jquery": "^2.2.0",
-    "lodash": "^4.1.0",
-    "node-expat": "^2.2.0",
-    "nw": "^0.12.3"
-  },
-  "devDependencies": {
-    "jshint": "^2.9.1",
-    "nw-gyp": "^0.13.0"
+    "lodash": "^4.2.1",
+    "node-expat": "^2.2.0"
   }
 }
