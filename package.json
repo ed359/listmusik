@@ -9,7 +9,7 @@
     "height": 600
   },
   "scripts": {
-    "postinstall": "echo listmusik postinstall script && cd node_modules/node-expat && nw-gyp configure --target=`npm info nw version` && nw-gyp build",
+    "postinstall": "bower install && cd node_modules/node-expat && nw-gyp configure --target=`npm info nw version` && nw-gyp build",
     "start": "nw ."
   },
   "repository": {
