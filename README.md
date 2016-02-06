@@ -9,12 +9,12 @@ A simple music organiser
   
 ## Install Dependencies
 
-  npm install
+  ```npm install```
 
 ## Run
 
-  npm start
+  ```npm start```
 
 ## Release History
 
-* 0.0.1 Initial release
+* 0.1.0 Initial release
