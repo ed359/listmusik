@@ -9,7 +9,7 @@
     "height": 600
   },
   "scripts": {
-    "postinstall": "echo listmusik postinstall script",
+    "postinstall": "echo listmusik postinstall script && cd node_modules/node-expat && nw-gyp configure --target=`npm info nw version` && nw-gyp build",
     "start": "nw ."
   },
   "repository": {
@@ -30,6 +30,7 @@
     "itunes-data": "^0.1.1",
     "jade": "^1.11.0",
     "lodash": "^4.2.1",
-    "node-expat": "^2.2.0"
+    "node-expat": "^2.2.0",
+    "nw": "^0.12.3"
   }
 }

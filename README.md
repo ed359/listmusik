@@ -8,7 +8,6 @@ A simple music organiser
   ### Node utilities required
   ```
   npm install -g bower
-  npm install -g nw
   npm install -g nw-gyp
   ```
   ### Command-line dependencies
