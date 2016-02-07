@@ -3,33 +3,37 @@ listmusik
 
 A simple music organiser
 
-## Set up the development environment
-  
-### Node utilities required
-  ```
-  npm install -g bower
-  npm install -g nw-gyp
-  ```
-### Command-line dependencies
-  - FFmpeg or libav must be installed on the system, and the ffmpeg command-line tool available in the $PATH
-  
-### Optional
-  ```
-  npm install -g jshint
-  ```
+## Releases
 
-## Download
+see [https://github.com/ed359/listmusik/releases]
+
+## Development
+
+### Prerequisites 
+
+listmusik is a nw.js (node-webkit) application which requires node and ```npm``` for development.
+
+Node packages required:
+
+  - ```$ npm install -g bower```
+  - ```$ npm install -g gulp-cli```
+  - ```$ npm install -g nw-gyp```
+
+Command-line dependencies:
+  - FFmpeg or libav must be installed on the system, and the ffmpeg command-line tool available in the $PATH
+
+### Download
 
   clone the git repo
   
-## Install Dependencies
+### Install Dependencies
 
   ```npm install```
   Note: bower is automatically run to install front-end dependencies
 
-## Run
+### Run
 
-  ```npm start```
+  ```$ npm start```
 
 ## Release History
 
