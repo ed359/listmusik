@@ -1,0 +1,7 @@
+{
+  "preset": "jquery",
+  "requireCamelCaseOrUpperCaseIdentifiers": false,
+  "requireCurlyBraces": false,
+  "requireSpacesInsideParentheses": false,
+  "validateQuoteMarks": "'"
+}
