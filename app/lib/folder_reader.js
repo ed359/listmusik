@@ -1,6 +1,6 @@
-var ffm = require("ffmetadata");
+var ffm = require('ffmetadata');
 var file_url = require('file-url');
-var fs = require ('fs');
+var fs = require('fs');
 var path = require('path');
 var _ = require('lodash');
 
@@ -12,7 +12,7 @@ function FolderReader() {
 
 function is_music_file(file) {
   var music_extensions = [ '.mp3' ];
-  if (_.includes(music_extensions, path.extname(file).toLowerCase()) && !/^\./.test(file)) 
+  if (_.includes(music_extensions, path.extname(file).toLowerCase()) && !/^\./.test(file))
     return true;
   else 
     return false;
@@ -49,7 +49,11 @@ FolderReader.prototype.read_subfolder = function(subfolder_path, track_cb) {
           console.error("Error reading metadata in " + file, ffm_error);
           track = new Track(url, '', '');
         } else {
-          track = new Track(url, unescape_ffm_string(track_data.title), unescape_ffm_string(track_data.artist));
+          track = new Track(
+            url,
+            unescape_ffm_string(track_data.title),
+            unescape_ffm_string(track_data.artist)
+          );
         }
 
         track_cb(track);

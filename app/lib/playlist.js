@@ -86,7 +86,9 @@ Playlist.prototype.toString = function(level, id, depth) {
   if (typeof depth === 'undefined')
     depth = 10;
 
-  var str =  (level > 0 ? '| '.repeat(level-1) + '|-' : '') + self.name + (id ? ' (' + self.id + ')' : '');
+  var str = (level > 0 ? '| '.repeat(level - 1) + '|-' : '') +
+    self.name + (id ? ' (' + self.id + ')' : '');
+
   if (level < depth)
     self.playlists.forEach(function (playlist) {
       str = str.concat('\n', playlist.toString(level+1));

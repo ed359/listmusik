@@ -1,6 +1,7 @@
 var del = require('del');
 var gulp = require('gulp');
 var gutil = require('gulp-util');
+var jscs = require('gulp-jscs');
 var jshint = require('gulp-jshint');
 var nwb = require('nw-builder');
 var spawn = require('child_process').spawn;
@@ -43,6 +44,13 @@ gulp.task('lint', function() {
   return gulp.src(paths.src_js)
     .pipe(jshint())
     .pipe(jshint.reporter('jshint-stylish'));
+});
+
+gulp.task('style', function() {
+  return gulp.src(paths.src_js)
+    .pipe(jscs({fix: true}))
+    .pipe(jscs.reporter())
+    .pipe(jscs.reporter('fail'));
 });
 
 gulp.task('run', ['lint'], function(cb) {

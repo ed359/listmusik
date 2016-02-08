@@ -123,9 +123,11 @@ function FilesView(model, dom, load_subfolder_cb, load_root_folder_cb) {
 
   self.sidebar.on('click', 'a', function (event) {
     self.sidebar.children('.active').removeClass('active');
-    self.sidebar.find('span').removeClass('glyphicon-folder-open').addClass('glyphicon-folder-close');
+    self.sidebar.find('span').removeClass('glyphicon-folder-open')
+      .addClass('glyphicon-folder-close');
     $(this).parent().addClass('active');
-    $(this).find('span').removeClass('glyphicon-folder-close').addClass('glyphicon-folder-open');
+    $(this).find('span').removeClass('glyphicon-folder-close')
+      .addClass('glyphicon-folder-open');
 
     event.preventDefault();
 
