@@ -1,17 +1,10 @@
 {
-  "name": "listmusik",
+  "name": "listmusik-project",
   "description": "A simple music organiser",
   "version": "0.2.0",
-  "main": "index.html",
-  "window": {
-    "toolbar": true,
-    "width": 800,
-    "min_width": 800,
-    "height": 600
-  },
   "scripts": {
-    "postinstall": "bower install && cd node_modules/node-expat && nw-gyp configure --target=`npm info nw version` && nw-gyp build",
-    "start": "nw . --debug"
+    "postinstall": "./postinstall.sh",
+    "start": "nw ./app --debug"
   },
   "repository": {
     "type": "git",
@@ -24,35 +17,15 @@
   ],
   "author": "Ewan Davies <ewan.davies@gmail.com>",
   "license": "GPL-3.0",
-  "dependencies": {
-    "escape-string-regexp": "^1.0.4",
-    "ffmetadata": "^1.4.0",
-    "file-url": "^1.0.1",
-    "itunes-data": "^0.1.1",
-    "jade": "^1.11.0",
-    "lodash": "^4.2.1",
-    "node-expat": "^2.2.0",
-    "nw": "^0.12.3",
-    "uglify-js": "^2.6.1"
-  },
   "devDependencies": {
     "del": "^2.2.0",
     "gulp": "^3.9.0",
-    "gulp-add-src": "^0.2.0",
-    "gulp-bower": "0.0.13",
-    "gulp-bower-src": "^0.1.0",
-    "gulp-copy": "0.0.2",
-    "gulp-install": "^0.6.0",
     "gulp-jshint": "^2.0.0",
-    "gulp-npm-files": "^0.1.3",
-    "gulp-shell": "^0.5.2",
-    "gulp-spawn": "^0.3.0",
-    "gulp-uglify": "^1.5.1",
     "gulp-util": "^3.0.7",
     "jshint": "^2.9.1",
     "jshint-stylish": "^2.1.0",
-    "main-bower-files": "^2.11.1",
-    "nw-builder": "^2.2.0",
-    "vinyl-source-stream": "^1.1.0"
+    "json": "^9.0.3",
+    "nw": "^0.12.3",
+    "nw-builder": "^2.2.0"
   }
 }

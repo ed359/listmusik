@@ -1,5 +1,6 @@
 .DS_Store
+app/bower_components
+app/node_modules
 bower_components
-build
 dist
 node_modules

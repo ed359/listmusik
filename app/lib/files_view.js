@@ -106,7 +106,7 @@ function FilesView(model, files_sidebar, files_addressbar, files_dialog, files_t
 
   self.draw_table = function() {
     self.files_table.children("tbody").empty();
-    if (typeof self.model.subfolder !== 'undefined') {
+    if (self.model.selected_subfolder !== null) {
       console.log("Drawing table, length", self.model.subfolder_tracks.length);
       _.forEach(self.model.subfolder_tracks, self.add_to_table);
       // self.files_table.DataTable({
@@ -122,7 +122,7 @@ function FilesView(model, files_sidebar, files_addressbar, files_dialog, files_t
     $(this).parent().addClass('active');
     $(this).find('span').removeClass('glyphicon-folder-close').addClass('glyphicon-folder-open');
 
-    self.model.subfolder = $(this).data('subfolder');
+    self.model.selected_subfolder = $(this).data('subfolder');
     event.preventDefault();
     self.emit('load-subfolder');
   });
