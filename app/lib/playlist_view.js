@@ -1,7 +1,4 @@
-var events = require('events');
 var jade = require('jade');
-var util = require('util');
-var _ = require('lodash');
 
 function gen_node(playlist) {
   var node = {
@@ -70,7 +67,7 @@ function PlaylistView(model, playlist_tree, playlist_table) {
     self.playlist_table.children("tbody").empty();
     if (self.model.selected_playlist !== null) {
       // console.log("drawing ", self.model.selected_playlist.name)
-      _.forEach(self.model.selected_playlist.tracks, self.add_to_table);
+      self.model.selected_playlist.tracks.forEach(self.add_to_table);
       // self.playlist_table.DataTable({
       //   paging: false,
       //   searching: false,
@@ -79,9 +76,6 @@ function PlaylistView(model, playlist_tree, playlist_table) {
     // else
     //   console.log("drawing nothing")
   };
-
-  self.draw_tree();
-  self.draw_table(model.selected_playlist);
 
   self.nodeSelectedHandler = function(event, node) {
     // console.log("node selected:", node.text);
@@ -96,8 +90,9 @@ function PlaylistView(model, playlist_tree, playlist_table) {
     self.model.selected_playlist = null;
     self.draw_table();
   };
-}
 
-util.inherits(PlaylistView, events.EventEmitter);
+  self.draw_tree();
+  self.draw_table(model.selected_playlist);
+}
 
 exports.PlaylistView = PlaylistView; 

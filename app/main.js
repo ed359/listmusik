@@ -34,79 +34,54 @@ function App() {
     selected_playlist: null
   };
 
-  self.files_view = new FilesView(self.model, 
-    $('#files-sidebar'), $('#files-addressbar'), $('#files-dialog') ,$('#files-table'));
+  // files_view callbacks depend on folder_reader so load it first
+  var folder_reader = new FolderReader();
 
-  self.itunes_parser = new ItunesParser(function(playlist) {
-    self.model.playlists_root.add_from_itunes(playlist);
-    self.playlist_view.draw_tree();
-  });
+  var files_dom = {
+    addressbar: $('#files-addressbar'),
+    dialog: $('#files-dialog'),
+    sidebar: $('#files-sidebar'),
+    table: $('#files-table')
+  };
 
-  self.playlist_view = new PlaylistView(self.model, $('#playlist-tree'), $('#playlist-table'));
+  var load_root_folder_cb = function(root_path) {
+    self.model.root_folder = root_path;
 
-  self.folder_reader = new FolderReader();
-
-  self.files_view.on('load-subfolder', function () {
-    // console.log("event: load-subfolder");
-
+    // remove old data from the model
+    self.model.subfolders = [];
+    self.model.selected_subfolder = null;
     self.model.subfolder_tracks = [];
-    self.files_view.clear_table();
+
+    folder_reader.read_root_folder(self.model.root_folder, function(subfolder) {
+      self.model.subfolders.push(subfolder);
+      files_view.draw_sidebar();
+    });
+  };
+
+  var load_subfolder_cb = function(subfolder_path) {    
+    self.model.subfolder_tracks = [];
     
-    self.folder_reader.read_subfolder(self.model.selected_subfolder.path, function(track) {
+    folder_reader.read_subfolder(subfolder_path, function(track) {
       track.playlists = self.model.playlists_root.search_tracks(track.url).join(', ');
       self.model.subfolder_tracks.push(track);
-      self.files_view.add_to_table(track);
+      files_view.add_to_table(track);
     });
+  };
+
+  var files_view = new FilesView(self.model, files_dom, load_subfolder_cb, load_root_folder_cb);
+
+  var itunes_parser = new ItunesParser(function(playlist) {
+    self.model.playlists_root.add_from_itunes(playlist);
+    playlist_view.draw_tree();
   });
 
-  self.files_view.on('addressbar-navigate', function(path) {
-    // console.log("event: addressbar-navigate", path);
-    self.model.root_folder = path;
+  var playlist_view = new PlaylistView(self.model, $('#playlist-tree'), $('#playlist-table'));
 
-    // remove old data from the model
-    self.model.subfolders = [];
-    self.model.selected_subfolder = null;
-    self.model.subfolder_tracks = [];
-
-    // draw the empty data to the sidebar
-    self.files_view.draw_sidebar();
-
-    self.folder_reader.read_root_folder(self.model.root_folder, function(subfolder) {
-      self.model.subfolders.push(subfolder);
-      self.files_view.draw_sidebar();
-    });
-  });
-
-  self.files_view.on('dialog-navigate', function(path) {
-    // console.log("event: dialog-navigate", path);
-    self.model.root_folder = path;
-
-    // remove old data from the model
-    self.model.subfolders = [];
-    self.model.selected_subfolder = null;
-    self.model.subfolder_tracks = [];
-
-    // draw the empty data to the sidebar
-    self.files_view.draw_sidebar();
-
-    self.folder_reader.read_root_folder(self.model.root_folder, function(subfolder) {
-      self.model.subfolders.push(subfolder);
-      self.files_view.draw_sidebar();
-    });
-    self.files_view.addressbar_set_root();
-  });
-
-  self.itunes_parser.parse();
-  self.folder_reader.read_root_folder(self.model.root_folder, function(subfolder) {
-    self.model.subfolders.push(subfolder);
-    self.files_view.draw_sidebar();
-  });
-
+  itunes_parser.parse();
 }
 
+var app = new App();
+
 $(document).ready(function() {
-
-  this.app = new App();
-
   gui.Window.get().show();
 });

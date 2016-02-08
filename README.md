@@ -5,7 +5,7 @@ A simple music organiser
 
 ## Releases
 
-see [https://github.com/ed359/listmusik/releases]
+see [releases](https://github.com/ed359/listmusik/releases)
 
 ## Development
 
@@ -31,9 +31,11 @@ Command-line dependencies:
   ```npm install```
   Note: bower is automatically run to install front-end dependencies
 
-### Run
+### Go
 
-  ```$ npm start```
+  - ```$ npm start``` runs the app
+  - ```gulp lint``` runs jshint
+  - ```gulp deploy``` builds packages for release
 
 ## Release History
 
