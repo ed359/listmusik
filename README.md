@@ -33,7 +33,7 @@ Command-line dependencies:
 
 ### Go
 
-  - ```$ npm start``` runs the app
+  - ```gulp run``` runs the app
   - ```gulp lint``` runs jshint
   - ```gulp deploy``` builds packages for release
 
