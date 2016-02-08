@@ -28,14 +28,14 @@ Command-line dependencies:
   
 ### Install Dependencies
 
-  ```npm install```
-  Note: bower is automatically run to install front-end dependencies
+  - ```$ npm install``` to install and compile everything
+  - ```$ gulp postinstall``` is automatically run to install and compile app dependencies
 
 ### Go
 
-  - ```gulp run``` runs the app
-  - ```gulp lint``` runs jshint
-  - ```gulp deploy``` builds packages for release
+  - ```$ gulp run``` runs the app
+  - ```$ gulp lint``` runs jshint
+  - ```$ gulp deploy``` builds packages for release
 
 ## Release History
 

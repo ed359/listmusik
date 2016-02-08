@@ -3,7 +3,7 @@
   "description": "A simple music organiser",
   "version": "0.2.0",
   "scripts": {
-    "postinstall": "./postinstall.sh"
+    "postinstall": "gulp postinstall"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,6 @@
     "del": "^2.2.0",
     "gulp": "^3.9.0",
     "gulp-jshint": "^2.0.0",
-    "gulp-spawn": "^0.3.0",
     "gulp-util": "^3.0.7",
     "jshint": "^2.9.1",
     "jshint-stylish": "^2.1.0",

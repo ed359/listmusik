@@ -3,8 +3,8 @@ var gulp = require('gulp');
 var gutil = require('gulp-util');
 var jshint = require('gulp-jshint');
 var nwb = require('nw-builder');
-//var spawn = require('gulp-spawn');
 var spawn = require('child_process').spawn;
+var spawnSync = require('child_process').spawnSync;
 
 var paths = {
   dist: 'dist',
@@ -12,6 +12,28 @@ var paths = {
   src: ['app/**/*'],
   src_js: ['app/main.js', 'app/lib/*.js']
 };
+
+// INSTALLATION
+
+gulp.task('postinstall', function(cb) {
+
+  gutil.log('Installing bower dependencies');
+  spawnSync('bower', ['install'],
+    { cwd: '.', stdio: 'inherit' });
+
+  gutil.log('Installing node dependencies in app');
+  spawnSync('npm', ['install'],
+    { cwd: 'app', stdio: 'inherit' });
+  var nwpackage = require('./node_modules/nw/package.json');
+  var nwtarget = nwpackage.version;
+  gutil.log('Compiling node-expat for nw version', nwtarget);
+
+  spawnSync('nw-gyp', ['configure', '--target=' + nwtarget],
+    { cwd: 'app/node_modules/node-expat', stdio: 'inherit' });
+  spawnSync('nw-gyp', ['build'],
+    { cwd: 'app/node_modules/node-expat', stdio: 'inherit' });
+  return cb();
+});
 
 // DEVELOPMENT TASKS
 
@@ -26,9 +48,6 @@ gulp.task('lint', function() {
 gulp.task('run', ['lint'], function(cb) {
   return spawn('./node_modules/nw/bin/nw', ['./app', '--debug'], { stdio: 'inherit' })
     .on('close', cb);
-  // return spawn({cmd: 'echo', args: ['./app', '--debug']})
-  // return spawn({cmd: './node_modules/nw/bin/nw', args: ['./app', '--debug']})
-  //   .pipe(gutil.log);
 });
 gulp.task('start', ['run']);
 
