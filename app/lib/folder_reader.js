@@ -1,13 +1,14 @@
-var ffm = require('ffmetadata');
 var file_url = require('file-url');
 var fs = require('fs');
 var path = require('path');
 var _ = require('lodash');
 
 var Track = require('./track').Track;
+var MetadataReader = require('./metadata-reader-mm').MetadataReader;
 
 function FolderReader() {  
   var self = this;
+  self.mr = new MetadataReader();
 }
 
 function is_music_file(file) {
@@ -18,13 +19,6 @@ function is_music_file(file) {
     return false;
 }
 
-function unescape_ffm_string(str) {
-  if (typeof str === 'undefined')
-    str = '';
-  // hack to find escaped html with the trailing ';' itself escaped by a '\'
-  return _.unescape(str.replace('\\;',';'));
-}
-
 FolderReader.prototype.read_subfolder = function(subfolder_path, track_cb) {
   
   var self = this;
@@ -32,32 +26,17 @@ FolderReader.prototype.read_subfolder = function(subfolder_path, track_cb) {
   // self.files_view.clear_table();
   // self.model.subfolder_tracks = [];
 
-  fs.readdir(subfolder_path, function(fs_error, files) {
-    if (fs_error) {
-      console.log(fs_error);
-      window.alert(fs_error);
+  fs.readdir(subfolder_path, function(error, files) {
+    if (error) {
+      console.log(error);
+      window.alert(error);
       return;
     }
     files = _.filter(files, is_music_file);
 
-    _.each(files, function(file) {
-      var full_path = path.join(subfolder_path, file);
-      var url = file_url(full_path);
-      var track;
-      ffm.read(full_path, function(ffm_error, track_data) {
-        if (ffm_error) {
-          console.error("Error reading metadata in " + file, ffm_error);
-          track = new Track(url, '', '');
-        } else {
-          track = new Track(
-            url,
-            unescape_ffm_string(track_data.title),
-            unescape_ffm_string(track_data.artist)
-          );
-        }
-
-        track_cb(track);
-      });
+    files.forEach(function (file) {
+      var file_path = path.join(subfolder_path, file);
+      self.mr.read(file_path, track_cb);
     });
   });
 };
