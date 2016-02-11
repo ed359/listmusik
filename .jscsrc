@@ -7,5 +7,9 @@
   "requireSpacesInFunctionDeclaration": {
     "beforeOpeningRoundBrace": true,
     "beforeOpeningCurlyBrace": true
+  },
+  "requireSpacesInFunction": {
+    "beforeOpeningRoundBrace": true,
+    "beforeOpeningCurlyBrace": true
   }
 }
