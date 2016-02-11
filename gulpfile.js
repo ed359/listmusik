@@ -49,14 +49,14 @@ gulp.task('postinstall', function(cb) {
 
 gulp.task('default', ['run']);
 
-gulp.task('test', function (cb) {
-  gutil.log("Please run $ gulp test-actual")
+gulp.task('test', ['test-actual'], function (cb) {
+  // TODO: work out how to test external C module code in nwjs
   // return spawn(paths.nw.bin, [paths.gulp, '--gulpfile', 'gulpfile.js', 'test-actual'],
   //   { cwd: '.', stdio: 'inherit' })
   //   .on('close', cb);
 });
 
-gulp.task('test-actual', function () {
+gulp.task('test-actual', ['lint', 'style'], function () {
   return gulp.src(paths.test, {read: false})
     // gulp-mocha needs filepaths so you can't have any plugins before it 
     .pipe(mocha({reporter: 'nyan'}));
@@ -68,13 +68,13 @@ gulp.task('lint', function() {
     .pipe(jshint.reporter('jshint-stylish'));
 });
 
-gulp.task('run', ['lint'], function(cb) {
+gulp.task('run', ['lint', 'style'], function(cb) {
   return spawn(paths.nw.bin, ['./app', '--debug'], { stdio: 'inherit' })
     .on('close', cb);
 });
 gulp.task('start', ['run']);
 
-gulp.task('style', function() {
+gulp.task('style', ['lint'], function() {
   return gulp.src(paths.src_js)
     .pipe(jscs({fix: true}))
     .pipe(jscs.reporter())
