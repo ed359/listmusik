@@ -1,6 +1,7 @@
 TODO
 ====
-
-  - Testing
-    - jasimne
-    - mocha
+  
+  - Ideas
+    - write more mocha tests
+  - Bugfixing
+    - performance...

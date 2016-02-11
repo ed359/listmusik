@@ -3,5 +3,9 @@
   "requireCamelCaseOrUpperCaseIdentifiers": false,
   "requireCurlyBraces": false,
   "requireSpacesInsideParentheses": false,
-  "validateQuoteMarks": "'"
+  "validateQuoteMarks": "'",
+  "requireSpacesInFunctionDeclaration": {
+    "beforeOpeningRoundBrace": true,
+    "beforeOpeningCurlyBrace": true
+  }
 }

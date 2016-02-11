@@ -13,6 +13,18 @@
     "min_width": 800,
     "height": 600
   },
+  "platformOverrides": {
+    "win": {
+      "window": {
+        "toolbar": false
+      }
+    },
+    "osx": {
+      "window": {
+        "toolbar": false
+      }
+    }
+  },
   "author": "Ewan Davies <ewan.davies@gmail.com>",
   "license": "GPL-3.0",
   "dependencies": {
@@ -21,6 +33,7 @@
     "file-url": "^1.0.1",
     "itunes-data": "^0.1.1",
     "jade": "^1.11.0",
-    "lodash": "^4.2.1"
+    "lodash": "^4.2.1",
+    "musicmetadata": "^2.0.2"
   }
 }
