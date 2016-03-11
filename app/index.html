@@ -12,6 +12,7 @@
 
     <!-- CSS -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap-toggle/css/bootstrap-toggle.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
   </head>
 
@@ -28,7 +29,7 @@
           <li class="active"><a data-toggle="tab" href="#files">Files</a></li>
           <li><a data-toggle="tab" href="#playlists">Playlists</a></li>
           <li><a data-toggle="tab" href="#export">Export</a></li>
-          <li><a data-toggle="tab" href="#help">Help</a></li>
+          <li><a data-toggle="tab" href="#advanced">Advanced</a></li>
         </ul>
       </div>
     </div>
@@ -112,14 +113,37 @@
           </div>
         </div>
       </div>
+      <!-- EXPORT TAB -->
       <div id="export" class="tab-pane fade">
         <h3>Export</h3>
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
       </div>
-      <div id="help" class="tab-pane fade">
-        <h3>Help</h3>
-        <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-      </div>
+      <!-- ADVANCED TAB -->
+      <div id="advanced" class="tab-pane fade">
+        <div class="btn-group btn-group-justified">
+          <a href="#" class="btn btn-primary" id="adv-open-devtools">Open Developer Tools</a>
+          <a href="#" class="btn btn-primary" id="adv-itunes-parse">Parse iTunes Library</a>
+          <a href="#" class="btn btn-primary btn-file">
+            Locate iTunes Library
+            <span class="glyphicon glyphicon-music space-before"></span>
+            <input class="form-control" type="file" id="adv-itunes-dialog"/>
+          </a>
+        </div>
+        <div class="checkbox">
+          <label for="adv-verbose-toggle" class="checkbox"> 
+            <input type="checkbox" data-toggle="toggle" id="adv-verbose-toggle"> Verbose
+          </label>
+        </div>
+        <div class="checkbox">
+          <label class="checkbox">
+            <input type="checkbox" data-toggle="toggle"> Second Option
+          </label>
+        </div>
+        <div class="checkbox">
+          <label class="checkbox">
+            <input type="checkbox" data-toggle="toggle"> Third Option
+          </label>
+        </div>
     </div>
   </div>
 
@@ -129,6 +153,7 @@
   <script src="bower_components/datatables.net/js/jquery.datatables.min.js"></script>
   <script src="bower_components/datatables.net-bs/js/datatables.bootstrap.min.js"></script>
   <script src="bower_components/bootstrap-treeview/dist/bootstrap-treeview.min.js"></script>
+  <script src="bower_components/bootstrap-toggle/js/bootstrap-toggle.min.js"></script>
   <script src="main.js"></script>
   </body>
 </html>

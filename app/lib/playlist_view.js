@@ -1,16 +1,18 @@
 var jade = require('jade');
 
-function gen_node(playlist) {
+function gen_node (playlist) {
   var node = {
     text: playlist.name,
     id: playlist.id,
-    // icon: "glyphicon glyphicon-th-list",
+
+    // Icon: "glyphicon glyphicon-th-list",
     // selectedIcon: "glyphicon glyphicon-th-list",
     // color: "#000000",
     // backColor: "#FFFFFF",
     // href: "#node-1",
     selectable: true,
-    // state: {
+
+    // State: {
     //   checked: true,
     //   disabled: true,
     //   expanded: true,
@@ -26,11 +28,11 @@ var gen_file_entry = jade.compile([
       'tr',
       '  td #{track.title}',
       '  td #{track.artist}',
-      '  td #{track.url}',
+      '  td #{track.url}'
   ].join('\n'));
 
 // Our type
-function PlaylistView(model, playlist_tree, playlist_table) {  
+function PlaylistView (model, playlist_tree, playlist_table) {
   var self = this;
 
   self.model = model;
@@ -42,21 +44,22 @@ function PlaylistView(model, playlist_tree, playlist_table) {
     var data = gen_node(playlists_root).nodes;
     return {
       data: data,
-      enableLinks: true, 
+      enableLinks: true,
       levels: 4,
-      expandIcon: "glyphicon glyphicon-th-list",
-      collapseIcon: "glyphicon glyphicon-th-list",
+      expandIcon: 'glyphicon glyphicon-th-list',
+      collapseIcon: 'glyphicon glyphicon-th-list',
       onNodeSelected: self.nodeSelectedHandler,
       onNodeUnselected: self.nodeUnselectedHandler,
-      color: "#337ab7",
-      backColor: "#eeeeee",
-      borderColor: "#e3e3e3",
+      color: '#337ab7',
+      backColor: '#eeeeee',
+      borderColor: '#e3e3e3'
     };
   };
 
   self.add_to_table = function(track) {
-    // console.log("adding ", track.title)
-    self.playlist_table.children("tbody").append(gen_file_entry({track: track}));
+
+    // Console.log("adding ", track.title)
+    self.playlist_table.children('tbody').append(gen_file_entry({ track: track }));
   };
 
   self.draw_tree = function() {
@@ -64,21 +67,25 @@ function PlaylistView(model, playlist_tree, playlist_table) {
   };
 
   self.draw_table = function() {
-    self.playlist_table.children("tbody").empty();
+    self.playlist_table.children('tbody').empty();
     if (self.model.selected_playlist !== null) {
-      // console.log("drawing ", self.model.selected_playlist.name)
+
+      // Console.log("drawing ", self.model.selected_playlist.name)
       self.model.selected_playlist.tracks.forEach(self.add_to_table);
-      // self.playlist_table.DataTable({
+
+      // Self.playlist_table.DataTable({
       //   paging: false,
       //   searching: false,
       // });
     }
-    // else
+
+    // Else
     //   console.log("drawing nothing")
   };
 
   self.nodeSelectedHandler = function(event, node) {
-    // console.log("node selected:", node.text);
+
+    // Console.log("node selected:", node.text);
     var search_id = node.id;
     var selected_playlist = self.model.playlists_root.search(search_id);
     self.model.selected_playlist = selected_playlist;
@@ -86,7 +93,8 @@ function PlaylistView(model, playlist_tree, playlist_table) {
   };
 
   self.nodeUnselectedHandler = function(event, node) {
-    // console.log("node unselected:", node.text);
+
+    // Console.log("node unselected:", node.text);
     self.model.selected_playlist = null;
     self.draw_table();
   };
@@ -95,4 +103,4 @@ function PlaylistView(model, playlist_tree, playlist_table) {
   self.draw_table(model.selected_playlist);
 }
 
-exports.PlaylistView = PlaylistView; 
+exports.PlaylistView = PlaylistView;

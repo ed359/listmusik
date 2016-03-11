@@ -1,12 +1,14 @@
+'use strict';
 var esr = require('escape-string-regexp');
 
 var Track = require('./track').Track;
 
-function Playlist(name, id) {
+function Playlist (name, id) {
   var self = this;
 
   self.name = name;
   self.id = id;
+  self.parent_id = null;
   self.playlists = [];
   self.tracks = [];
 }
@@ -19,32 +21,69 @@ Playlist.prototype.add_track = function(track) {
   this.tracks.push(track);
 };
 
-Playlist.prototype.add_from_itunes = function(i_playlist) {
+Playlist.prototype.add_to_subtree = function(playlist) {
   var self = this;
 
-  var playlist = new Playlist(i_playlist.Name, i_playlist['Playlist Persistent ID']);
+  if (playlist.parent_id) {
 
-  i_playlist.Tracks.forEach(function(i_track) {
-    playlist.tracks.push(new Track(i_track.Location, i_track.Name, i_track.Artist));
-  });
-
-  var parent_id = i_playlist['Parent Persistent ID'];
-  if (parent_id) {
-    // console.log('Playlist:', playlist.name, 'has parent id', parent_id);
-    var parent = self.search(parent_id);
+    // Console.log('Playlist:', playlist.name, 'has parent id', parent_id);
+    var parent = self.search(playlist.parent_id);
     if (parent !== null) {
-      // console.log('    parent found:', parent.name);
+
+      // Console.log('    parent found:', parent.name);
       parent.add_child(playlist);
     } else {
-      // console.log('    parent not found');
+
+      // Console.log('    parent not found');
     }
   } else {
-    // console.log('Playlist:', playlist.name, 'has no parent, adding to', self.name);
+
+    // Console.log('Playlist:', playlist.name, 'has no parent, adding to', self.name);
     self.add_child(playlist);
   }
-  // console.log('Playlist: adding', playlist.name, 'to', self.name);
+
+  // Console.log('Playlist: adding', playlist.name, 'to', self.name);
   // self.add_child(playlist);
 };
+
+// Playlist.prototype.add_from_itunes = function (i_playlist) {
+//   var self = this;
+
+//   Var playlist = new Playlist(i_playlist.Name, i_playlist[ 'Playlist Persistent ID' ]);
+
+//   I_playlist.Tracks.forEach(function (i_track) {
+
+//     // Try {
+//     playlist.tracks.push(new Track(i_track.Location, i_track.Name, i_track.Artist));
+
+//     // }
+//     // catch (e) {
+//     //   console.error('Processing playlist', i_playlist.Name, 'failed at track', i_track);
+//     // }
+//   });
+
+//   Var parent_id = i_playlist[ 'Parent Persistent ID' ];
+//   if (parent_id) {
+
+//     // Console.log('Playlist:', playlist.name, 'has parent id', parent_id);
+//     var parent = self.search(parent_id);
+//     if (parent !== null) {
+
+//       // Console.log('    parent found:', parent.name);
+//       parent.add_child(playlist);
+//     } else {
+
+//       // Console.log('    parent not found');
+//     }
+//   } else {
+
+//     // Console.log('Playlist:', playlist.name, 'has no parent, adding to', self.name);
+//     self.add_child(playlist);
+//   }
+
+//   // Console.log('Playlist: adding', playlist.name, 'to', self.name);
+//   // self.add_child(playlist);
+// };
 
 Playlist.prototype.search = function(id) {
   var self = this;
@@ -65,7 +104,8 @@ Playlist.prototype.search = function(id) {
 Playlist.prototype.search_tracks = function(url) {
   var self = this;
   var results = [];
-  // case insensitive regular expression to compare search_path with itunes paths
+
+  // Case insensitive regular expression to compare search_path with itunes paths
   var regex = new RegExp('^' + esr(url) + '$', 'i');
 
   self.tracks.forEach(function(track) {
@@ -90,10 +130,12 @@ Playlist.prototype.toString = function(level, id, depth) {
     self.name + (id ? ' (' + self.id + ')' : '');
 
   if (level < depth)
-    self.playlists.forEach(function (playlist) {
-      str = str.concat('\n', playlist.toString(level+1));
+    self.playlists.forEach(function(playlist) {
+      str = str.concat('\n', playlist.toString(level + 1));
     });
   return str;
 };
+
+Playlist.verbose = true;
 
 exports.Playlist = Playlist;

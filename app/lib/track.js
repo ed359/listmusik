@@ -1,8 +1,7 @@
 var path = require('path');
 
-function Track(url, title, artist) {
+function Track (url, title, artist) {
   var self = this;
-
 
   if (typeof url === 'undefined') {
     throw new Error('Track must be instantiated with a url');

@@ -15,14 +15,14 @@ var Playlist = require('./lib/playlist').Playlist;
 var PlaylistView = require('./lib/playlist_view').PlaylistView;
 
 // Extend application menu for Mac OS
-if (process.platform == "darwin") {
-  var menu = new gui.Menu({type: "menubar"});
-  if(menu.createMacBuiltin)
+if (process.platform == 'darwin') {
+  var menu = new gui.Menu({ type: 'menubar' });
+  if (menu.createMacBuiltin)
     menu.createMacBuiltin(window.document.title);
   gui.Window.get().menu = menu;
 }
 
-function App() {
+function App () {
   var self = this;
 
   self.model = {
@@ -31,10 +31,14 @@ function App() {
     selected_subfolder: null,
     subfolder_tracks: [],
     playlists_root: new Playlist('Root', 'ROOT'),
-    selected_playlist: null
+    selected_playlist: null,
+    clear_playlists: function () {
+      this.playlists_root = new Playlist('Root', 'ROOT');
+      this.selected_playlist = null;
+    }
   };
 
-  // files_view callbacks depend on folder_reader so load it first
+  // Files_view callbacks depend on folder_reader so load it first
   var folder_reader = new FolderReader();
 
   var files_dom = {
@@ -44,24 +48,24 @@ function App() {
     table: $('#files-table')
   };
 
-  var load_root_folder_cb = function(root_path) {
+  var load_root_folder_cb = function (root_path) {
     self.model.root_folder = root_path;
 
-    // remove old data from the model
+    // Remove old data from the model
     self.model.subfolders = [];
     self.model.selected_subfolder = null;
     self.model.subfolder_tracks = [];
 
-    folder_reader.read_root_folder(self.model.root_folder, function(subfolder) {
+    folder_reader.read_root_folder(self.model.root_folder, function (subfolder) {
       self.model.subfolders.push(subfolder);
       files_view.draw_sidebar();
     });
   };
 
-  var load_subfolder_cb = function(subfolder_path) {    
+  var load_subfolder_cb = function (subfolder_path) {
     self.model.subfolder_tracks = [];
-    
-    folder_reader.read_subfolder(subfolder_path, function(track) {
+
+    folder_reader.read_subfolder(subfolder_path, function (track) {
       track.playlists = self.model.playlists_root.search_tracks(track.url).join(', ');
       self.model.subfolder_tracks.push(track);
       files_view.add_to_table(track);
@@ -70,18 +74,45 @@ function App() {
 
   var files_view = new FilesView(self.model, files_dom, load_subfolder_cb, load_root_folder_cb);
 
-  var itunes_parser = new ItunesParser(function(playlist) {
-    self.model.playlists_root.add_from_itunes(playlist);
+  var playlist_cb = function (playlist) {
+    self.model.playlists_root.add_to_subtree(playlist);
     playlist_view.draw_tree();
-  });
+  };
+  var itunes_parser = new ItunesParser(playlist_cb);
 
   var playlist_view = new PlaylistView(self.model, $('#playlist-tree'), $('#playlist-table'));
+
+  $('#adv-open-devtools').click(function (e) {
+    gui.Window.get().showDevTools();
+  });
+
+  $('#adv-itunes-parse').click(function (e) {
+    self.model.clear_playlists();
+    itunes_parser.parse();
+  });
+
+  $('#adv-itunes-dialog').unbind('change');
+  $('#adv-itunes-dialog').change(function ( e) {
+    var selected_path = $(this).val();
+    if (selected_path) {
+      self.model.clear_playlists();
+      itunes_parser.set_xml_path(selected_path);
+      itunes_parser.parse();
+    }
+  });
+
+  $('#adv-verbose-toggle').bootstrapToggle();
+  $('#adv-verbose-toggle').change(function() {
+    var checked = $(this).prop('checked');
+    itunes_parser.verbose = checked;
+    Playlist.verbose = checked;
+  });
 
   itunes_parser.parse();
 }
 
 var app = new App();
 
-$(document).ready(function() {
+$(document).ready(function () {
   gui.Window.get().show();
 });

@@ -34,6 +34,7 @@
     "itunes-data": "^0.1.1",
     "jade": "^1.11.0",
     "lodash": "^4.2.1",
-    "musicmetadata": "^2.0.2"
+    "musicmetadata": "^2.0.2",
+    "nml-parser": "git+https://github.com/discreteinfinity/nml-parser.git"
   }
 }

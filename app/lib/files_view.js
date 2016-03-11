@@ -5,7 +5,7 @@ var util = require('util');
 var _ = require('lodash');
 
 // Our type
-function FilesView(model, dom, load_subfolder_cb, load_root_folder_cb) {  
+function FilesView (model, dom, load_subfolder_cb, load_root_folder_cb) {
   var self = this;
 
   events.EventEmitter.call(self);
@@ -17,10 +17,12 @@ function FilesView(model, dom, load_subfolder_cb, load_root_folder_cb) {
   self.table = dom.table;
 
   var gen_sidebar = jade.compile([
+
     // 'li.dropdown-header Subfolders',
     '- each dir in subfolders',
     '  li',
     '    a(href="#", data-subfolder=\'{\"path\": \"#{dir.path}\", \"name\": \"#{dir.name}\"}\')',
+
     // '    a(href="#", data-subfolder="#{dir.path}")',
     '      span.glyphicon.glyphicon-folder-close.space-after',
     '      | #{dir.name}'
@@ -31,7 +33,7 @@ function FilesView(model, dom, load_subfolder_cb, load_root_folder_cb) {
       '  td #{track.filename}',
       '  td #{track.title}',
       '  td #{track.artist}',
-      '  td #{track.playlists}',
+      '  td #{track.playlists}'
   ].join('\n'));
 
   var gen_addressbar = jade.compile([
@@ -41,26 +43,26 @@ function FilesView(model, dom, load_subfolder_cb, load_root_folder_cb) {
     '      a(href="#") #{item.name}',
     '  - else',
     '    li.active(data-path="#{item.path}")',
-    '      a(href="#") #{item.name}',
+    '      a(href="#") #{item.name}'
   ].join('\n'));
 
   var gen_addressbar_entry = jade.compile([
     'li(data-path="#{item.path}")',
-    '  a(href="#") #{item.name}',
+    '  a(href="#") #{item.name}'
   ].join('\n'));
 
-  var load_root_folder = function(root_path, set_addressbar) {
+  var load_root_folder = function (root_path, set_addressbar) {
     load_root_folder_cb(root_path);
     self.draw_sidebar();
     if (set_addressbar)
       addressbar_set_root(root_path);
   };
 
-  self.draw_sidebar = function() {
-    self.sidebar.html(gen_sidebar({subfolders: self.model.subfolders}));
+  self.draw_sidebar = function () {
+    self.sidebar.html(gen_sidebar({ subfolders: self.model.subfolders }));
   };
 
-  var addressbar_set_root = function(root_path) {
+  var addressbar_set_root = function (root_path) {
     var current_path = path.normalize(root_path);
 
     // Split path into separate elements
@@ -69,26 +71,28 @@ function FilesView(model, dom, load_subfolder_cb, load_root_folder_cb) {
 
     for (var i = 0; i < sequence.length; i++) {
       result.push({
-        name: sequence[i],
-        path: sequence.slice(0, i + 1).join(path.sep),
+        name: sequence[ i ],
+        path: sequence.slice(0, i + 1).join(path.sep)
       });
     }
 
     // Add root for *nix
-    if (sequence[0] === '' && process.platform !=='win32') {
-      result[0] = {
+    if (sequence[ 0 ] === '' && process.platform !== 'win32') {
+      result[ 0 ] = {
         name: 'Root',
-        path: '/',
+        path: '/'
       };
     }
     self.addressbar.html(gen_addressbar({ sequence: result }));
   };
 
-  self.addressbar_enter = function(mine) {
+  self.addressbar_enter = function (mine) {
+
     // Where is current
     var how_many = self.addressbar.children().length;
     var where = self.addressbar.children('.active').index();
     if (where == how_many - 1) {
+
       // Add '/' on tail
       self.addressbar.children().eq(-1).append('<span class="divider">/</span>');
     } else {
@@ -100,21 +104,23 @@ function FilesView(model, dom, load_subfolder_cb, load_root_folder_cb) {
     self.addressbar.find('a:last').trigger('click');
   };
 
-  self.clear_table = function() {
-    self.table.children("tbody").empty();
+  self.clear_table = function () {
+    self.table.children('tbody').empty();
   };
 
-  self.add_to_table = function(track) {
-    // console.log("adding ", track.title)
-    self.table.children("tbody").append(gen_file_entry({track: track}));
+  self.add_to_table = function (track) {
+
+    // Console.log("adding ", track.title)
+    self.table.children('tbody').append(gen_file_entry({ track: track }));
   };
 
-  self.draw_table = function() {
-    self.table.children("tbody").empty();
+  self.draw_table = function () {
+    self.table.children('tbody').empty();
     if (self.model.selected_subfolder !== null) {
-      console.log("Drawing table, length", self.model.subfolder_tracks.length);
+      console.log('Drawing table, length', self.model.subfolder_tracks.length);
       _.forEach(self.model.subfolder_tracks, self.add_to_table);
-      // self.table.DataTable({
+
+      // Self.table.DataTable({
       //   paging: false,
       //   searching: true,
       // });
@@ -134,7 +140,7 @@ function FilesView(model, dom, load_subfolder_cb, load_root_folder_cb) {
     var selected_path = $(this).data('subfolder').path;
     self.clear_table();
     load_subfolder_cb(selected_path);
-    
+
   });
 
   self.addressbar.delegate('a', 'click', function () {
@@ -145,17 +151,17 @@ function FilesView(model, dom, load_subfolder_cb, load_root_folder_cb) {
   });
 
   self.dialog.unbind('change');
-  self.dialog.change(function(evt) {
+  self.dialog.change(function (evt) {
     var selected_path = $(this).val();
     if (selected_path) {
       load_root_folder(selected_path, true);
     }
   });
 
-  // load the root folder
+  // Load the root folder
   load_root_folder(self.model.root_folder, true);
 }
 
 util.inherits(FilesView, events.EventEmitter);
 
-exports.FilesView = FilesView; 
+exports.FilesView = FilesView;

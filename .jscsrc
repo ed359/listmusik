@@ -11,5 +11,7 @@
   "requireSpacesInFunction": {
     "beforeOpeningRoundBrace": true,
     "beforeOpeningCurlyBrace": true
-  }
+  },
+  "requireCapitalizedComments": false,
+  "disallowSpacesInsideBrackets": true
 }
