@@ -13,15 +13,15 @@ function Playlist (name, id) {
   self.tracks = [];
 }
 
-Playlist.prototype.add_child = function(playlist) {
+Playlist.prototype.add_child = function (playlist) {
   this.playlists.push(playlist);
 };
 
-Playlist.prototype.add_track = function(track) {
+Playlist.prototype.add_track = function (track) {
   this.tracks.push(track);
 };
 
-Playlist.prototype.add_to_subtree = function(playlist) {
+Playlist.prototype.add_to_subtree = function (playlist) {
   var self = this;
 
   if (playlist.parent_id) {
@@ -85,13 +85,13 @@ Playlist.prototype.add_to_subtree = function(playlist) {
 //   // self.add_child(playlist);
 // };
 
-Playlist.prototype.search = function(id) {
+Playlist.prototype.search = function (id) {
   var self = this;
 
   if (self.id === id)
     return self;
   else
-    return self.playlists.reduce(function(prev, curr) {
+    return self.playlists.reduce(function (prev, curr) {
       if (prev !== null)
         return prev;
       else if (curr.id === id)
@@ -101,25 +101,25 @@ Playlist.prototype.search = function(id) {
     }, null);
 };
 
-Playlist.prototype.search_tracks = function(url) {
+Playlist.prototype.search_tracks = function (url) {
   var self = this;
   var results = [];
 
   // Case insensitive regular expression to compare search_path with itunes paths
   var regex = new RegExp('^' + esr(url) + '$', 'i');
 
-  self.tracks.forEach(function(track) {
+  self.tracks.forEach(function (track) {
     if (regex.test(track.url))
       results.push(self.name);
   });
-  self.playlists.forEach(function(playlist) {
+  self.playlists.forEach(function (playlist) {
     var child_results = playlist.search_tracks(url);
     Array.prototype.push.apply(results, child_results);
   });
   return results;
 };
 
-Playlist.prototype.toString = function(level, id, depth) {
+Playlist.prototype.toString = function (level, id, depth) {
   var self = this;
   if (typeof level === 'undefined')
     level = 0;
@@ -130,7 +130,7 @@ Playlist.prototype.toString = function(level, id, depth) {
     self.name + (id ? ' (' + self.id + ')' : '');
 
   if (level < depth)
-    self.playlists.forEach(function(playlist) {
+    self.playlists.forEach(function (playlist) {
       str = str.concat('\n', playlist.toString(level + 1));
     });
   return str;

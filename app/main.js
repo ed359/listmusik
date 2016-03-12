@@ -11,6 +11,7 @@ var _ = require('lodash');
 var FilesView = require('./lib/files_view').FilesView;
 var FolderReader = require('./lib/folder_reader').FolderReader;
 var ItunesParser = require('./lib/itunes_parser').ItunesParser;
+var TraktorParser = require('./lib/nml_parser').init_parser;
 var Playlist = require('./lib/playlist').Playlist;
 var PlaylistView = require('./lib/playlist_view').PlaylistView;
 
@@ -31,6 +32,7 @@ function App () {
     selected_subfolder: null,
     subfolder_tracks: [],
     playlists_root: new Playlist('Root', 'ROOT'),
+    traktor_playlists_root: new Playlist('Root', 'ROOT'),
     selected_playlist: null,
     clear_playlists: function () {
       this.playlists_root = new Playlist('Root', 'ROOT');
@@ -79,8 +81,12 @@ function App () {
     playlist_view.draw_tree();
   };
   var itunes_parser = new ItunesParser(playlist_cb);
+  var playlist_view = new PlaylistView(self.model, self.model.playlists_root, 
+    $('#playlist-tree'), $('#playlist-table'));
 
-  var playlist_view = new PlaylistView(self.model, $('#playlist-tree'), $('#playlist-table'));
+  var itunes_parser = new ItunesParser(playlist_cb);
+  var traktor_playlist_view = new PlaylistView(self.model, self.model.traktor_playlists_root, 
+    $('#traktor-playlist-tree'), $('#traktor-playlist-table'));
 
   $('#adv-open-devtools').click(function (e) {
     gui.Window.get().showDevTools();
@@ -109,6 +115,22 @@ function App () {
   });
 
   itunes_parser.parse();
+
+  var nmlparser = TraktorParser(self.model.traktor_playlists_root);
+  var stream = fs.createReadStream('../test/collection.nml');
+  
+  nmlparser.on('end', function() {
+    console.log('TraktorParser completed parsing');
+    stream.unpipe();
+  });
+
+  nmlparser.on('playlists_root', function(playlists_root) {
+    console.log('TraktorParser returned root');
+    traktor_playlist_view.draw_tree();
+    //console.log(JSON.stringify(playlists_root));
+  });
+
+  stream.pipe(nmlparser);
 }
 
 var app = new App();

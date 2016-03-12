@@ -27,7 +27,8 @@
       <div class="col-sm-12 col-md-12 main">
         <ul class="nav nav-tabs">
           <li class="active"><a data-toggle="tab" href="#files">Files</a></li>
-          <li><a data-toggle="tab" href="#playlists">Playlists</a></li>
+          <li><a data-toggle="tab" href="#playlists">iTunes</a></li>
+          <li><a data-toggle="tab" href="#traktor-playlists">Traktor</a></li>
           <li><a data-toggle="tab" href="#export">Export</a></li>
           <li><a data-toggle="tab" href="#advanced">Advanced</a></li>
         </ul>
@@ -85,7 +86,7 @@
         </div>
       </div>
 
-      <!--  PLAYLISTS TAB -->
+      <!--  ITUNES PLAYLISTS TAB -->
       <div id="playlists" class="tab-pane fade">
         <div class="row">
           <div class="col-sm-4 col-md-3 sidebar">
@@ -113,6 +114,30 @@
           </div>
         </div>
       </div>
+
+      <!--  TRAKTOR PLAYLISTS TAB -->
+      <div id="traktor-playlists" class="tab-pane fade">
+        <div class="row">
+          <div class="col-sm-4 col-md-3 sidebar">
+            <div id="traktor-playlist-tree"></div>
+          </div>
+          <div class="col-sm-8 col-md-9 main">
+            <div class="container-fluid nopad">
+              <table class="table table-striped table-condensed table-ellipsis" id="traktor-playlist-table">
+                <thead>
+                  <tr>
+                    <th class="col-sm-3 col-md-3 col-lg-3">Title</th>
+                    <th class="col-sm-3 col-md-3 col-lg-3">Artist</th>
+                    <th class="col-sm-3 col-md-3 col-lg-3">Filename</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- EXPORT TAB -->
       <div id="export" class="tab-pane fade">
         <h3>Export</h3>
