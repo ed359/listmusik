@@ -21,6 +21,7 @@ function ItunesParser (playlist_cb, options) {
 
   self.playlist_cb = playlist_cb;
   self.stream = null;
+  self.parser = null;
   self.parser_running = false;
   self.ignored_playlists = [
     'Library',

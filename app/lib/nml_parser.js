@@ -4,44 +4,57 @@ var _ = require('lodash');
 var Playlist = require('./playlist').Playlist;
 var Track = require('./track').Track;
 
-// var parse_xml = require('xml2js').parseString;
+var expat = require('node-expat');
 
-// function parse_nml (path) {
+function NmlParser (playlists_root, end_cb, options) {
+  var self = this;
+  if (options && typeof options.verbose !== 'undefined')
+    self.verbose = options.verbose;
+  else
+    self.verbose = false;
+  if (options && options.xml_path)
+    self.xml_path = options.xml_path;
+  else
+    self.xml_path = '~/Documents/Native Instruments/Traktor 2.6.2/collection.nml'.replace('~', process.env.HOME);
 
-//   var collection_string = fs.readFileSync(path, 'utf8');
-//   var matched = {};
-//   parse_xml(collection_string, 
-//     function (err, collection_object) {
-//       var collection = collection_object['NML']['COLLECTION'][0]['ENTRY'];
-//       var playlists = collection_object['NML']['PLAYLISTS'][0]['NODE'][0]['SUBNODES']; //[0]['NODE'][0]['PLAYLIST'][0]['ENTRY'];
-//       var get_collection_track_id = function (track) {
-//         var track = track['LOCATION'][0]['$'];
-//         var key = track['DIR'] + track['FILE'];
-//         return key;
-//       };
-//       var get_playlist_track_id = function (track) {
-//         var track = track['PRIMARYKEY'];
-//         var key = track[0]['$']['KEY'].replace(/^.+?(?=\/)/, '');
-//         return key;
-//       };
-//       var indexed = _.indexBy(collection, get_collection_track_id);
-//       matched = _.map(playlists, function (track) {
-//         var key = get_playlist_track_id(track);
-//         return this[key];
-//       }, indexed);
-//     });
+  self.end_cb = end_cb;
+  self.parser_running = false;
+  self.parser = self.init_parser(playlists_root);
+}
 
+NmlParser.prototype.set_xml_path = function(path) {
+  var self = this;
+  self.xml_path = path;
+};
 
-//   return matched;
-// }
+NmlParser.prototype.parse = function () {
+ var self = this;
+  if (self.parser_running) {
+    if (self.verbose)
+      console.error('NmlParser parser already running');
+    self.parser.stop();
+  }
+  if (self.stream) {
+    if (self.verbose)
+      console.log('NmlParser stream exists');
+    self.stream.unpipe();
+    self.stream.destroy();
+  }
+  if (self.verbose)
+    console.log('NmlParser parsing', self.xml_path);
 
-// exports.parse_nml = parse_nml;
+  self.stream = fs.createReadStream(self.xml_path);
 
-var expat = require("node-expat");
+  if (self.verbose)
+    console.log('NmlParser stream', self.stream.path);
 
-function init_parser(playlists_root) {
+  self.parser_running = true;
+  self.stream.pipe(self.parser);
+};
 
-  var parser = new expat.Parser("utf-8"),
+NmlParser.prototype.init_parser = function (playlists_root) {
+  var self = this;
+  var parser = new expat.Parser('utf-8'),
       current = playlists_root,
       folder_id = 0,
       ignored_playlists = [
@@ -49,19 +62,20 @@ function init_parser(playlists_root) {
         '_RECORDINGS'
       ],
       element,
-      key = "library",
+      key = 'library',
       stack = [],
       value,
       depth = 0,
       parse = identity,
       parsers = {
-        "integer": parseInt,
-        "date": function(str) {
+        'integer': parseInt,
+        'date': function (str) {
           return new Date(str);
         }
       };
 
-  parser.on("startElement", function(name, attrs) {
+  parser.on('startElement', function (name, attrs) {
+
     // console.warn("+", name);
     var parent = current;
     element = name;
@@ -76,15 +90,13 @@ function init_parser(playlists_root) {
         if (attrs.TYPE === 'FOLDER' && attrs.NAME === '$ROOT') {
           console.log('Found $ROOT');
           folder_id++;
-        }
-        else if (attrs.TYPE === 'FOLDER') {
+        } else if (attrs.TYPE === 'FOLDER') {
           depth = stack.push(current);
           var folder = new Playlist(attrs.NAME, folder_id);
           current.add_child(folder);
           current = folder;
           folder_id++;
-        }
-        else if (attrs.TYPE === 'PLAYLIST') {
+        } else if (attrs.TYPE === 'PLAYLIST') {
           depth = stack.push(current);
           var playlist = new Playlist(attrs.NAME, null);
           if (!_.includes(ignored_playlists, attrs.NAME))
@@ -96,50 +108,59 @@ function init_parser(playlists_root) {
         current.id = attrs.UUID;
         break;
       case 'PRIMARYKEY':
+
         //var track = new Track(attrs.KEY.replace(/^.+?(?=\/)/,''));
-        var track = new Track(attrs.KEY.replace(/\/:/g,'/'));
+        var track = new Track(attrs.KEY.replace(/\/:/g, '/'));
         current.add_track(track);
         break;
     }
   });
 
-  parser.on("text", function(text) {
-    if (element === "key") {
+  parser.on('text', function (text) {
+    if (element === 'key') {
       key = text;
     }
     var val = parse(text);
-    if (typeof val === "string") {
+    if (typeof val === 'string') {
       value += val;
     } else {
       value = val;
     }
   });
 
-  parser.on("endElement", function(name) {
+  parser.on('endElement', function (name) {
     // console.warn("-", name);
     element = null;
     switch (name) {
-      case "NODE":
+      case 'NODE':
         current = stack.pop();
         depth = stack.length;
         break;
       case 'PLAYLISTS':
-        parser.emit("playlists_root", playlists_root);
+        self.end_cb(playlists_root);
         break;
     }
   });
 
+  parser.on('end', function () {
+
+    if (self.verbose)
+      console.log('NmlParser completed parsing');
+    self.stream.unpipe();
+    self.parser_running = false;
+  });
+
   return parser;
-}
+};
 
-function repeat(str, len) {
-  var out = [];
-  for (var i = 0; i < len; i++) out.push(str);
-  return out.join("");
-}
+// function repeat(str, len) {
+//   var out = [];
+//   for (var i = 0; i < len; i++) out.push(str);
+//   return out.join("");
+// }
 
-function identity(d) {
+function identity (d) {
   return d;
 }
 
-exports.init_parser = init_parser;
+exports.NmlParser = NmlParser;

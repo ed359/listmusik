@@ -39,8 +39,9 @@ function PlaylistView (model, playlists_root, playlist_tree, playlist_table) {
   self.playlists_root = playlists_root;
   self.playlist_tree = playlist_tree;
   self.playlist_table = playlist_table;
+  self.selected_playlist = null;
 
-  self.gen_tree_data = function (playlists_root) {
+  self.gen_tree_data = function(playlists_root) {
     var data = gen_node(playlists_root).nodes;
     return {
       data: data,
@@ -56,22 +57,22 @@ function PlaylistView (model, playlists_root, playlist_tree, playlist_table) {
     };
   };
 
-  self.add_to_table = function (track) {
+  self.add_to_table = function(track) {
 
     // Console.log("adding ", track.title)
     self.playlist_table.children('tbody').append(gen_file_entry({ track: track }));
   };
 
-  self.draw_tree = function () {
+  self.draw_tree = function() {
     self.playlist_tree.treeview(self.gen_tree_data(self.playlists_root));
   };
 
-  self.draw_table = function () {
+  self.draw_table = function() {
     self.playlist_table.children('tbody').empty();
-    if (self.model.selected_playlist !== null) {
+    if (self.selected_playlist !== null) {
 
       // Console.log("drawing ", self.model.selected_playlist.name)
-      self.model.selected_playlist.tracks.forEach(self.add_to_table);
+      self.selected_playlist.tracks.forEach(self.add_to_table);
 
       // Self.playlist_table.DataTable({
       //   paging: false,
@@ -83,24 +84,28 @@ function PlaylistView (model, playlists_root, playlist_tree, playlist_table) {
     //   console.log("drawing nothing")
   };
 
-  self.nodeSelectedHandler = function (event, node) {
+  self.nodeSelectedHandler = function(event, node) {
 
     // Console.log("node selected:", node.text);
     var search_id = node.id;
-    var selected_playlist = self.playlists_root.search(search_id);
-    self.model.selected_playlist = selected_playlist;
+    self.selected_playlist = self.playlists_root.search(search_id);
     self.draw_table();
   };
 
-  self.nodeUnselectedHandler = function (event, node) {
+  self.nodeUnselectedHandler = function(event, node) {
 
     // Console.log("node unselected:", node.text);
-    self.model.selected_playlist = null;
-    self.draw_table();
+    self.clear_table();
   };
 
+  self.clear_table = function() {
+    self.selected_playlist = null;
+    self.draw_table();
+  }
+
   self.draw_tree();
-  self.draw_table(model.selected_playlist);
+  self.draw_table(self.selected_playlist);
+
 }
 
 exports.PlaylistView = PlaylistView;
