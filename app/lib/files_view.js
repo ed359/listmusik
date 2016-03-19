@@ -51,18 +51,18 @@ function FilesView (model, dom, load_subfolder_cb, load_root_folder_cb) {
     '  a(href="#") #{item.name}'
   ].join('\n'));
 
-  var load_root_folder = function (root_path, set_addressbar) {
+  var load_root_folder = function(root_path, set_addressbar) {
     load_root_folder_cb(root_path);
     self.draw_sidebar();
     if (set_addressbar)
       addressbar_set_root(root_path);
   };
 
-  self.draw_sidebar = function () {
+  self.draw_sidebar = function() {
     self.sidebar.html(gen_sidebar({ subfolders: self.model.subfolders }));
   };
 
-  var addressbar_set_root = function (root_path) {
+  var addressbar_set_root = function(root_path) {
     var current_path = path.normalize(root_path);
 
     // Split path into separate elements
@@ -71,14 +71,14 @@ function FilesView (model, dom, load_subfolder_cb, load_root_folder_cb) {
 
     for (var i = 0; i < sequence.length; i++) {
       result.push({
-        name: sequence[ i ],
+        name: sequence[i],
         path: sequence.slice(0, i + 1).join(path.sep)
       });
     }
 
     // Add root for *nix
-    if (sequence[ 0 ] === '' && process.platform !== 'win32') {
-      result[ 0 ] = {
+    if (sequence[0] === '' && process.platform !== 'win32') {
+      result[0] = {
         name: 'Root',
         path: '/'
       };
@@ -86,7 +86,7 @@ function FilesView (model, dom, load_subfolder_cb, load_root_folder_cb) {
     self.addressbar.html(gen_addressbar({ sequence: result }));
   };
 
-  self.addressbar_enter = function (mine) {
+  self.addressbar_enter = function(mine) {
 
     // Where is current
     var how_many = self.addressbar.children().length;
@@ -104,17 +104,17 @@ function FilesView (model, dom, load_subfolder_cb, load_root_folder_cb) {
     self.addressbar.find('a:last').trigger('click');
   };
 
-  self.clear_table = function () {
+  self.clear_table = function() {
     self.table.children('tbody').empty();
   };
 
-  self.add_to_table = function (track) {
+  self.add_to_table = function(track) {
 
     // Console.log("adding ", track.title)
     self.table.children('tbody').append(gen_file_entry({ track: track }));
   };
 
-  self.draw_table = function () {
+  self.draw_table = function() {
     self.table.children('tbody').empty();
     if (self.model.selected_subfolder !== null) {
       console.log('Drawing table, length', self.model.subfolder_tracks.length);
@@ -127,7 +127,7 @@ function FilesView (model, dom, load_subfolder_cb, load_root_folder_cb) {
     }
   };
 
-  self.sidebar.on('click', 'a', function (event) {
+  self.sidebar.on('click', 'a', function(event) {
     self.sidebar.children('.active').removeClass('active');
     self.sidebar.find('span').removeClass('glyphicon-folder-open')
       .addClass('glyphicon-folder-close');
@@ -143,7 +143,7 @@ function FilesView (model, dom, load_subfolder_cb, load_root_folder_cb) {
 
   });
 
-  self.addressbar.delegate('a', 'click', function () {
+  self.addressbar.delegate('a', 'click', function() {
     self.addressbar.children('.active').removeClass('active');
     $(this).parent().addClass('active');
     var selected_path = $(this).parent().attr('data-path');
@@ -151,7 +151,7 @@ function FilesView (model, dom, load_subfolder_cb, load_root_folder_cb) {
   });
 
   self.dialog.unbind('change');
-  self.dialog.change(function (evt) {
+  self.dialog.change(function(evt) {
     var selected_path = $(this).val();
     if (selected_path) {
       load_root_folder(selected_path, true);

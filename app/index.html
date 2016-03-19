@@ -53,7 +53,7 @@
           <div class="col-sm-2 col-md-2 pull-right">
             <span class="btn btn-default btn-file nav-component">
               Select
-              <span class="glyphicon glyphicon-folder-close space-before"></span>
+              <span class="glyphicon glyphicon-folder-open space-before"></span>
               <input class="form-control" type="file" nwdirectory id="files-dialog"/>
             </span>
           </div>
@@ -140,18 +140,60 @@
 
       <!-- EXPORT TAB -->
       <div id="export" class="tab-pane fade">
-        <h3>Export</h3>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+        <div class="col-sm-9 col-md-9 nopad-left">
+          <ul class="breadcrumb nav-component" id="exp-addressbar">
+            <li>none</li>
+          </ul>
+        </div>
+        <div class="col-sm-3 col-md-3 nopad-right">
+          <span class="btn btn-default btn-file nav-component">
+            Select
+            <span class="glyphicon glyphicon-folder-open space-before"></span>
+            <input class="form-control" type="file" nwdirectory id="exp-root-dialog"/>
+          </span>
+        </div>
+        <div class="col-sm-12 col-md-12 btn-group btn-group-justified nopad">
+          <!-- <a href="#" class="btn btn-primary btn-file">
+            Select Output Root Folder
+            <span class="glyphicon glyphicon-folder-open space-before"></span>
+            <input class="form-control" type="file" id="exp-root-dialog"/>
+          </a> -->
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary btn-disabled" id="exp-itunes" disabled>
+              Export iTunes Playlists
+            </button>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary btn-disabled" id="exp-traktor" disabled>
+              Export Traktor Playlists
+            </button>
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-3 checkbox nopad-left">
+          <label for="exp-verify-toggle" class="checkbox"> 
+            <input type="checkbox" data-toggle="toggle" id="exp-verify-toggle"> Verify Files
+          </label>
+        </div>
       </div>
       <!-- ADVANCED TAB -->
       <div id="advanced" class="tab-pane fade">
         <div class="btn-group btn-group-justified">
           <a href="#" class="btn btn-primary" id="adv-open-devtools">Open Developer Tools</a>
+        </div>
+        <div class="btn-group btn-group-justified">
           <a href="#" class="btn btn-primary" id="adv-itunes-parse">Parse iTunes Library</a>
           <a href="#" class="btn btn-primary btn-file">
             Locate iTunes Library
             <span class="glyphicon glyphicon-music space-before"></span>
             <input class="form-control" type="file" id="adv-itunes-dialog"/>
+          </a>
+        </div>
+        <div class="btn-group btn-group-justified">
+          <a href="#" class="btn btn-primary" id="adv-traktor-parse">Parse Traktor Library</a>
+          <a href="#" class="btn btn-primary btn-file">
+            Locate Traktor Library
+            <span class="glyphicon glyphicon-music space-before"></span>
+            <input class="form-control" type="file" id="adv-traktor-dialog"/>
           </a>
         </div>
         <div class="checkbox">

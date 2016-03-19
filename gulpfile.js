@@ -76,10 +76,12 @@ gulp.task('start', ['run']);
 
 gulp.task('style', ['lint'], function() {
   return gulp.src(paths.src_js, { base: 'app' })
+    //.pipe(debug())
     .pipe(jscs({fix: false}))
     .pipe(jscs.reporter())
     //.pipe(jscs.reporter('fail'))
     .pipe(gulp.dest('app'));
+    //.pipe(debug());
 });
 
 // DEPLOY TASKS

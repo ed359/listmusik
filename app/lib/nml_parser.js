@@ -1,4 +1,6 @@
 var fs = require('fs');
+var path = require('path');
+var semver = require('semver');
 var _ = require('lodash');
 
 var Playlist = require('./playlist').Playlist;
@@ -15,19 +17,39 @@ function NmlParser (playlists_root, end_cb, options) {
   if (options && options.xml_path)
     self.xml_path = options.xml_path;
   else
-    self.xml_path = '~/Documents/Native Instruments/Traktor 2.6.2/collection.nml'.replace('~', process.env.HOME);
+    self.xml_path = find_collection();
 
   self.end_cb = end_cb;
   self.parser_running = false;
-  self.parser = self.init_parser(playlists_root);
+  self.playlists_root = playlists_root;
+  //self.parser = self.init_parser(playlists_root);
 }
 
-NmlParser.prototype.set_xml_path = function(path) {
+function find_collection() {
+  var base_path = '~/Documents/Native Instruments'.replace('~', process.env.HOME);
+  var subfolders = fs.readdirSync(base_path);
+  var latest_version = _.reduce(subfolders, function (result, folder) {
+    var version = folder.match(/\d+\.\d+\.\d+/);
+    if (version !== null && semver.gt(version[0], result))
+      return version[0];
+    else
+      return result;
+  }, '0.0.0');
+  if (latest_version === '0.0.0') {
+    console.log('Traktor collection not found');
+    return null;
+  }
+  else {
+    return path.join(base_path,'Traktor ' + latest_version, 'collection.nml');
+  }
+};
+
+NmlParser.prototype.set_xml_path = function (path) {
   var self = this;
   self.xml_path = path;
 };
 
-NmlParser.prototype.parse = function () {
+NmlParser.prototype.parse = function() {
  var self = this;
   if (self.parser_running) {
     if (self.verbose)
@@ -49,10 +71,11 @@ NmlParser.prototype.parse = function () {
     console.log('NmlParser stream', self.stream.path);
 
   self.parser_running = true;
+  self.parser = self.init_parser(self.playlists_root);
   self.stream.pipe(self.parser);
 };
 
-NmlParser.prototype.init_parser = function (playlists_root) {
+NmlParser.prototype.init_parser = function(playlists_root) {
   var self = this;
   var parser = new expat.Parser('utf-8'),
       current = playlists_root,
@@ -69,12 +92,12 @@ NmlParser.prototype.init_parser = function (playlists_root) {
       parse = identity,
       parsers = {
         'integer': parseInt,
-        'date': function (str) {
+        'date': function(str) {
           return new Date(str);
         }
       };
 
-  parser.on('startElement', function (name, attrs) {
+  parser.on('startElement', function(name, attrs) {
 
     // console.warn("+", name);
     var parent = current;
@@ -110,13 +133,21 @@ NmlParser.prototype.init_parser = function (playlists_root) {
       case 'PRIMARYKEY':
 
         //var track = new Track(attrs.KEY.replace(/^.+?(?=\/)/,''));
-        var track = new Track(attrs.KEY.replace(/\/:/g, '/'));
+        var track_path = attrs.KEY.replace(/\/:/g, '/');
+        // Stupid hack for Rosy
+        track_path = track_path.replace('//Music', '');
+        //if path.join('/Volumes', track_path);
+        if (track_path.match(/^(Macintosh HD)/))
+          track_path = track_path.replace('Macintosh HD', '');
+        else
+          track_path = path.join('/Volumes', track_path);
+        var track = new Track(track_path);
         current.add_track(track);
         break;
     }
   });
 
-  parser.on('text', function (text) {
+  parser.on('text', function(text) {
     if (element === 'key') {
       key = text;
     }
@@ -128,7 +159,7 @@ NmlParser.prototype.init_parser = function (playlists_root) {
     }
   });
 
-  parser.on('endElement', function (name) {
+  parser.on('endElement', function(name) {
 
     // console.warn("-", name);
     element = null;
@@ -143,7 +174,7 @@ NmlParser.prototype.init_parser = function (playlists_root) {
     }
   });
 
-  parser.on('end', function () {
+  parser.on('end', function() {
 
     if (self.verbose)
       console.log('NmlParser completed parsing');

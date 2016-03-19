@@ -21,9 +21,15 @@ function Track (url, title, artist) {
   self.playlists = '';
 }
 
-Track.prototype.get_relative_path = function(root) {
-    var abs_path = decodeURI(path);
+Track.prototype.get_relative_path = function (root) {
+    var self = this;
+    var abs_path = decodeURI(self.url);
     return path.relative(root, abs_path);
+};
+
+Track.prototype.get_path = function () {
+  var self = this
+  return decodeURI(self.url);
 };
 
 exports.Track = Track;
