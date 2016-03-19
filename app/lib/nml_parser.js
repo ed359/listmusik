@@ -129,6 +129,7 @@ NmlParser.prototype.init_parser = function (playlists_root) {
   });
 
   parser.on('endElement', function (name) {
+
     // console.warn("-", name);
     element = null;
     switch (name) {

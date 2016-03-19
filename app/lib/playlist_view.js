@@ -101,7 +101,7 @@ function PlaylistView (model, playlists_root, playlist_tree, playlist_table) {
   self.clear_table = function() {
     self.selected_playlist = null;
     self.draw_table();
-  }
+  };
 
   self.draw_tree();
   self.draw_table(self.selected_playlist);
