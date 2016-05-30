@@ -9,7 +9,7 @@ function gen_node (playlist) {
     text: playlist.name,
     id: playlist.id,
 
-    // Icon: "glyphicon glyphicon-th-list",
+    // icon: "glyphicon glyphicon-th-list",
     // selectedIcon: "glyphicon glyphicon-th-list",
     // color: "#000000",
     // backColor: "#FFFFFF",
@@ -23,8 +23,12 @@ function gen_node (playlist) {
     //   selected: true
     // },
     // tags: ['available'],
-    nodes: playlist.playlists.map(gen_node)
   };
+  var child_nodes = playlist.playlists.map(gen_node);
+  if (child_nodes.length > 0)
+    node.nodes = child_nodes;
+  else 
+    node.icon =  'glyphicon glyphicon-th-list';
   return node;
 }
 
@@ -67,9 +71,10 @@ function PlaylistView (playlists_root, playlist_tree, playlist_table, options) {
     return {
       data: data,
       enableLinks: true,
-      levels: 4,
-      expandIcon: 'glyphicon glyphicon-th-list',
-      collapseIcon: 'glyphicon glyphicon-th-list',
+      levels: 6,
+      expandIcon: 'glyphicon glyphicon-plus',
+      collapseIcon: 'glyphicon glyphicon-minus',
+      // nodeIcon:  'glyphicon glyphicon-th-list',
       onNodeSelected: self.nodeSelectedHandler,
       onNodeUnselected: self.nodeUnselectedHandler,
       color: '#337ab7',
