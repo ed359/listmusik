@@ -1,4 +1,3 @@
-var file_url = require('file-url');
 var fs = require('fs');
 var mm = require('musicmetadata');
 var path = require('path');
@@ -19,8 +18,7 @@ function MetadataReader () {
 
 MetadataReader.prototype.read = function (file_path, callback) {
   var self = this;
-  var url = file_url(file_path); // Resolves 'path' to an absolute path before URI encoding
-  var track = new Track(file_url(file_path));
+  var track = new Track(file_path);
 
   var parser = mm(fs.createReadStream(file_path), function (error, metadata) {
     if (error) {

@@ -1,3 +1,4 @@
+var file_url = require('file-url');
 var path = require('path');
 
 function Track (track_path, title, artist) {
@@ -8,7 +9,7 @@ function Track (track_path, title, artist) {
   }
 
   self.path = track_path;
-  self.url = encodeURI(path.basename(track_path));
+  self.url = file_url(track_path);
   self.title = '';
   self.artist = '';
   self.playlists = '';

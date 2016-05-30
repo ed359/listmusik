@@ -102,7 +102,7 @@ function App () {
     $('#playlist-tree'), $('#playlist-table'));
 
   var traktor_end_cb = function(playlists_root) {
-    console.log('TraktorParser returned root');
+    // console.log('TraktorParser returned root');
     self.model.traktor_playlists_root = playlists_root;
     traktor_playlist_view.draw_tree();
   };

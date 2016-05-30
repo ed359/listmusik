@@ -115,12 +115,12 @@ function Exporter (model, dom) {
 
   function export_playlists(playlists_folder, playlist_path, playlist) {
     var track_cb = function (track_path) {
-      return path.relative(path.join(self.model.root_folder, playlist_path), track_path);
+      return path.relative(path.join(self.root_folder, playlist_path), track_path);
     };
     var m3u = playlist.toM3u(track_cb);
     if (m3u.length > 0) {
-      console.log(playlists_folder);
-      console.log(path.join(playlist_path,m3u.filename));
+      console.log('Playlist path:', path.join(playlist_path, m3u.filename));
+      console.log('Contents:');
       console.log(m3u.data);
       var filepath = path.join(playlists_folder, playlist_path, m3u.filename);
       mkdirp.sync(path.join(playlists_folder, playlist_path));
