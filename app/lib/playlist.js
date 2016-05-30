@@ -101,19 +101,19 @@ Playlist.prototype.search = function (id) {
     }, null);
 };
 
-Playlist.prototype.search_tracks = function (url) {
+Playlist.prototype.search_tracks = function (path) {
   var self = this;
   var results = [];
 
   // Case insensitive regular expression to compare search_path with itunes paths
-  var regex = new RegExp('^' + esr(url) + '$', 'i');
+  var regex = new RegExp('^' + esr(path) + '$', 'i');
 
   self.tracks.forEach(function (track) {
-    if (regex.test(track.url))
+    if (regex.test(track.path))
       results.push(self.name);
   });
   self.playlists.forEach(function (playlist) {
-    var child_results = playlist.search_tracks(url);
+    var child_results = playlist.search_tracks(path);
     Array.prototype.push.apply(results, child_results);
   });
   return results;

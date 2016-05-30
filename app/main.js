@@ -84,8 +84,10 @@ function App () {
     self.model.subfolder_tracks = [];
 
     folder_reader.read_subfolder(subfolder_path, function (track) {
-      //track.playlists = self.model.playlists_root.search_tracks(track.url).join(', ');
-      track.playlists = "feature disabled...";
+      // track.itunes_playlists = self.model.itunes_playlists_root.search_tracks(track.path).join(', ');
+      // track.traktor_playlists = self.model.traktor_playlists_root.search_tracks(track.path).join(', ');
+      track.itunes_playlists = 'feature disabled';
+      track.traktor_playlists = 'feature disabled';
       self.model.subfolder_tracks.push(track);
       files_view.add_to_table(track);
     });
