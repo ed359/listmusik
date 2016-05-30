@@ -1,14 +1,14 @@
 var path = require('path');
 
-function Track (url, title, artist) {
+function Track (track_path, title, artist) {
   var self = this;
 
-  if (typeof url === 'undefined') {
-    throw new Error('Track must be instantiated with a url');
+  if (typeof track_path === 'undefined') {
+    throw new Error('Track must be instantiated with an absolute path');
   }
 
-  self.url = url;
-  self.filename = decodeURI(path.basename(url));
+  self.path = track_path;
+  self.url = encodeURI(path.basename(track_path));
   self.title = '';
   self.artist = '';
   self.playlists = '';
@@ -23,13 +23,12 @@ function Track (url, title, artist) {
 
 Track.prototype.get_relative_path = function (root) {
     var self = this;
-    var abs_path = decodeURI(self.url);
-    return path.relative(root, abs_path);
+    return path.relative(root, self.path);
 };
 
 Track.prototype.get_path = function () {
   var self = this
-  return decodeURI(self.url);
+  return self.path;
 };
 
 exports.Track = Track;

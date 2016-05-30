@@ -74,11 +74,17 @@ ItunesParser.prototype.init_parser = function () {
     }
 
     i_playlist.Tracks = i_playlist[ 'Playlist Items' ].map(function (track_entry, index) {
-      var track = self.tracks_by_id[ track_entry[ 'Track ID' ] ];
+      var id = track_entry[ 'Track ID' ];
+      if (typeof id === 'undefined') {
+        console.error('Finding track entry for item index', index, 'in playlist', i_playlist.Name, 'failed');
+        console.error("Track entry bug: trying 'rack ID'");
+        id = track_entry[ 'rack ID' ];
+      }
+      var track = self.tracks_by_id[id];
       if (typeof track === 'undefined') {
-        console.error('Finding track entry', index, 'with ID',
-          track_entry[ 'Track ID' ], 'in playlist', i_playlist.Name, 'failed');
-        return { Location: 'track in ' + i_playlist.Name, Name: 'Broken track', Artist: 'Broken' };
+        console.error('Finding track entry for item index', index, 'with ID',
+          id, 'in playlist', i_playlist.Name, 'failed');
+        return { Location: 'track in ' + i_playlist.Name, Name: '--BROKENTRACK--', Artist: '--BROKENTRACK--' };
       } else {
         return track;
       }
@@ -123,11 +129,22 @@ ItunesParser.prototype.parse = function() {
   self.stream.pipe(self.parser);
 };
 
+function location_to_path(location) {
+  var path = decodeURI(location.substring('file://'.length));
+  return path;
+}
+
 ItunesParser.prototype.convert_from_itunes = function(i_playlist) {
   var playlist = new Playlist(i_playlist.Name, i_playlist[ 'Playlist Persistent ID' ]);
 
   i_playlist.Tracks.forEach(function(i_track) {
-    playlist.tracks.push(new Track(i_track.Location, i_track.Name, i_track.Artist));
+    playlist.tracks.push(
+      new Track(
+        location_to_path(i_track.Location), 
+        i_track.Name, 
+        i_track.Artist
+      )
+    );
   });
 
   var parent_id = i_playlist[ 'Parent Persistent ID' ];

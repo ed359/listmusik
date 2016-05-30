@@ -44,7 +44,7 @@ function PlaylistView (playlists_root, playlist_tree, playlist_table, options) {
   if (options && typeof options.table_view !== 'undefined')
     self.table_view = options.table_view;
   else
-    self.table_view = ['title', 'artist', 'url'];
+    self.table_view = ['title', 'artist', 'path'];
 
   // var gen_file_entry = jade.compile([
   //     'tr',

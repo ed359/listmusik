@@ -108,7 +108,7 @@ function App () {
   };
   var nml_parser = new NmlParser(self.model.traktor_playlists_root, traktor_end_cb);
   var traktor_playlist_view = new PlaylistView(self.model.traktor_playlists_root,
-    $('#traktor-playlist-tree'), $('#traktor-playlist-table'), {table_view: ['url']});
+    $('#traktor-playlist-tree'), $('#traktor-playlist-table'), {table_view: ['path']});
 
   $('#adv-open-devtools').click(function (e) {
     gui.Window.get().showDevTools();

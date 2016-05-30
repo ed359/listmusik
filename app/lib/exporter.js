@@ -11,7 +11,7 @@ function Exporter (model, dom) {
   var self = this;
 
   self.model = model;
-  self.root_folder = null;
+  self.root_folder = model.root_folder;
 
   self.addressbar = dom.addressbar;
   self.dialog = dom.dialog;
@@ -131,7 +131,7 @@ function Exporter (model, dom) {
     });
   };
 
-  load_root_folder('~/Music/listmusik'.replace('~', process.env.HOME));
+  load_root_folder(self.root_folder);
 }
 
 exports.Exporter = Exporter;

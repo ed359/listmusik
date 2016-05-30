@@ -30,7 +30,7 @@ function FilesView (model, dom, load_subfolder_cb, load_root_folder_cb) {
 
   var gen_file_entry = jade.compile([
       'tr',
-      '  td #{track.filename}',
+      '  td #{track.path}',
       '  td #{track.title}',
       '  td #{track.artist}',
       '  td #{track.playlists}'
