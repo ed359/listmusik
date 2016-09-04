@@ -16,11 +16,11 @@ function MetadataReader () {
 //   return _.unescape(str.replace('\\;',';'));
 // }
 
-MetadataReader.prototype.read = function (file_path, callback) {
+MetadataReader.prototype.read = function(file_path, callback) {
   var self = this;
   var track = new Track(file_path);
 
-  var parser = mm(fs.createReadStream(file_path), function (error, metadata) {
+  var parser = mm(fs.createReadStream(file_path), function(error, metadata) {
     if (error) {
       console.error('Error reading metadata in ' + path.basename(file_path), error);
     } else {

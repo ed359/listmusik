@@ -1,8 +1,8 @@
 var jade = require('jade');
 
-String.prototype.capitalizeFirstLetter = function() {
+String.prototype.capitalizeFirstLetter = function () {
     return this.charAt(0).toUpperCase() + this.slice(1);
-}
+};
 
 function gen_node (playlist) {
   var node = {
@@ -27,7 +27,7 @@ function gen_node (playlist) {
   var child_nodes = playlist.playlists.map(gen_node);
   if (child_nodes.length > 0)
     node.nodes = child_nodes;
-  else 
+  else
     node.icon =  'glyphicon glyphicon-th-list';
   return node;
 }
@@ -44,7 +44,7 @@ function PlaylistView (playlists_root, playlist_tree, playlist_table, options) {
   if (options && typeof options.table_view !== 'undefined')
     self.table_view = options.table_view;
   else
-    self.table_view = ['title', 'artist', 'path'];
+    self.table_view = [ 'title', 'artist', 'path' ];
 
   // var gen_file_entry = jade.compile([
   //     'tr',
@@ -54,19 +54,19 @@ function PlaylistView (playlists_root, playlist_tree, playlist_table, options) {
   // ].join('\n'));
 
   var gen_file_entry = jade.compile(
-    ['tr'].concat(self.table_view.map(function (field) {
+    [ 'tr' ].concat(self.table_view.map(function(field) {
       return '  td #{track.' + field + '}';
     })).join('\n'));
 
   var widths = 12 / self.table_view.length;
   var gen_headers = jade.compile(
-    ['tr'].concat(self.table_view.map(function (field) {
+    [ 'tr' ].concat(self.table_view.map(function(field) {
       return '  th.col-sm-' + widths + '.col-md-' + widths + '.col-lg-' + widths + ' ' + field.capitalizeFirstLetter();
     })).join('\n'));
 
   self.playlist_table.children('thead').html(gen_headers());
 
-  self.gen_tree_data = function (playlists_root) {
+  self.gen_tree_data = function(playlists_root) {
     var data = gen_node(playlists_root).nodes;
     return {
       data: data,
@@ -74,6 +74,7 @@ function PlaylistView (playlists_root, playlist_tree, playlist_table, options) {
       levels: 6,
       expandIcon: 'glyphicon glyphicon-plus',
       collapseIcon: 'glyphicon glyphicon-minus',
+
       // nodeIcon:  'glyphicon glyphicon-th-list',
       onNodeSelected: self.nodeSelectedHandler,
       onNodeUnselected: self.nodeUnselectedHandler,
@@ -83,17 +84,17 @@ function PlaylistView (playlists_root, playlist_tree, playlist_table, options) {
     };
   };
 
-  self.add_to_table = function (track) {
+  self.add_to_table = function(track) {
 
     // Console.log("adding ", track.title)
     self.playlist_table.children('tbody').append(gen_file_entry({ track: track }));
   };
 
-  self.draw_tree = function () {
+  self.draw_tree = function() {
     self.playlist_tree.treeview(self.gen_tree_data(self.playlists_root));
   };
 
-  self.draw_table = function () {
+  self.draw_table = function() {
     self.playlist_table.children('tbody').empty();
     if (self.selected_playlist !== null) {
 
@@ -110,7 +111,7 @@ function PlaylistView (playlists_root, playlist_tree, playlist_table, options) {
     //   console.log("drawing nothing")
   };
 
-  self.nodeSelectedHandler = function (event, node) {
+  self.nodeSelectedHandler = function(event, node) {
 
     // Console.log("node selected:", node.text);
     var search_id = node.id;
@@ -118,13 +119,13 @@ function PlaylistView (playlists_root, playlist_tree, playlist_table, options) {
     self.draw_table();
   };
 
-  self.nodeUnselectedHandler = function (event, node) {
+  self.nodeUnselectedHandler = function(event, node) {
 
     // Console.log("node unselected:", node.text);
     self.clear_table();
   };
 
-  self.clear_table = function () {
+  self.clear_table = function() {
     self.selected_playlist = null;
     self.draw_table();
   };
@@ -132,7 +133,7 @@ function PlaylistView (playlists_root, playlist_tree, playlist_table, options) {
   self.draw_tree();
   self.draw_table(self.selected_playlist);
 
-  self.clear = function () {
+  self.clear = function() {
     self.clear_table();
     self.playlists_root.playlists = [];
     self.draw_tree();

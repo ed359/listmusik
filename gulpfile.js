@@ -58,12 +58,12 @@ gulp.task('test', ['test-actual'], function (cb) {
 
 gulp.task('test-actual', ['lint', 'style'], function () {
   return gulp.src(paths.test, {read: false})
-    // gulp-mocha needs filepaths so you can't have any plugins before it 
+    // gulp-mocha needs filepaths so you can't have any plugins before it
     .pipe(mocha({reporter: 'nyan'}));
 });
 
 gulp.task('lint', function() {
-  return gulp.src(paths.src_js)
+  return gulp.src(paths.src_js, { base: 'app' })
     .pipe(jshint())
     .pipe(jshint.reporter('jshint-stylish'));
 });
@@ -76,12 +76,10 @@ gulp.task('start', ['run']);
 
 gulp.task('style', ['lint'], function() {
   return gulp.src(paths.src_js, { base: 'app' })
-    //.pipe(debug())
-    .pipe(jscs({fix: false}))
+    .pipe(jscs({fix: true}))
     .pipe(jscs.reporter())
-    //.pipe(jscs.reporter('fail'))
+    .pipe(jscs.reporter('fail'))
     .pipe(gulp.dest('app'));
-    //.pipe(debug());
 });
 
 // DEPLOY TASKS

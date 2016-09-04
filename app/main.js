@@ -43,7 +43,7 @@ function App () {
   function clear_traktor_playlists () {
     self.model.traktor_playlists_root = new Playlist('TraktorPlaylists', 'ROOT');
     traktor_playlist_view.clear();
-  };
+  }
 
   // Files_view callbacks depend on folder_reader so load it first
   var folder_reader = new FolderReader();
@@ -84,6 +84,7 @@ function App () {
     self.model.subfolder_tracks = [];
 
     folder_reader.read_subfolder(subfolder_path, function (track) {
+
       // track.itunes_playlists = self.model.itunes_playlists_root.search_tracks(track.path).join(', ');
       // track.traktor_playlists = self.model.traktor_playlists_root.search_tracks(track.path).join(', ');
       track.itunes_playlists = 'feature disabled';
@@ -103,14 +104,15 @@ function App () {
   var itunes_playlist_view = new PlaylistView(self.model.itunes_playlists_root,
     $('#playlist-tree'), $('#playlist-table'));
 
-  var traktor_end_cb = function(playlists_root) {
+  var traktor_end_cb = function (playlists_root) {
+
     // console.log('TraktorParser returned root');
     self.model.traktor_playlists_root = playlists_root;
     traktor_playlist_view.draw_tree();
   };
   var nml_parser = new NmlParser(self.model.traktor_playlists_root, traktor_end_cb);
   var traktor_playlist_view = new PlaylistView(self.model.traktor_playlists_root,
-    $('#traktor-playlist-tree'), $('#traktor-playlist-table'), {table_view: ['path']});
+    $('#traktor-playlist-tree'), $('#traktor-playlist-table'), { table_view: [ 'path' ] });
 
   $('#adv-open-devtools').click(function (e) {
     gui.Window.get().showDevTools();
@@ -122,7 +124,7 @@ function App () {
   });
 
   $('#adv-itunes-dialog').unbind('change');
-  $('#adv-itunes-dialog').change(function ( e) {
+  $('#adv-itunes-dialog').change(function (e) {
     var selected_path = $(this).val();
     if (selected_path) {
       clear_itunes_playlists();
@@ -137,7 +139,7 @@ function App () {
   });
 
   $('#adv-traktor-dialog').unbind('change');
-  $('#adv-traktor-dialog').change(function ( e) {
+  $('#adv-traktor-dialog').change(function (e) {
     var selected_path = $(this).val();
     if (selected_path) {
       clear_traktor_playlists();
@@ -147,7 +149,7 @@ function App () {
   });
 
   $('#adv-verbose-toggle').bootstrapToggle();
-  $('#adv-verbose-toggle').change(function() {
+  $('#adv-verbose-toggle').change(function () {
     var checked = $(this).prop('checked');
     itunes_parser.verbose = checked;
     Playlist.verbose = checked;

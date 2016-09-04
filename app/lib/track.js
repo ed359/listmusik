@@ -22,13 +22,13 @@ function Track (track_path, title, artist) {
   self.playlists = '';
 }
 
-Track.prototype.get_relative_path = function (root) {
+Track.prototype.get_relative_path = function(root) {
     var self = this;
     return path.relative(root, self.path);
 };
 
-Track.prototype.get_path = function () {
-  var self = this
+Track.prototype.get_path = function() {
+  var self = this;
   return self.path;
 };
 

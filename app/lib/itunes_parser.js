@@ -46,41 +46,41 @@ function ItunesParser (playlist_cb, options) {
   self.playlists_by_id = {};
 }
 
-ItunesParser.prototype.init_parser = function () {
+ItunesParser.prototype.init_parser = function() {
   var self = this;
 
   self.parser = itunes.parser();
 
-  self.parser.on('end', function () {
+  self.parser.on('end', function() {
     if (self.verbose)
       console.log('ItunesParser completed parsing');
     self.stream.unpipe();
     self.parser_running = false;
   });
 
-  self.parser.on('track', function (track) {
+  self.parser.on('track', function(track) {
 
     // if (self.verbose)
     //   console.log('ItunesParser found track', track);
-    self.tracks_by_id[ track[ 'Track ID' ] ] = track;
+    self.tracks_by_id[track['Track ID']] = track;
   });
 
-  self.parser.on('playlist', function (i_playlist) {
+  self.parser.on('playlist', function(i_playlist) {
     if (self.verbose)
       console.log('ItunesParser found playlist', i_playlist.Name);
 
-    if (_.includes(self.ignored_playlists, i_playlist.Name) || !i_playlist[ 'Playlist Items' ]) {
+    if (_.includes(self.ignored_playlists, i_playlist.Name) || !i_playlist['Playlist Items']) {
       return;
     }
 
-    i_playlist.Tracks = i_playlist[ 'Playlist Items' ].map(function (track_entry, index) {
-      var id = track_entry[ 'Track ID' ];
+    i_playlist.Tracks = i_playlist['Playlist Items'].map(function(track_entry, index) {
+      var id = track_entry['Track ID'];
       if (typeof id === 'undefined') {
         console.error('Finding track entry for item index', index, 'in playlist', i_playlist.Name, 'failed');
-        console.error("Track entry bug: trying 'rack ID'");
-        id = track_entry[ 'rack ID' ];
+        console.error('Track entry bug: trying \'rack ID\'');
+        id = track_entry['rack ID'];
       }
-      var track = self.tracks_by_id[id];
+      var track = self.tracks_by_id[ id ];
       if (typeof track === 'undefined') {
         console.error('Finding track entry for item index', index, 'with ID',
           id, 'in playlist', i_playlist.Name, 'failed');
@@ -91,19 +91,19 @@ ItunesParser.prototype.init_parser = function () {
     });
 
     // TODO delete lots of non-useful data
-    delete i_playlist[ 'Playlist Items' ];
+    delete i_playlist['Playlist Items'];
     var playlist = self.convert_from_itunes(i_playlist);
 
     self.playlist_cb(playlist);
   });
 };
 
-ItunesParser.prototype.set_xml_path = function(path) {
+ItunesParser.prototype.set_xml_path = function (path) {
   var self = this;
   self.xml_path = path;
 };
 
-ItunesParser.prototype.parse = function() {
+ItunesParser.prototype.parse = function () {
   var self = this;
   if (self.parser_running) {
     if (self.verbose)
@@ -129,25 +129,25 @@ ItunesParser.prototype.parse = function() {
   self.stream.pipe(self.parser);
 };
 
-function location_to_path(location) {
+function location_to_path (location) {
   var path = decodeURI(location.substring('file://'.length));
   return path;
 }
 
-ItunesParser.prototype.convert_from_itunes = function(i_playlist) {
-  var playlist = new Playlist(i_playlist.Name, i_playlist[ 'Playlist Persistent ID' ]);
+ItunesParser.prototype.convert_from_itunes = function (i_playlist) {
+  var playlist = new Playlist(i_playlist.Name, i_playlist['Playlist Persistent ID']);
 
-  i_playlist.Tracks.forEach(function(i_track) {
+  i_playlist.Tracks.forEach(function (i_track) {
     playlist.tracks.push(
       new Track(
-        location_to_path(i_track.Location), 
-        i_track.Name, 
+        location_to_path(i_track.Location),
+        i_track.Name,
         i_track.Artist
       )
     );
   });
 
-  var parent_id = i_playlist[ 'Parent Persistent ID' ];
+  var parent_id = i_playlist['Parent Persistent ID'];
   if (parent_id)
     playlist.parent_id = parent_id;
 
