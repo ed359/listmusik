@@ -52,8 +52,10 @@ function App () {
   var exporter_dom = {
     addressbar: $('#exp-addressbar'),
     dialog: $('#exp-root-dialog'),
+    ext_dialog: $('#exp-ext-dialog'),
     itunes_btn: $('#exp-itunes'),
     traktor_btn: $('#exp-traktor'),
+    copy_traktor_btn: $('#copy-traktor'),
     verify_toggle: $('#exp-verify-toggle')
   };
 

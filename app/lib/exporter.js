@@ -1,5 +1,5 @@
 var events = require('events');
-var fs = require('fs');
+var fs = require('fs-extra');
 var jade = require('jade');
 var mkdirp = require('mkdirp');
 var path = require('path');
@@ -15,8 +15,10 @@ function Exporter (model, dom) {
 
   self.addressbar = dom.addressbar;
   self.dialog = dom.dialog;
+  self.ext_dialog = dom.ext_dialog;
   self.itunes_btn = dom.itunes_btn;
   self.traktor_btn = dom.traktor_btn;
+  self.copy_traktor_btn = dom.copy_traktor_btn;
   self.verify_toggle = dom.verify_toggle;
 
   var gen_addressbar = jade.compile([
@@ -71,6 +73,17 @@ function Exporter (model, dom) {
     self.addressbar.html(gen_addressbar({ sequence: result }));
   };
 
+  var copy_traktor_playlists = function(target_path) {
+
+    fs.copy(path.join(self.root_folder, 'TraktorPlaylists'),
+      path.join(target_path, 'TraktorPlaylists'),
+      function (err) {
+        if (err) return console.error(err);
+        console.log('copy success');
+      });
+
+  };
+
   self.addressbar_enter = function (mine) {
 
     // Where is current
@@ -104,6 +117,14 @@ function Exporter (model, dom) {
     }
   });
 
+  self.ext_dialog.unbind('change');
+  self.ext_dialog.change(function (evt) {
+    var selected_path = $(this).val();
+    if (selected_path) {
+      copy_traktor_playlists(selected_path);
+    }
+  });
+
   self.itunes_btn.click(function(e) {
     console.log('Exporting iTunes Playlists');
     console.log('Export folder:', self.root_folder);
@@ -114,6 +135,16 @@ function Exporter (model, dom) {
     console.log('Exporting Traktor Playlists');
     console.log('Export folder:', self.root_folder);
     export_playlists(self.root_folder, '', self.model.traktor_playlists_root);
+  });
+
+  self.copy_traktor_btn.click(function(e) {
+    console.log('Copying Traktor Playlist to External Device');
+    console.log('Export folder:', self.root_folder);
+
+    self.ext_dialog.click();
+
+    export_playlists(self.root_folder, '', self.model.traktor_playlists_root);
+
   });
 
   function export_playlists (playlists_folder, playlist_path, playlist) {
