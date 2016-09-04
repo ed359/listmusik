@@ -138,11 +138,18 @@ NmlParser.prototype.init_parser = function (playlists_root) {
         // Stupid hack for Rosy
         track_path = track_path.replace('//Music', '');
 
-        //if path.join('/Volumes', track_path);
-        if (track_path.match(/^(Macintosh HD)/))
-          track_path = track_path.replace('Macintosh HD', '');
-        else
-          track_path = path.join('/Volumes', track_path);
+        // Traktor stores track paths in a playlist relative to the /Volumes
+        // folder on OSX. This means file paths in the main root tree appear
+        // relative to the symlink to the root in /Volumes often called
+        // "Macintosh HD", so we use fs.realpath to resolve this.
+
+        // if path.join('/Volumes', track_path);
+        // if (track_path.match(/^(Macintosh HD)/))
+        //   track_path = track_path.replace('Macintosh HD', '');
+        // else
+        //   track_path = path.join('/Volumes', track_path);
+        track_path = fs.realpathSync(path.join('/Volumes', track_path));
+
         var track = new Track(track_path);
         current.add_track(track);
         break;
