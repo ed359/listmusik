@@ -31,17 +31,27 @@ gulp.task('postinstall', function(cb) {
   spawnSync('bower', ['install'],
     { cwd: '.', stdio: 'inherit' });
 
+  gutil.log('Setting environment variables for nw-gyp');
+  var nwpackage = require(paths.nw.package);
+  var nwtarget = nwpackage.version;
+
+  spawnSync('export', ['npm_config_target=' + nwtarget],
+    { cwd: 'app', stdio: 'inherit' });
+  spawnSync('export', ['npm_config_arch=x64'], // TODO: fix hardcoded x64
+    { cwd: 'app', stdio: 'inherit' });
+  spawnSync('export', ['npm_config_target_arch=x64'],
+    { cwd: 'app', stdio: 'inherit' });
+  spawnSync('export', ['npm_config_runtime=node-webkit'],
+    { cwd: 'app', stdio: 'inherit' });
+  spawnSync('export', ['npm_config_build_from_source=true'],
+    { cwd: 'app', stdio: 'inherit' });
+  spawnSync('export', ['export npm_config_node_gyp=$(which nw-gyp)'],
+    { cwd: 'app', stdio: 'inherit' });
+
   gutil.log('Installing node dependencies in app');
   spawnSync('npm', ['install'],
     { cwd: 'app', stdio: 'inherit' });
-  var nwpackage = require(paths.nw.package);
-  var nwtarget = nwpackage.version;
-  gutil.log('Compiling node-expat for nw version', nwtarget);
 
-  spawnSync('nw-gyp', ['configure', '--target=' + nwtarget],
-    { cwd: 'app/node_modules/node-expat', stdio: 'inherit' });
-  spawnSync('nw-gyp', ['build'],
-    { cwd: 'app/node_modules/node-expat', stdio: 'inherit' });
   return cb();
 });
 

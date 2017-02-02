@@ -18,17 +18,17 @@
   "license": "GPL-3.0",
   "devDependencies": {
     "del": "^2.2.0",
-    "fs-extra": "^0.30.0",
+    "fs-extra": "^2.0.0",
     "gulp": "^3.9.0",
-    "gulp-debug": "^2.1.2",
-    "gulp-jscs": "^3.0.2",
+    "gulp-debug": "^3.0.0",
+    "gulp-jscs": "^4.0.0",
     "gulp-jshint": "^2.0.0",
-    "gulp-mocha": "^2.2.0",
+    "gulp-mocha": "^3.0.1",
     "gulp-util": "^3.0.7",
     "jshint": "^2.9.1",
     "jshint-stylish": "^2.1.0",
-    "mocha": "^2.4.5",
-    "nw": "^0.12.3",
-    "nw-builder": "^2.2.0"
+    "mocha": "^3.2.0",
+    "nw": "^0.20.1",
+    "nw-builder": "^3.1.1"
   }
 }

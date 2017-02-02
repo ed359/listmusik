@@ -14,7 +14,7 @@ function gen_node (playlist) {
     // color: "#000000",
     // backColor: "#FFFFFF",
     // href: "#node-1",
-    selectable: true,
+    selectable: true
 
     // State: {
     //   checked: true,
