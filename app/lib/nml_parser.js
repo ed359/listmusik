@@ -148,8 +148,16 @@ NmlParser.prototype.init_parser = function (playlists_root) {
         //   track_path = track_path.replace('Macintosh HD', '');
         // else
         //   track_path = path.join('/Volumes', track_path);
-        track_path = fs.realpathSync(path.join('/Volumes', track_path));
-
+        try {
+          track_path = fs.realpathSync(path.join('/Volumes', track_path));
+        }
+        catch (e) {
+          console.log('file not found: ', track_path);
+          if (track_path.match(/^(Macintosh HD)/))
+            track_path = track_path.replace('Macintosh HD', '');
+          else
+            track_path = path.join('/Volumes', track_path);
+        }
         var track = new Track(track_path);
         current.add_track(track);
         break;
