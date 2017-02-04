@@ -1,11 +1,10 @@
 TODO
 ====
-  
+
   - Ideas
-    - write more mocha tests
-    - use datatables to allow user interaction with the tables
-    - parse Traktor playlist data
-    - implement 'export to usb'
-    - get an icon
-  - Bugfixing
-    - performance...
+    - better separate logic and ui
+    - define my own 'collection'
+      - use rekordbox xml spec as inspiration (ie just copy a subset of it...)
+    - create small collection.nml and rekordbox.xml for testing
+    - write importers for rekordbox (xml), traktor, itunes
+    - write exporters for rekordbox (xml), m3u

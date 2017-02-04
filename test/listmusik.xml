@@ -1,0 +1,80 @@
+
+<!-- Attempt at minimal specification -->
+
+<TRACK Name="Vaporware 07"
+       Artist="Donato Dozzy"
+       Album="Donato Dozzy Plays Bee Mask"
+       Genre="Ambient"
+       DateAdded="2017-02-02"
+       DateModified="2017-02-02"
+       Location="file://localhost/Users/listmusik/Music/Donato%20Dozzy%20-%20Donato%20Dozzy%20Plays%20Bee%20Mask%20%5b2013%5d/07%20-%20Vaporware%2007.mp3"
+       />
+
+<!-- interestingly rekordbox can also do keys by location! -->
+
+<NODE Name="MyFolder" Type="0" Count="2">
+  <NODE Name="Sublist" Type="1" KeyType="0" Entries="2">
+    <TRACK Key="5"/>
+    <TRACK Key="6"/>
+  </NODE>
+  <NODE Name="TestByLocation" Type="1" KeyType="1" Entries="1">
+    <TRACK Key="file://localhost/Users/listmusik/Public/Samples/Sci-Experiment.mp3">
+  </NODE>
+</NODE>
+
+<!--  FROM TRAKTOR  -->
+
+<ENTRY
+    MODIFIED_DATE="2014/6/2"
+    MODIFIED_TIME="69016"
+    AUDIO_ID="AV4AAAAAAAERERERERERERERERERERERERERERERESERIiIiIiIiIjM0QzMzMzMzMzMyMzRERDMzRERERERERERVZUVERURURVZ1RVRVVlVlZWVmZ2eYiXh3d5d3Z4eIh3d4d4h4iId2iYmKqHd4iImHh3iamYmYmKqbqap5qtu8zLuqq7vLu5uqu7mZiYm7qouZqquruqqZq8vMq7qrvKu7mrqrrLmpiKq7u6qZqru8uqiKrMurqIiKqpiId2ipmXiIdnd3h3ZVVmeHZVVUVVVUVDNFVURDMzMzMzMyIiIiIREREREREREREREREREQAAAAAAAAAAAAAAAAAAAAAA=="
+    TITLE="Vaporware 01"
+    ARTIST="Donato Dozzy">
+    <LOCATION DIR="/:Users/:listmusik/:Music/:Donato Dozzy - Donato Dozzy Plays Bee Mask [2013]/:" FILE="01 - Vaporware 01.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+    <ALBUM OF_TRACKS="7" TRACK="1" TITLE="Donato Dozzy Plays Bee Mask"></ALBUM>
+    <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+    <INFO BITRATE="320000" GENRE="Ambient" COMMENT="6A - www.NewAlbumRelease.net" COVERARTID="015/PQKIHYCPBY2AKCXT2V1PC2G3VHWD" KEY="6A" PLAYTIME="350" IMPORT_DATE="2014/3/21" RELEASE_DATE="2013/1/1" FLAGS="10" FILESIZE="13995"></INFO>
+    <TEMPO BPM_TRANSIENTCOHERENCE="250.235" BPM="250.235" BPM_QUALITY="100"></TEMPO>
+    <LOUDNESS PEAK_DB="0.0905364" PERCEIVED_DB="1.10538" ANALYZED_DB="1.10538"></LOUDNESS>
+    <MUSICAL_KEY VALUE="19"></MUSICAL_KEY>
+    <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="188.527" LEN="0" REPEATS="-1" HOTCUE="0"></CUE_V2>
+</ENTRY>
+
+<NODE TYPE="FOLDER" NAME="MyFolder">
+    <SUBNODES COUNT="1">
+        <NODE TYPE="PLAYLIST" NAME="Sublist">
+            <PLAYLIST ENTRIES="2" TYPE="LIST" UUID="edab5b866be84473a1911911f545894f">
+                <ENTRY>
+                    <PRIMARYKEY TYPE="TRACK" KEY="Macintosh SDD/:Users/:listmusik/:Music/:Donato Dozzy - Donato Dozzy Plays Bee Mask [2013]/:01 - Vaporware 01.mp3"></PRIMARYKEY>
+                </ENTRY>
+                <ENTRY>
+                    <PRIMARYKEY TYPE="TRACK" KEY="Macintosh SDD/:Users/:listmusik/:Music/:Donato Dozzy - Donato Dozzy Plays Bee Mask [2013]/:07 - Vaporware 07.mp3"></PRIMARYKEY>
+                </ENTRY>
+            </PLAYLIST>
+        </NODE>
+    </SUBNODES>
+</NODE>
+
+<!--  FROM REKORDBOX  -->
+<TRACK TrackID="4" Name="HORN" Artist="" Composer="" Album="" Grouping=""
+       Genre="" Kind="WAV File" Size="2010816" TotalTime="7" DiscNumber="0"
+       TrackNumber="0" Year="0" AverageBpm="0.00" DateAdded="2017-02-02"
+       BitRate="2116" SampleRate="44100" Comments="" PlayCount="0" Rating="0"
+       Location="file://localhost/Users/listmusik/Music/PioneerDJ/Sampler/OSC_SAMPLER/PRESET%20ONESHOT/HORN.wav"
+       Remixer="" Tonality="" Label="" Mix=""/>
+<TRACK TrackID="6" Name="Vaporware 07" Artist="Donato Dozzy" Composer=""
+       Album="Donato Dozzy Plays Bee Mask" Grouping="" Genre="Ambient"
+       Kind="MP3 File" Size="21728267" TotalTime="534" DiscNumber="0"
+       TrackNumber="7" Year="2013" AverageBpm="130.00" DateAdded="2017-02-02"
+       BitRate="320" SampleRate="44100" Comments="6A" PlayCount="0"
+       Rating="0" Location="file://localhost/Users/listmusik/Music/Donato%20Dozzy%20-%20Donato%20Dozzy%20Plays%20Bee%20Mask%20%5b2013%5d/07%20-%20Vaporware%2007.mp3"
+       Remixer="" Tonality="6A" Label="" Mix="">
+  <TEMPO Inizio="0.332" Bpm="130.00" Metro="4/4" Battito="2"/>
+</TRACK>
+
+<NODE Name="MyFolder" Type="0" Count="1">
+  <NODE Name="Sublist" Type="1" KeyType="0" Entries="2">
+    <TRACK Key="5"/>
+    <TRACK Key="6"/>
+  </NODE>
+</NODE>

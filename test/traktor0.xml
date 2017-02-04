@@ -1,0 +1,1524 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<NML VERSION="19">
+    <HEAD COMPANY="www.native-instruments.com" PROGRAM="Traktor"></HEAD>
+    <MUSICFOLDERS></MUSICFOLDERS>
+    <COLLECTION ENTRIES="448">
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            LOCK="1"
+            LOCK_MODIFICATION_TIME="2017-02-02T21:23:58"
+            AUDIO_ID="AMARERERERERERERERERERERERA92ktc3N20taZ9y0ta3NzEtpcsz97e3e3Vvtqt393d/v3Wnsmd////////////////////////zarYzdzarYp6uqnYqN3arayL3vzp/qzPv7/5zf393qlsVYu1NWZUI2RWZUI1lYh3KGmrm82Sr/////////////////3+///73/////////r////////+/v7+///v/4f//f/5b//////Xx7qbj////////////////////////////+zf////u////////////qiHxoWqiXxoWIyJiJm6eXyKd6VypnNaVyp3QREREREREREREA=="
+            TITLE="Dubstep 1"
+            ARTIST="Loopmasters">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="Loopmasters_Dubstep1.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="189720" GENRE="Dubstep" COMMENT="Tracks by www.loopmasters.com" COVERARTID="113/R1PI3ZDLWQMLAAASJ4B2AQZXI1ZD" PLAYTIME="193" PLAYTIME_FLOAT="192.078" IMPORT_DATE="2010/8/16" RELEASE_DATE="2010/1/1" FLAGS="30" FILESIZE="5040"></INFO>
+            <TEMPO BPM="140" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-2.78208" PERCEIVED_DB="0" ANALYZED_DB="-2"></LOUDNESS>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="52.3159" LEN="0" REPEATS="-1" HOTCUE="0"></CUE_V2>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            LOCK="1"
+            LOCK_MODIFICATION_TIME="2017-02-02T21:23:59"
+            AUDIO_ID="AM5CNVMlVBVVBVUTVTJVQVVQVVFWYzZkJmUWZzZ3NGZEd2Nnqd7Zvu///+zMfc2L7v///szJ3djO////7duN3Hzv///+zf6//q7u//7JgiNCEyRUQxAD7+7f3M7v393e//793f/9/dxGq5SJcpqmaZvOypz////6zf/c/8vf7d/b3//v/d3//v3v///+/////96zmEl0V3d4V3uunLvv////yMzd3N7v///8zJ3tjO////7dzKjMvv///9i+//79u+3+/8zv/+/bzt/f6+////7////97e/cv6uv3a+7tFd1N2YndyZmJGZDdlJ2YmZiRVMlVBVVBVUUVSNVQVVQUA=="
+            TITLE="Dubstep 2"
+            ARTIST="Loopmasters">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="Loopmasters_Dubstep2.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="184727" GENRE="Dubstep" COMMENT="Tracks by www.loopmasters.com" COVERARTID="113/R1PI3ZDLWQMLAAASJ4B2AQZXI1ZD" PLAYTIME="206" PLAYTIME_FLOAT="205.793" IMPORT_DATE="2010/8/16" RELEASE_DATE="2010/1/1" FLAGS="30" FILESIZE="5232"></INFO>
+            <TEMPO BPM="140" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-2.25263" PERCEIVED_DB="0" ANALYZED_DB="1.19005"></LOUDNESS>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="49.8047" LEN="0" REPEATS="-1" HOTCUE="0"></CUE_V2>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            LOCK="1"
+            LOCK_MODIFICATION_TIME="2017-02-02T21:23:59"
+            AUDIO_ID="APKv/////////////////////////////////////////7MmQSdSJkInYjZBJ0I2QSqjRkJIQ0YzWENXM1dEV1V+////////////////////////////////////////////////////////////////////////////////////5jRjRXNFY0VzRmNGc1Z1Z//////////////////////////////////////////////////////////////Yr///////////////////////////////////////////////////////////////////////////////////8A=="
+            TITLE="House 1"
+            ARTIST="Loopmasters">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="Loopmasters_House1.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="190756" GENRE="House" COMMENT="Tracks by www.loopmasters.com" COVERARTID="011/LISS4ZBT1Z23RAD1MCLUCXJALUBD" PLAYTIME="242" PLAYTIME_FLOAT="241.972" IMPORT_DATE="2010/8/16" RELEASE_DATE="2010/1/1" FLAGS="30" FILESIZE="5764"></INFO>
+            <TEMPO BPM="127" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.800759" PERCEIVED_DB="0" ANALYZED_DB="1.45162"></LOUDNESS>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="51.2119" LEN="0" REPEATS="-1" HOTCUE="0"></CUE_V2>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            LOCK="1"
+            LOCK_MODIFICATION_TIME="2017-02-02T21:23:59"
+            AUDIO_ID="ALmMzNy8u7vavMy83O/f/P7/z/39/97e/f/fz+3+/8/+7f/f7/3/79/9/v7P/v3+z+/9/+/f7f7/3+/9/+/f/f52RHVDJEQyVTM0ZUJHVUR1VEZUQ53/79/8/u/f/v7+3//9/+/f/f7/3+38/9/f/f/v3/3t/8/+/P/f7/3/7s/9/v/P/v3/3+/t/+/f/v7/3/79/t/f/f7vz/39/9/u/P/fz/3/79/97XZFdEI1RCNlMjVlM2dUNWVTVkVEvv7/3+79/9/v/f7vz/39/9/+/f/e3/3/78/9/v/f/+3/79/9/+/f/f3+3u79/t/f/f//3+39/9/v/f/v3/3udTIRAA=="
+            TITLE="House 2"
+            ARTIST="Loopmasters">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="Loopmasters_House2.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="190740" GENRE="House" COMMENT="Tracks by www.loopmasters.com" COVERARTID="014/OMVOCPABWOZBXAFNBSWEDZPZUIKB" PLAYTIME="185" PLAYTIME_FLOAT="184.869" IMPORT_DATE="2010/8/16" RELEASE_DATE="2010/1/1" FLAGS="30" FILESIZE="4428"></INFO>
+            <TEMPO BPM="127" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-1.00039" PERCEIVED_DB="0" ANALYZED_DB="1.95971"></LOUDNESS>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="54.4415" LEN="0" REPEATS="-1" HOTCUE="0"></CUE_V2>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            LOCK="1"
+            LOCK_MODIFICATION_TIME="2017-02-02T21:23:59"
+            AUDIO_ID="APJqmpqaqpqamqqampqqqqtEqpmZmqqZmqqqmaqaqqq6Nruqqqqqqqqsuqq6qqqquEm6qqqqqqqqrLq6qqq6u8ZbzLu8y7y7vMy7u8y7u8zVfMzLzMvMy8zM3dzd3d7v+q3///////////////7///j///7///7///7///7/////////////////////////7////////////////////6/qu7q7u7u6vMzMzN7d7v2c7///7///7///7//////+r////////////////////v/////////////////////9qqqqqqqaqsuqqqqqqqxzipqamqqampqqmpqaqpqrQA=="
+            TITLE="TechHouse 1"
+            ARTIST="Loopmasters">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="Loopmasters_TechHouse1.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="205985" GENRE="TechHouse" COMMENT="Tracks by www.loopmasters.com" COVERARTID="006/GQJQOXBXGIODMDHSCSMECL1RYYKD" PLAYTIME="242" PLAYTIME_FLOAT="241.972" IMPORT_DATE="2010/8/16" RELEASE_DATE="2010/1/1" FLAGS="30" FILESIZE="6212"></INFO>
+            <TEMPO BPM="127" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-2.46078" PERCEIVED_DB="0" ANALYZED_DB="-1.48503"></LOUDNESS>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="64.1302" LEN="0" REPEATS="-1" HOTCUE="0"></CUE_V2>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            LOCK="1"
+            LOCK_MODIFICATION_TIME="2017-02-02T21:23:59"
+            AUDIO_ID="APJqqqqqqqqqqqqqqqqqqqqqqruqu6q7uru6u7q6urq7y7rKusq6yrrKusq6yrrKy+7//////////////////////////////////////////7y7u7u8y7u7vLu7u7u7u7/////u/+//7v/v/+7/7//v/+//7//v/+//7//v//////7v/u/+///v/v//////////////////////////////////////////////////////////////////////////////////////////////7v/u/+//7v/u/+7/7//+/t3+3f7v/93+3f7d/u//6qqqqqqqqqqqqqqqqqqqoA=="
+            TITLE="TechHouse 2"
+            ARTIST="Loopmasters">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="Loopmasters_TechHouse2.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="197660" GENRE="TechHouse" COMMENT="Tracks by www.loopmasters.com" COVERARTID="096/AHFX1SCL4UHRFDBFZT0ACIBN253D" PLAYTIME="242" PLAYTIME_FLOAT="241.972" IMPORT_DATE="2010/8/16" RELEASE_DATE="2010/1/1" FLAGS="30" FILESIZE="5968"></INFO>
+            <TEMPO BPM="127" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-2.34398" PERCEIVED_DB="0" ANALYZED_DB="-0.223108"></LOUDNESS>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="63.2075" LEN="0" REPEATS="-1" HOTCUE="0"></CUE_V2>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            LOCK="1"
+            LOCK_MODIFICATION_TIME="2017-02-02T21:23:59"
+            AUDIO_ID="APJsvLy8vLy8rKysrKyrq6urq6urq6urq6urq6urq6pVZ7y8vLu7u7u7u7u7u7u7u7u7u7u7u7u6urq6urq6urq6y8vLy8vLy8vLy8vLy8vLy7q7u7vLy8u7y8vLy8u3d5/////////////////////////////////////////////////////////////////////////////////////9zc3Nzc3NzczMzd3d3e3v/////////////////////////////////////////////////////////////////////////////////////by8vLy8vLy8vLy8vLy8sA=="
+            TITLE="Techno 1"
+            ARTIST="Loopmasters">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="Loopmasters_Techno1.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="200600" GENRE="Techno" COMMENT="Tracks by www.loopmasters.com" COVERARTID="006/GQJQOXBXGIODMDHSCSMECL1RYYKD" PLAYTIME="242" PLAYTIME_FLOAT="241.972" IMPORT_DATE="2010/8/16" RELEASE_DATE="2010/1/1" FLAGS="30" FILESIZE="6056"></INFO>
+            <TEMPO BPM="127" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-2.41171" PERCEIVED_DB="0" ANALYZED_DB="0.772619"></LOUDNESS>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="65.0531" LEN="0" REPEATS="-1" HOTCUE="0"></CUE_V2>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            LOCK="1"
+            LOCK_MODIFICATION_TIME="2017-02-02T21:23:59"
+            AUDIO_ID="AQF8zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzNzMzMzczczMzMzMzczMzMzMzMzczMzMzM3MzczdzNzM3M3dzdzN3N3d3t3e3O7d7t7+7//////////////////////////////////////////////////////////////////////////////////////////u7u7v///u/+7u7u7u//////////////////////////////////////////////////////////////////////////////////////////////////////zMzMzMzMzMzMzMzMzMwA=="
+            TITLE="Techno 2"
+            ARTIST="Loopmasters">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="Loopmasters_Techno2.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="194885" GENRE="Techno" COMMENT="Tracks by www.loopmasters.com" COVERARTID="006/GQJQOXBXGIODMDHSCSMECL1RYYKD" PLAYTIME="258" PLAYTIME_FLOAT="257.097" IMPORT_DATE="2010/8/16" RELEASE_DATE="2010/1/1" FLAGS="30" FILESIZE="6244"></INFO>
+            <TEMPO BPM="127" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-1.28112" PERCEIVED_DB="0" ANALYZED_DB="0.0939924"></LOUDNESS>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="63.2075" LEN="0" REPEATS="-1" HOTCUE="0"></CUE_V2>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAdt27/v/XZWZnZVZ3dq///v/Ll4iId2ZmYzVUAAB92s//+6iHZTEAAAE1UwAAAAEQF3YxAACvQAAlVVIAAb8xAF3rv+/+ZlVTIkVBAAX//+/5dmVVMhAAAM///vt63tuZ//yYdli6l1IUZ2Z4hkERAs25ZBADMAACv8qIZlEAAAXNu/7/9mVVMQAAAABP////y5eIiHdmZmMlVBAAbdu///uph2UxAAABNVMAAAABEBZ2MQAAj1AAFVVSAACvQQBM7L/v/3ZVUyJFUQAD////+ndlVEIQAACv//37ed7bmf/9qHZXu5hjE2Zmd4ZCAAK9yXQQAlMyI6/bmYh3ZlZw=="
+            TITLE="Break Butcher 140"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="Break_Butcher_140_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="7" PLAYTIME_FLOAT="6.85717" FLAGS="14" FILESIZE="1840"></INFO>
+            <TEMPO BPM="69.9998" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.0999407" PERCEIVED_DB="1.4383" ANALYZED_DB="1.4383"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAff/5bv/P//2f//pv/9///pZkMiES//2Y/////+hmQyAP/7YyEREQAAAAAAAAAAAAAyEQAAAAAAAAAAAAB//7ff//m976///73/+2//3///pmUyEAD//6f//v//+WZDIAz/+EIRAAAAAAAAAAAAAAAc2oUyEREBET//ua/+///9n/+4r/3///uv/7e//f//+2ZDIQAK//pv/9///6ZlMgCP/4UhEAAAAAAAAAAAAAAAAAAAAAAAAAAzIQAAH//Jn//6js/N///Z//yJ/+///9hlMxAAb/+33/3///t2UyEE//lTEQAAAAAAAAAAAAAAAkIQAAAAAAAP//p//+///w=="
+            TITLE="Break Cent 142"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="Break_Cent_142_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="7" PLAYTIME_FLOAT="6.76057" FLAGS="14" FILESIZE="1816"></INFO>
+            <TEMPO BPM="71" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.0999994" PERCEIVED_DB="2.13524" ANALYZED_DB="2.13524"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAf////////oIWZDIREAAAAB////////1xF1MiEREAAAAf/////96nMSVDIhEREREREREREAAAAAA+26mHVEMiIb///////9oxVkMhEAAAAAD////////YIWZCIREQAAAA//////3rdBK7zMzMy7uqmZiIiHdmVURV///////u3Zr////////DE3QyERAAAAAL///////9oxV0MhERAAAADf/////ux1IUVDIRERERERERERAAAAAAC+yql1RDMiFP///////9USdTIhEAAAAAb///////7EE4QyEREAAAAI//////7XYhNUMiERERERE2QREAAAAAAJ7LqYZEMyIQ=="
+            TITLE="Break Clocks 142"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="Break_Clocks_142_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="7" PLAYTIME_FLOAT="6.76057" FLAGS="14" FILESIZE="1816"></INFO>
+            <TEMPO BPM="71" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="2.27797e-05" PERCEIVED_DB="3.6553" ANALYZED_DB="3.6553"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAd83Y3pVFeId3ZlRDMyrd1/2FRXiHd3dUWDIREREQAAArzoh3d3dlVEYhEiIiEAAATO2r+mVGd3ZmMzQ0Mlh3c2zejelUV4h3dmVEMzKt3X7YVFeId3d1VYMhERERAAACvOiHd3d2VURiESIiIQAABM7av6ZUMkVomHeHh2d3iHjN6N6VRXiHd2ZVQzMp3dfthUV4h3d3VVgyEREREQAAK86Id3d3ZVRGIRIiIhAAAEztqvtlRnd2ZjMzNDJYd3Ns3o3pVFeId3ZlVDMynd1+2FRXiHd3dVWDIRERERAAArzoh3d3dlVEYhEiIiSMqFS+2q+2VWZDJJiIeIdneIdw=="
+            TITLE="Break Clickie 141"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="Break_Clickie_141_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="7" PLAYTIME_FLOAT="6.80853" FLAGS="14" FILESIZE="1828"></INFO>
+            <TEMPO BPM="70.4998" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-0" PERCEIVED_DB="2.72203" ANALYZED_DB="2.72203"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AA7dIAAAAABPcVYxAAAAAAABpRAAAAAAAAARAAAAeYh2R/YQAAAAAO8xdSEAAAAAAASjEAAAAAD7IBAAAAz4iHVO4wAAAAAD+BRjEAAAAAAACmIQAAAAAAABEAAABpiIZG9xAAAAAAv0F1IQAAAAAAA6MQAAAAAPsJ8wAACWAB+yrzAAAAAAL5E3QQAAAAAAAJchAAAAAAAAEQAAAGmIhlX4EAAAAACfQWUhAAAAAAADsxAAAAAA/jARAAAI+Yh1SvQAAAAAAfojdCAAAAAAAAiCEAAAAAAAARAAAAWYiGVfkgAAAAAI9RZjEAAAAAAAK0EAAAAADfFvQAAAXIeHVA=="
+            TITLE="Break Airy 138"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="Break_Airy_138_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="14" PLAYTIME_FLOAT="13.9131" FLAGS="14" FILESIZE="3668"></INFO>
+            <TEMPO BPM="68.9999" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.100038" PERCEIVED_DB="10.2857" ANALYZED_DB="10.2857"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAf//////cuXMSIiEAAAAAAANEMzMzMjIiIzIhEREhAAAv//yGRDEAAAEAAAAAAAAAb//////buFITIQAAAAAAAK/////+zKdBAAAAAAAAAAATQhAAAAAAABIRAAAAAAAAn//ZZUQQAAAAAAAAAAAAAv/////typUhIhAAAAAAAAb//////bqEISIiEAAAAAACRDMzMzMiIiMzIRERIRAACP/9llRCAAAAAAAAAAAAAB//////3LljEiEQAAAAAAAv/////typUgAAAAAAJUMyE0IQAAA1QzITIQAAA////67+ynVEIAAA3/////gAAAD//////ctQAP/////925Yw=="
+            TITLE="Break Atmos 142"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="Break_Atmos_142_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="7" PLAYTIME_FLOAT="6.76057" FLAGS="14" FILESIZE="1816"></INFO>
+            <TEMPO BPM="71" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="3.93468e-05" PERCEIVED_DB="2.10461" ANALYZED_DB="2.10461"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAev/6r6rPuN37h0IQAC//+t66n838p3IABnZCEAAAAAAe3JmGVUMyIjZTIQAAFFQhJUMQAAAAAAAnZTEAAAAAAJ//t/ir3L/9mHQhAAL//ovIrNu/63cgAFdkIQAAAAAB3cmYZVQzIhJlMhAAAUVCEVQxAAAAAAABdlMQAAAAAAj/+m+rzMz/+YdCEAAe//rNmszb/sdyAAV2QhAAAAAADNyZhlVDMiEmUyEAABRUIRVDEAAAAAAAF3UxAAAAAAB//7fpq82u/ah0IQAB7/6a2Lzcv+x3MACuyZl2VDMiElZUQzMzVmRDVTIAAERmZDRlVUVEEkVCEXdVVFVWd2ZQ=="
+            TITLE="Break Bolo 140"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="Break_Bolo_140_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="7" PLAYTIME_FLOAT="6.85717" FLAGS="14" FILESIZE="1840"></INFO>
+            <TEMPO BPM="69.9998" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.282074" PERCEIVED_DB="2.11571" ANALYZED_DB="2.11571"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAeu////qPxo+GioqYp/7/7v/X7obrWKipinp4l5aEMjN/3+7v+LtpjGmJp6iL/f/f/5n7euaImouvyodlZnh4ab//7v/X/ofqWKiqin7+/t/+ffltxIqKmKenmIlpaWh5/f/u/5r7euaImoqJr9/+7/qPyJ53eqi5/Kl2RUZ3hpr+/+/9b+dvpJhpeJff7+3/98+mzUiYuJlnV2iHlkIybt/+7/qelY1peaenmf3u3/+4/YjoZ6man9qXZWWHh2mf7/7/59+W3EiYuJl8/f7u/4v6a9WJi4qYp6eXiHlpad7/7v+4/IjoZ6mKeo/v/u/8f+h+pYqJqP25d1VHaHeA=="
+            TITLE="Break Attack 139"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="Break_Attack_139_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="7" PLAYTIME_FLOAT="6.90649" FLAGS="14" FILESIZE="1856"></INFO>
+            <TEMPO BPM="69.4999" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-0" PERCEIVED_DB="3.35651" ANALYZED_DB="3.35651"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AAe/yMZ1URESIiAAAAAO+KiXQhAAAAAAAAAQAAAAAAAAAv/pUREAAAAE5REAAAAAAAAAAAAATsp1MhEAAAAAAAAJ+4d0IQAAAAAAAAAA77l3ZCAAAAAAAAABAAAAAAAAAC/+pSEQABfMtjMyEREAAABfqXZkJNuXUyEQAAAAAAAAf/qXv/u5Z0EgAAAADP+6y7urpTEAAAAAEAAAAAAAAAH/6lIiEAAAA+UQAAAAAAAAAAAAAE25dTIRAAAAAAAAB/58zcyrpVMhAAAAAM/WaZqpuDIRAAAAAQAAAAAAAAAf/qYiIQAVhnUzMhERAAAAT/ac3LnJh1MhEAAAAAAAAA=="
+            TITLE="PercLoop Broken 141"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="PercLoop_Broken_141_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="7" PLAYTIME_FLOAT="6.80853" FLAGS="14" FILESIZE="1828"></INFO>
+            <TEMPO BPM="70.4998" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.100016" PERCEIVED_DB="3.92652" ANALYZED_DB="3.92652"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AA4iIRERIyESIhEREzIRERABqmQzIjIhFEIhERMiIREUNEMiJ4VTIiMiERATIhERESXJZDIiMhEjIRERNUMyERESMiEREjIRIyERESMhEREACrdDMiMyEUQiEREyIhERQ0RDIjITIhIzIREBZDh1MyE7h2QhIyESMiQyElRHaXmZdTIRESMhEjIRERIyEREQAJt0MzIzIRRCIRETIiERFDNDIieGUyIjIhEQEyIREREkymUyIkIhIyERESVDMhEREjIhERIyESMhEREjIRERAAfIQzIjMhFEMhERMyIREUQ0QyIyEzIhMyERAVQ4dUMhK5dkIRMiETIhERJUMyEREQ=="
+            TITLE="TopLoop Rides 142"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="TopLoop_Rides_142_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="14" PLAYTIME_FLOAT="13.5211" FLAGS="14" FILESIZE="3568"></INFO>
+            <TEMPO BPM="71" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.0998224" PERCEIVED_DB="4.70225" ANALYZED_DB="4.70225"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AA4AAAAAYQAPkv+XUwAlEB+3ZCAv4jUQKmMQAAABQAAAAAAAAAJQAG9G+oZBAFQAj4dTEN9xUwBoQgAAAAQgAAAAAAAABhAA6S/5dTAAAAL9h1IC/iAAA/pBAAAAFAAAAAAAAAAlAAX0X6hkEAAADPl2MQz3EAAL5iEAAAB3MAdkAAAAAFIADpL/l1MAJSAft2QgL+MlECpjEAAAAUAAAAAAAAACUABfVfuGQQBEAH+HUxDPcVMAaUIAAAAEIAAAAAAAAAYgAOkv+XUwAAAC/YdSAv8wAAP6QQAAABQAAAAAAAAAJQAF9V+4ZBAAAAv5djEM9xAACvcxAAAAQgAAAA=="
+            TITLE="PercLoop Minimal 139"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="PercLoop_Minimal_139_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="14" PLAYTIME_FLOAT="13.813" FLAGS="14" FILESIZE="3644"></INFO>
+            <TEMPO BPM="69.4999" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.0998171" PERCEIVED_DB="0.360771" ANALYZED_DB="0.360771"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AA4RAAAAJjEAABAABFIAAAER2jAAAAAAAAAAAAAAAAAAADIQAAFlEAAAAAAWQQAAAAXmEAAAAAAAAAAAAAAAAAACIQAAA3MQAAEAAEYgAAARHLMAAAAAAAAAAAAAAAAAAAMxAAAFUQAAAAABZBAAAABOcQAAAAAAAEy1AZpgA1QQEhAAACYxAAAQAARiAAABEbxAAAAAAAAAAAAAAAABEREzERERVSERERERJkEREREU5xAAAAAAAAABARAAAQEAAiERERJjERERERE2IAEAEQvEAAAAAAAAAAAAAAAAAAADMQAABVIAAAAAAWQQAAAAPoIAAAAAAAA8tgGKcQJEEA=="
+            TITLE="TopLoop Springy 140"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="TopLoop_Springy_140_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="14" PLAYTIME_FLOAT="13.7143" FLAGS="14" FILESIZE="3616"></INFO>
+            <TEMPO BPM="140" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.0998904" PERCEIVED_DB="5.19044" ANALYZED_DB="5.19044"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AA5qcyVCEhEQACIRFmQiEQAAZCEAABEQAAAQAAAAERAAAAAAFSERECgxAAAnUzQgAANjEAAAERAAAAAAAAAREAAAAAA0ISEQAAAAAEdCIRAABlIQAAARAAAAAAAAAREAABqEAVIiIQHWEhEBdUdTETE3QhEAJSEBMjZCFJVGIRFTW4QlUyMhEREjIRR0MhEBEFUhARAREAAAEQAAABEQAAAAAAUhERAYMQAAF1MkMQACcxAAABEQAAAAAAAAERAAAAAAJCEREAAAAAA3QyEQAAVSEAAAEQAAAAAAAAARAAAIlQBTISEByCIRAXZHVBEiJ0IRABUhATI8UhEQKzECgQ=="
+            TITLE="PercLoop Delayed 142"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="PercLoop_Delayed_142_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="14" PLAYTIME_FLOAT="13.5211" FLAGS="14" FILESIZE="3568"></INFO>
+            <TEMPO BPM="71" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.0999962" PERCEIVED_DB="6.08612" ANALYZED_DB="6.08612"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AAff/IUyEBEREREREAAf/7hTIRAREREREQBnQhERERERETIQAAAFUjIRZSEREBYxERJUQyIhGbl1Nv///9uXZDIZ/9lkMRERERExEREA//2VM0IRERESERAEhCIREREREQIhEAAARiIhFWIREQFTEREVNTMiEXuXUydCERERIREAX/6mQhERERERERAACv/ZYyEQEREREREAOFMhEREREREjEQAAA3MiIUYxERAEQhERU1MyIRW6djP////sqGVDI//6dTIRERERMhERAF//p0JSEREREhERAoUyEREREREBMRAAACcyMhJzEREQNSERFEUzIiE7qGQv/9hSEBEREQ=="
+            TITLE="PercLoop eBossa 142"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="PercLoop_eBossa_142_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="7" PLAYTIME_FLOAT="6.76057" FLAGS="14" FILESIZE="1816"></INFO>
+            <TEMPO BPM="71" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.100022" PERCEIVED_DB="1.17935" ANALYZED_DB="1.17935"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AA7PllIAIwAvt1QQAAD/qGZDuDEAAAAAAAAyAAAAAABbUkIAbDAxAJ+WUwBZR/+XZUa1IQAAAAAAAUEAdyN1Iag7+XUwATAB/IhSEAAP+4dkOoMQAAAAAAADIAAAAAAEtSMgAAADIAf5dTEElW/5hlRcYhAAAAAAABQQBnInUhqDn5dTABQAD9hkIAAAz7l2Q6lBAAAAAAAAIwAAAAAAPGIyAE1AMgBvp1MQSlX/mGVFxiEAAAAAAAFBAFgidSGZSPp1MQFBAP6IYxAACvyXZDiUEAAAAAAAAjAAAAAAArYjMAAAAyAE+nUxA6VP+YZUS2MQAAAAAAAEEASSF1MYpA=="
+            TITLE="PercLoop Airy 138"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="PercLoop_Airy_138_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="14" PLAYTIME_FLOAT="13.9131" FLAGS="14" FILESIZE="3668"></INFO>
+            <TEMPO BPM="68.9999" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.100079" PERCEIVED_DB="3.55923" ANALYZED_DB="3.55923"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AAdNuFRERDMiIRERAAAF7JZVQzMyIiIREQCcllZlQiIRAbyWVVUyIhEREREQABz+p3dDIiEREREQBKhTIiNkVDMouWVWZUMzIhIREQAATbdUMzIiIREQAAAI2mV3ZDIiESvqZEQzIiIRERERAACP6FVSEREQASMhEFtjIjMzIhEReEMiNEVEMyIxEQAAAs2nVVMyIhEREREArJZWZUIiERK9p1VVQiIhERERAAAe/Zd3QyIhEREREAKZYzIjZFQzNtuGVVVDMyIiEREAAD24VDMyIiEREREAC/2GeIUiIiEUUxERAG/5VVd2REMxEyERKVMhEiVDIiI7hCIiIiEREA=="
+            TITLE="PercLoop BongFil 140"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="PercLoop_BongFil_140_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="7" PLAYTIME_FLOAT="6.85717" FLAGS="14" FILESIZE="1840"></INFO>
+            <TEMPO BPM="69.9998" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="4.97012e-05" PERCEIVED_DB="4.40137" ANALYZED_DB="4.40137"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            AUDIO_ID="AA5bmYeJqZmpmpmJqpl4qpqImHicx3iauqmHmYu5d3eKmZmIqbiaqImLqpiIqIm3iqqqqrqsiaqavId6qZnPypmpnZeamKqomqu7p3uYiZeJu7mKuYl3eJh4qpiIqZmYiaqamqqYmZmpu7qpqqu4mqqYmaqZnMzOx1isvs7/z/6IvJirqauruqu7u8ypmJu6mb3bvLq8y6rLqYiburvMu5iZnMyqqqu8p3rKqpq8qJqamJmpmaqqqIqYqs3Lq93KqpqqmZmqqquomaitmcuJrLu6mJq6qWebqZmr3ZnMysu7iHirvMyqu7uYi6q8qampiaztqtu6vsqqy8zLvLq9yw=="
+            TITLE="FXLoop Mercury 138"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="FXLoop_Mercury_138_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="14" PLAYTIME_FLOAT="13.9131" FLAGS="14" FILESIZE="3668"></INFO>
+            <TEMPO BPM="68.9999" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="2.87872" PERCEIVED_DB="1.71125" ANALYZED_DB="1.71125"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AAciAAAAABEAAAAAAAAAIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASEAAAAAAAABIQAAAAEhAAAAAAAAASEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQQAAAAMwAAEhAAAAASEAAAAAAAACIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAARAAAAABEAAAAAAAAAIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARESIiIg=="
+            TITLE="PercLoop Clickie 141"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="PercLoop_Clickie_141_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="7" PLAYTIME_FLOAT="6.80853" FLAGS="14" FILESIZE="1828"></INFO>
+            <TEMPO BPM="70.4998" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="1.27393" PERCEIVED_DB="18.9004" ANALYZED_DB="18.9004"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            AUDIO_ID="AA7v////+azf//pRERH////e///5Mv//9hL////////tzf7uMRJ2JPsj+yX6Jf////+p///////////ou83+uoY3/f////////xTEREf////////Yy///zEv////////7M/d/2IWYi//h3IREV//+FRam+7///////qszNh5xq/p//////3v///qcRERz//9u//v+UHv//YR/////////////2ISmTP8I/gj+yT/////6s3v//////+pvLmt/Jn+fP////+aze/+hyERHP///d///8Ud//+RH/7//////rq7/s9RGtQv/4VSEREv//6Gfbq+11VXvv7IdY/HWHmuxQ=="
+            TITLE="FXLoop Dagger 140"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="FXLoop_Dagger_140_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="14" PLAYTIME_FLOAT="13.7143" FLAGS="14" FILESIZE="3616"></INFO>
+            <TEMPO BPM="69.9999" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.0999072" PERCEIVED_DB="1.91576" ANALYZED_DB="1.91576"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            AUDIO_ID="AA6f//7v1URERs////ynZndU3//f/paGVVXf/v+/lWVmSLyr7qpUNFVDVVVmMyIiIhEiIRIhEAAAEBAAAAAAAAAAAAAAAQAAAAa6/6zJRGY0Sd/92thXdVRay926t0RVRFze3Mq3VURDXO//7+dXdlVr///q9mZnVJ/+vu66hUVVf////+dmZ2a/////t3ZmZo7/zJplhlQzv//937eHZVe/uK6pZkM1Q1VERDMiEREREiIRERAQAAABAAEAAAAAAAAAAAEQAAAF/9/JuJdWQ0W725bIRFQySOy/updURUQ3zdz+90VVdW7///76dmZVbP///vpmVmWP//7el4hVVQ=="
+            TITLE="FXLoop NesOriental 138"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="FXLoop_NesOriental_138_C_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="14" PLAYTIME_FLOAT="13.9131" FLAGS="14" FILESIZE="3668"></INFO>
+            <TEMPO BPM="68.9999" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.100199" PERCEIVED_DB="-1.03453" ANALYZED_DB="-1.03453"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            AUDIO_ID="AAeP/5RIRUMzMzRkIRAV//UjZFQzMzNUMhLP/jJFVDMzOP/5rEYkIzM0ZlIREQIiIiIhEAAAAREREREAAAAAAAAF//lCdGQ0MzNFMhEBP/9iJTQyMiIkUxEW//YkZFQzM2//rKRjQjMzRmQhEQEiIiKv/6iGR7qpmYdkIiESMyIib/+kKFZkRERDVDIRFf/UI1NDMzMyQyIR7/8yJkVDMzb/+9tWNCMjNGZSIhEBIiIiIRAAAAERERERAAAAAAAAB//7c4RlNEM0RkIRAT//czhGU0RE//9zWVZURERVUyE//82lc0IzMzVlIRET//qHVUmZiIiGQiJEETQRGP/6WQ=="
+            TITLE="FXLoop Koroed 140"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="FXLoop_Koroed_140_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="7" PLAYTIME_FLOAT="6.85717" FLAGS="14" FILESIZE="1840"></INFO>
+            <TEMPO BPM="69.9998" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.10002" PERCEIVED_DB="0.139496" ANALYZED_DB="0.139496"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            AUDIO_ID="AA4REREREiIjMzMzMzMyMyMzIQEREREiIzM0RERERWVVZkEjMzVnh2m6upmqqZiJmIgxIiIjNEVWZmZmZ2ZlZWVUEREREiIzMzMzMzMzMzMzMhAREREiIzM0RFVWZneJq6YiM0V2d4nbu7u8qqqsmqmVEiMzREVmdnd3dmZmZlVWUhESIiIzNERERERDNERDMzEREREiIjMzMzMzQzREREQxERIzM1Z4d4mZiHh4iHh3QRIiIjNEREVFRUVERERDQxERERESIiIyMiMyIiIiIjIAARERESIiMzMzMzRFVFZlIiIiRFZWd3mIiHiId3h4dBEiIjM0RVRVVUREREQzQw=="
+            TITLE="FXLoop Dissonance 140"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="FXLoop_Dissonance_140_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="14" PLAYTIME_FLOAT="13.7143" FLAGS="14" FILESIZE="3616"></INFO>
+            <TEMPO BPM="70" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.000178097" PERCEIVED_DB="-1.82623" ANALYZED_DB="-1.82623"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            AUDIO_ID="AAc3V0VFVVh2RWZWVodpQ0dmVkWIl3hZVVZ4iGZ4l5mKmpaIiWi5mrmLqr3+7+252emL6bvr3+/v//zv/9r6r/u9g0dmV4ZkZ3ZXhVZWWFVEZ0Z3iGmWWXdoZ4pnVqdWi7t9d6iHmYqNu5nqi87/r7z+6+73/7iL/c/f/t7t/t65yHZEVlVGVYZWdnRlVIdmVoh3ZYiGZ4iIp3mJl2eZqHi6m6d4nJmsrJd62cm62L+7ysyu/92q3dvf7Ozv7r3d38hVVVVVVlZVdmhVVWhmVlZmVVaJZpZpRWipeXdplleJuYmou0iFnKy5utqt28/O7v+Ovfrv///933r+yN/8vQ=="
+            TITLE="FXLoop Computermind 140"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="FXLoop_Computermind_140_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="7" PLAYTIME_FLOAT="6.85714" FLAGS="14" FILESIZE="1840"></INFO>
+            <TEMPO BPM="70" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-0" PERCEIVED_DB="0.695686" ANALYZED_DB="0.695686"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AAcAAAAAADcgAAAAAAAARxAAAAAAAAAAAACFUhAAAAAAAYpEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABABERERERAAAAAAAAAAAAAAAAA3IAAAAAAAAAAAAHViEAAAAAAAijQAAAAAAAAAAAAAAbhSJyAAAAABERERERERERERIiIAAAAAAnMAAAAAAAADcgAAAAAAAAAAAAZmMQAAAAAAB7ZRAAAAAAAAAAAAAAAAAAAAAAAAAQARERERERERERERAAAAAAAAAAAAAAAAJzAAAAAAAAAAAABWYxAAAAAAAHx0EAAAAAAAAAAAAACZUyVAAQERERERERERERESuFMw=="
+            TITLE="PercLoop Mist 139"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="PercLoop_Mist_139_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="7" PLAYTIME_FLOAT="6.90649" FLAGS="14" FILESIZE="1856"></INFO>
+            <TEMPO BPM="69.4999" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="7.24807e-06" PERCEIVED_DB="6.23425" ANALYZED_DB="6.23425"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAfv//////////////////////////////////////9BAf///GQSf///9VVf/99kMQP/////////////////tCAJ///////////////////////////////////8QQAAAAv//////////////////////////////////////3EAr/////////////////////////////////////////////wgAE///5IACP//wgAD///qd3Jv//9QAB///+MAA///////////////////////////////////////xBAf/////////////////4AALv/K2rvO3///7/7v7///2w=="
+            TITLE="BassLoop Eastcoast 140 Bm"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="BassLoop_Eastcoast_140_Bm_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="7" PLAYTIME_FLOAT="6.85717" FLAGS="14" FILESIZE="1840"></INFO>
+            <TEMPO BPM="69.9998" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.000867741" PERCEIVED_DB="3.03197" ANALYZED_DB="3.03197"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAca//////////////////////////////////////////kxAAAAAAAAAAAAAAAAAAP///////////YQAAAAAAAF///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8QQAAAAAAAAAAAAAAAAAAv//////////2IQAAAAAAAf/////////////////////////////////////////8/////////////////////////////////////////w=="
+            TITLE="BassLoop Wobble 139 Cm"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="BassLoop_Wobble_139_Cm_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="7" PLAYTIME_FLOAT="6.90649" FLAGS="14" FILESIZE="1856"></INFO>
+            <TEMPO BPM="69.4999" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="1.81882" PERCEIVED_DB="6.73351" ANALYZED_DB="6.73351"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAdv/+/u/+/u/ezuzLqpiZrMvcvMvMu7qqj/+P2P2P2Pt/g/w/5d97+r/q36v6nrrMxd9v+u/O/e/K/Pv7+vr6/Pv///tmev/WR//////dg83///3//3Tv////1m//////////11ff///6Uz////10N////9hDX/7uylNP///+hDn//+7///7+387ty7qYiay82827yquZqI//j/jvfuX/XvWvl/2O6d2d2bzZr5n73879/t/t/d/c7/zM++v6+v39///beJz/1kXf//7//9VFeaInuHdn//3O////////7b///+pUf////GM8////lTT////pUz///cxjP////5Uw=="
+            TITLE="BassLoop Downbit 139 Gm"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="BassLoop_Downbit_139_Gm_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="7" PLAYTIME_FLOAT="6.90649" FLAGS="14" FILESIZE="1856"></INFO>
+            <TEMPO BPM="69.4999" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-0" PERCEIVED_DB="-0.552101" ANALYZED_DB="-0.552101"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAdP/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w=="
+            TITLE="BassLoop Diver 139 Dm"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="BassLoop_Diver_139_Dm_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="7" PLAYTIME_FLOAT="6.90649" FLAGS="14" FILESIZE="1852"></INFO>
+            <TEMPO BPM="69.4999" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.0999721" PERCEIVED_DB="3.64772" ANALYZED_DB="3.64772"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            AUDIO_ID="AAcBIiIzMzM0VVVmh5mr2939vv7/3fzN3e/v//y///+q3/UiIjIhIiEiIiMzMzMzMzNEM0M0MzMzMzM0Q0NEM0RCEAAAAAAAAAAAAAEQEAAQERERERERERIhIiERIRERIiEAAAAQEBARERIiIzIjNERUU1VVZmZlVVVld3h2d4l4YQAAAAAAAAAREREREREhIiIiIzMzIzRTM0QzRFZUVVV0EREzMjM0NEZFVnd3isqIms27zszM/c//7v///////7Q0NWVkaFZoiKur/+////z////////////////f///+lDRFVlVmaIZ4qdzMvd3f/////////////+7u3t3t3A=="
+            TITLE="FXLoop Apocalypse"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="FXLoop_Apocalypse_140_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="7" PLAYTIME_FLOAT="6.85714" FLAGS="14" FILESIZE="1840"></INFO>
+            <TEMPO BPM="70" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="6.21263e-06" PERCEIVED_DB="-0.718658" ANALYZED_DB="-0.718658"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            AUDIO_ID="AA5HZmd4iIiIiHh4eIhVVVVVWGh3hpd4aXcgAAAAMiMjI0l4cQJ4eVEBl4hQADVlYxFoh3iIiId3d2ZmZmZVVVVVZ3iIiIiIiIiIiIiHZmZnaHl4h5eIeXiHl4h5ZmVnVlh4hhAHeXcQFod4EBNUMSRXh4h3d3d1ECZmZmZlVERERneIiHiIh4h3eHiHdVVVVUl4h5eIeXiHMAAAADMjIyJYh4IBWXhyAXh5UQA1ZVMhd4h4iIiId2Z3dmZmZmVmZmd4iIiHeIh4iHiIhlZVVlZoh5eIeXiHl4d4eHdWVlVWh5YgCHmHEAd5eBAEVDEjVXZmZmZmZSAWdmZmVVRERA=="
+            TITLE="FXLoop Engine 140 Gm"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="FXLoop_Engine_140_Gm_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="14" PLAYTIME_FLOAT="13.7143" FLAGS="14" FILESIZE="3620"></INFO>
+            <TEMPO BPM="140" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="1.1972" PERCEIVED_DB="4.83192" ANALYZED_DB="4.83192"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAev///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8p1ISQzNERDMhFYm8kiEEhUVq/////////////+2nZUVEVWnu3////////////w=="
+            TITLE="Bassloop Reeeeze 142 Cm"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="BassLoop_Reeeeze_142_Cm_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="7" PLAYTIME_FLOAT="6.76057" FLAGS="14" FILESIZE="1816"></INFO>
+            <TEMPO BPM="71" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="1.03544e-06" PERCEIVED_DB="2.01099" ANALYZED_DB="2.01099"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAd////////////4hTMu///////////9ZzT//////vyGRf/////////////8qf///9+m/////fx9/////9bP////////////////qlUzv///////////qnVN//////+aVT/////////////7iV7////Ydf////////////////////////////////39i////////////4hUr//////+mESf/////////////an////Ptp////3+ef/////4v////////////////6pWIy///////////5djRf/////5iEU3//////+/////+o2Y////n6T//////Kr///+v1e///w=="
+            TITLE="BassLoop Borg 138 Cm"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="BassLoop_Borg_138_Cm_PL.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Dubstep" PLAYTIME="7" PLAYTIME_FLOAT="6.95653" FLAGS="14" FILESIZE="1868"></INFO>
+            <TEMPO BPM="68.9999" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="1.03544e-06" PERCEIVED_DB="-1.45793" ANALYZED_DB="-1.45793"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51708"
+            AUDIO_ID="AAi/zdze///ty5h2VUMzIiIS/9/e7////cuodlVEMyIiFP3Nze7//uzKl3ZUQzJDIhj+7t7v///tuphmVEMyIiEc/NzN7//+3LmHZVQzMiIhL/397v///+y5h2VUQzIiIU/c3M3v/+7MqXdlRDMkMiGP7u3u///+26mGZUQzIiIRz83M3v//7cuYdlVDMyIiEv/f3u////7LmHZVRDMiIhT9zc3u//7sypd2VEMyQyIY/u7e7///7bqYZlRDMiIhG/zcze///ty5h2VUMzIiIS/9/e7////suYdlVEMyIiFP3Nzd7//uzKl3ZUQzJDIhf+7t7v///tuph2VEMyIiEQ=="
+            TITLE="A1 909 Kick Solo"
+            ARTIST="Subb-an">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="A1 909 Kick Solo.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Deep House" PLAYTIME="8" PLAYTIME_FLOAT="7.74197" FLAGS="14" FILESIZE="1400"></INFO>
+            <TEMPO BPM="61.9997" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.000530161" PERCEIVED_DB="3.26395" ANALYZED_DB="3.26395"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51708"
+            AUDIO_ID="AAi/vMvN7+/duph2VEMyIiIT/97N3v//7bqYdlRDMyIiFP3MvN3+/ty5l2VUQzJDIRn+7c3f7+7cqodlRDMyIiEb+8y83v7926mHZUQzIiIhL/3s3e///tuph2VEMzIiIU/by83f7+3LmXdVRDMkMhGP3dzd7v7tyqh2VEMzIiIRv7zLze/v3bqYdlRDMiIiEv/ezd7//+26mHZUQzMiIhT9vLzd/v7cuZd1VEMyQyIY/t3N3u/u3KqHZVQzMiIhG/vMvN7+/duph2VEMyIiIS/97N3v//7bqYdlRDMyIiFP28vN3+/ty5l3VUQzJDIhj+3c3e7+7cqodlVDMyIiEQ=="
+            TITLE="A2 909 Kick Clap"
+            ARTIST="Subb-an">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="A2 909 Kick Clap.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Deep House" PLAYTIME="8" PLAYTIME_FLOAT="7.74197" FLAGS="14" FILESIZE="1400"></INFO>
+            <TEMPO BPM="61.9997" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.000530161" PERCEIVED_DB="3.47297" ANALYZED_DB="3.47297"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAivvczN7+/dupmHVUMyIiET/93Mze7u3LqZhlRDMiIhFP3NvN3+/ty6mXZUQzJDIRn93Lze7+7Mqpl2VDMyIiEb+9zM3v7t26mYdVQzIiIRP/3czN7u7cupmGVEMyIiEU/cy83f793LqZdlRDMkMhGP3czN7v7syqmXZUMzIiIRv7zLze/u3bqZh1VDMiIhE//dzM7v7ty6mYZVQzIiIRT9zbzd/v3cupl2VEMyQyEY/dzM3u/uzKqZdlQzMiIhG/zMzN7+7dupmHVUMyIiET/93Mze/u3LqZhlVDMiIhE/28vN3+/dy6mXZUQzJDIRj+3cze7+7Mqpl2VDMyIiEQ=="
+            TITLE="A3 909 Ki Clp HH"
+            ARTIST="Subb-an">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="A3 909 Ki Clp HH.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Deep House" PLAYTIME="8" PLAYTIME_FLOAT="7.74197" FLAGS="14" FILESIZE="1400"></INFO>
+            <TEMPO BPM="61.9997" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.000530161" PERCEIVED_DB="3.75374" ANALYZED_DB="3.75374"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAh2MiEAAAAAAUh1QiEQAAACuIVCEQAAAAFYZDIREAAAApQiEAAAAAACaGQyERAzEAbHdDIQEAAAA3dTIhEAAAAHYyIQAAAAABR3VCIRAAAAK4hUIRAAAAAUhkMhEQAAAClCIRAAAAAAJoZDIREDMQBsd0MhAQAAACZ1MiEQAAAAdzIhAAAAAAFHdUIhEAAAAriFMhEAAAABSGQyERAAAAKUIhAAAAAAAmhkMhEQMxAGx3QyERAAAAJnUyIRAAAABnMiEAAAAAAUd1QiEQAAACuIUyEQAAAAFHZDIREAAAApQiEQAAAAACaGQyERAzEAbHdTIREAAAAmdTIhEAAAAA=="
+            TITLE="A4 HP Filtered"
+            ARTIST="Subb-an">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="A4 HP Filtered.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Deep House" PLAYTIME="8" PLAYTIME_FLOAT="7.74197" FLAGS="14" FILESIZE="1400"></INFO>
+            <TEMPO BPM="61.9997" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.000530161" PERCEIVED_DB="5.2675" ANALYZED_DB="5.2675"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAg//////////////8NG//u9n////////2EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////////w0b/+72f////////YQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT//////////////DNf/7vJ////////9hAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////////8Q1//y8n////////3EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="B1 1,2,3 Bass"
+            ARTIST="Subb-an">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="B1 1,2,3 Bass.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Deep House" PLAYTIME="8" PLAYTIME_FLOAT="7.74197" FLAGS="14" FILESIZE="1400"></INFO>
+            <TEMPO BPM="61.9997" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.000530161" PERCEIVED_DB="6.39971" ANALYZED_DB="6.39971"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAg//////////////8NG//u9n////////2EAAAAAAAAAAAAAAAAAAAABT//syrqaqptyAAAAAAAAAl//y9qrqbqW//////////////w0b/+72f////////YQAAAAAAAAAAAAAAAAAAAAFP/+zKupqqm4IAAAAAAAACX//M2qupupb//////////////DNf/7vJ////////9hAAAAAAAAAAAAAAAAAAAAAU//7Mq6mqqbggAAAAAAAAJf/9zaq6m6lv/////////////8Q1//y8n////////3EAAAAAAAAAAAAAAAAAAAABTv/8yrqaqauCAAAAAAAAAk//3MqrqbpQ=="
+            TITLE="B2 1,2,3 and Uh"
+            ARTIST="Subb-an">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="B2 1,2,3 and Uh.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Deep House" PLAYTIME="8" PLAYTIME_FLOAT="7.74197" FLAGS="14" FILESIZE="1400"></INFO>
+            <TEMPO BPM="61.9997" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.000530161" PERCEIVED_DB="6.3999" ANALYZED_DB="6.3999"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAg//////////////8NG//u9n////////2EAAAAASP/7vZmpowAAAAABT//syrqaqptyAAAAAAAAAl//y9qrqbqc//////////////wjX/+72f//////////9hAABI//u9mUEAAAAAAAFO/+zKupqqm4IAAAAAAAACX//M2qupupb//////////////DNf/7vJ////////9hAAAAAEj/+72ZqaMAAAAAAU7/7Mq6mqqbggAAAAAAAAJf/9zaq6m6nP/////////////8M1//y8n///////////cQAAR//7vZlBAAAAAAABTv/8yrqaqauCAAAAAAAAAk//3MqrqbpQ=="
+            TITLE="B3 1,2,3 &amp; Dot"
+            ARTIST="Subb-an">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="B3 1,2,3 &amp; Dot.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Deep House" PLAYTIME="8" PLAYTIME_FLOAT="7.74197" FLAGS="14" FILESIZE="1400"></INFO>
+            <TEMPO BPM="61.9997" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.000530161" PERCEIVED_DB="6.38792" ANALYZED_DB="6.38792"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABW//937vKxAAAAAABX//+7Ny8y72TAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABa//3fu8rEAAAAAAFf//7s3LzLvZMAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFr//d+7ysQAAAAAAV///uzcvMu9kwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWv/937vKxAAAAAABX//+7Ny8y72TAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="B4 OffbeatBass"
+            ARTIST="Subb-an">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="B4 OffbeatBass.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Deep House" PLAYTIME="8" PLAYTIME_FLOAT="7.74197" FLAGS="14" FILESIZE="1400"></INFO>
+            <TEMPO BPM="61.9997" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.000530161" PERCEIVED_DB="7.30041" ANALYZED_DB="7.30041"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAgCRVmGREMhEREQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAESR2MiIRERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASNnUyIRERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEkMhEREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAETQyEREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARIhERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABESIiERERAAAAAAAAAREREkQzMiMzMzRDMhIzREMiERESIhEREREREAAAAAAAAAATIiIRIjREVVVCEjMzIiEA=="
+            TITLE="C1 Feel Me"
+            ARTIST="Subb-an">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="C1 Feel Me.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Deep House" PLAYTIME="8" PLAYTIME_FLOAT="7.74197" FLAGS="14" FILESIZE="1400"></INFO>
+            <TEMPO BPM="61.9997" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.000530161" PERCEIVED_DB="11.2037" ANALYZED_DB="11.2037"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAgWh1VVVVVDRVVERFRURVZVVERVVEVFVWVURFVEVDNFVDVlRFiZiHRFRFVlRERERVVVRVVERERVV4VERERDNERDRmREaJh3VDQ0RVVFVVZlVVRFVURERWZlREREREM0VDM0MyR5mIdTMzNDMzMzM0REMzMzR4UzRDMzMzIyIjMyIkQyJFVVVDNDI0MzMzMzMjMiMzMyIzREMyMzMzIiIiIiIiIkVVVDIiIjMzIiIjMzMiIiIiE1VDMhEREREREREREiERIiIiIiIiIiISERIREhEiEREREREREREREREREREREiERESERERERERERERERESMzMyJFVDIiITeZq1IQ=="
+            TITLE="C2 YeahBaby"
+            ARTIST="Subb-an">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="C2 YeahBaby.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Deep House" PLAYTIME="8" PLAYTIME_FLOAT="7.74197" FLAGS="14" FILESIZE="1400"></INFO>
+            <TEMPO BPM="61.9997" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.000530161" PERCEIVED_DB="6.87331" ANALYZED_DB="6.87331"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AB8AAAAAAAAAAAABERRyJSRUESEBVCISREMiEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFlUyERECZTRTEAIQEAAREREAAAAAAAAAAAAAEEVDITETMxAzIhE0MxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmZCEjEBQzVkJIiIiZQSMhEAAAAAAAAAAAAAAAJ0IRFUIkQTIREhJGIiEDd0IQAAAAAAAAAAAAAAAAAAFFRCE1MTMThCEzIzIRIiIQAAExEQABERAAAAAAAAAAAiEjYSMzRBJCE3YVZYcyRmQREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJhFFRCIhERIQAA=="
+            TITLE="C3 Heartbeat Racing"
+            ARTIST="Subb-an">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="C3 Heartbeat Racing.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Deep House" PLAYTIME="31" PLAYTIME_FLOAT="30.9678" FLAGS="14" FILESIZE="5400"></INFO>
+            <TEMPO BPM="67.7023" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.000530161" PERCEIVED_DB="7.53471" ANALYZED_DB="7.53471"></LOUDNESS>
+            <MUSICAL_KEY VALUE="5"></MUSICAL_KEY>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAgAASM0RENFVERGd3ZWVGVCIiNEVVVDIRE0MzIiI0RVVDRFVmd2Z6mId4mYZVZVZSIiIkZlVUIRIkVEQzRWeal2UiNFVWZCESNEQzMzRnmYZDISNFVTIRESMzIiIjRFVDIhEkVEMhEREjIiIiIjREQzIRIzMzIRERIiIiERIiIyIhESM0QyERESISIRESMzIiIREjMzIREREhERERESIhERABIyIhEAARERERERIiIhERESIiIREAEREREQARERERAAEiIhEAABEREQABEREREQARIiIRAAAREREAAAAREAAAAREREAAAEQEQAAABEREAABERERAAABEAAAAAAAAA=="
+            TITLE="C4 Yeah &amp; Echo"
+            ARTIST="Subb-an">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="C4 Yeah &amp; Echo.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Deep House" PLAYTIME="8" PLAYTIME_FLOAT="7.74197" FLAGS="14" FILESIZE="1400"></INFO>
+            <TEMPO BPM="61.9997" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.000530161" PERCEIVED_DB="5.73883" ANALYZED_DB="5.73883"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABERESRXmZhlVVREVnnO//rP66hlVnd4u97KhkI0RXeIhUQiI0VEQzMxIzREQ0Q0MxEzNENDISIiMzMhESEiMyIyIiEREQEREBEBERERAAABAAABEAAAAAAREREREREREREREQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="D1 Solo Piano"
+            ARTIST="Subb-an">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="D1 Solo Piano.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Deep House" PLAYTIME="8" PLAYTIME_FLOAT="7.74197" FLAGS="14" FILESIZE="1400"></INFO>
+            <TEMPO BPM="61.9997" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.000530161" PERCEIVED_DB="4.94528" ANALYZED_DB="4.94528"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            AUDIO_ID="AAga3cunQjMiRmd4irqGVEZWZlRERVVVREMiIzNDMyIRESMzMzM0MzM0RVVTIREiIiIREiIjIiIRIRIhERABERERERERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGt3Lp0IzIkZXh4q6hlRGVmZUREVVVURDIiMzQzMiEREjMzMzNDMzREVVUyIRIiIiERIiIyIiESESIREQAREREREREQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="D2 Double Piano"
+            ARTIST="Subb-an">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="D2 Double Piano.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Deep House" PLAYTIME="8" PLAYTIME_FLOAT="7.74197" FLAGS="14" FILESIZE="1400"></INFO>
+            <TEMPO BPM="61.9997" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.000530161" PERCEIVED_DB="5.77902" ANALYZED_DB="5.77902"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            AUDIO_ID="AAgEzN7d3LqpdkMjNDIiI0VlVoh3h4qqq5mGZUQzVVVVVWZVREREREREVFREVEREQzIhIjMzM0QzMzIyEREREAAAfN3dy6hkIjMgAAABnN3dyqhkIjMiIQABnN3dy6qGQyMyAAACvN3dy6qGQiAAAAAEzO3dy6l2QjNDIiNVVWhhBMze3dy6qXZDIzQyIiNFZVaId4eKqquZhmVEM1VVVVVmVURERERERFRURFREREMyISIzMzM0MzMyMhIREREREYzt3LqGQjMyI1UwAazd3LqFMjMyJFUgAZzd3duqhlMjMyAAAqzd3cuqhkISvN3dy6mGQiMzIiNFVWiEAAAAAA=="
+            TITLE="D3 Organ Sustain"
+            ARTIST="Subb-an">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="D3 Organ Sustain.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Deep House" PLAYTIME="8" PLAYTIME_FLOAT="7.74197" FLAGS="14" FILESIZE="1400"></INFO>
+            <TEMPO BPM="61.9997" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.000530161" PERCEIVED_DB="1.46989" ANALYZED_DB="1.46989"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            AUDIO_ID="AAgEzN7d3LMAAAAAAAAGzN3d3LqpdkIAAAAqzt3cqoYyMznM7d3cQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATM3t3ctgAAAAAAAAbM3t3cowAAAAAAACrO3dyqhkIQGczt3cQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMze3dy0AAAAAAAABsze3dy6qXZCAAAAKs7d3KqGQjM4zO3d3EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEzN7d3LYAAAAAAAAFzN7d3LMAAAAAAAAqzt3cqoZCEBjM7d3FAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="D4 Organ Echo"
+            ARTIST="Subb-an">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="D4 Organ Echo.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Deep House" PLAYTIME="8" PLAYTIME_FLOAT="7.74197" FLAGS="14" FILESIZE="1400"></INFO>
+            <TEMPO BPM="61.9997" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.000530161" PERCEIVED_DB="1.66663" ANALYZED_DB="1.66663"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51708"
+            AUDIO_ID="AAyv///////////u3LrP///////////////////////////ty6mIdmVX//////////////////////7ty6mHdmVL///////////+7cur///////////////////////////+7bqZh2ZVf////////////ty6z///////////////////////////7ty6v///////////////////////////7ty6mHZlVv//////////////////////7cupiHZlWf///////////u3Lqv///////////////////////////u3LqYd2VV////////////7cur///////////////w=="
+            TITLE="A1 SubKick1"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="A1 SubKick1.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="13" PLAYTIME_FLOAT="12.1519" FLAGS="14" FILESIZE="2160"></INFO>
+            <TEMPO BPM="158" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="3.12227" PERCEIVED_DB="6.09399" ANALYZED_DB="6.09399"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51708"
+            AUDIO_ID="AAzf/////////////////+3Lqph3ZlVUQzMyIiERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN//////////////////7cuqmIdmVVRDMzIiIREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAr//////////////////ty7qYh2ZlVEMzMiIhEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACP/////////////////+3LupiHdmVURDMyIiERAAAAAP/////////////////////////////////////////w=="
+            TITLE="A2 SubKick2"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="A2 SubKick2.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="13" PLAYTIME_FLOAT="12.1519" FLAGS="14" FILESIZE="2160"></INFO>
+            <TEMPO BPM="158" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="1.62215" PERCEIVED_DB="4.74944" ANALYZED_DB="4.74944"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAz/+iEiEQAAAAAAAAD/+SEhEQAAAf/3IiP/9xIhEQAAAAAAAAAAAAAAAAAABv/1EiEQAAAJ/9QSIRAAAAAAAAAAAAAAAAAAAAAAAAAP/6ISERAAAA//ghIv/4IiERAAAAAAAAAAAAAAAAAAAE//YSIRAAAAb/9RIhEAAAAAAAAAAAAAAAAAAAAAAAAA//sxIhEAAAD/+iEi//khIREAAAAAAAAAAAAAAAAAAAL/9xIhEAAABP/1EiEQAAAAAAAAAAAAAAAAAAAAAAAADP/DEiEQAAAP/7MSL/+iEiEQAAAAAAAAAAAAAAAAAAAf/3IiERAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="A3-DryKick"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="A3-DryKick.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="13" PLAYTIME_FLOAT="12.1519" FLAGS="14" FILESIZE="2160"></INFO>
+            <TEMPO BPM="79" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.000530161" PERCEIVED_DB="2.64319" ANALYZED_DB="2.64319"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAwAAAAAAAAAAAAAAAAAAAAC////////////////////////////////////////////////////////////////////////////8hAAAAAAH////////////////////////////////////////////////////////////////////////////zEAAAAAAP////////////////////////////////////////////////////////////////////////////QQAAAAAA//////////////////////////////////////////////////////////IQAAAA=="
+            TITLE="A4 DarkTone"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="A4 DarkTone.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="13" PLAYTIME_FLOAT="12.1519" FLAGS="14" FILESIZE="2160"></INFO>
+            <TEMPO BPM="158" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="3.00047" PERCEIVED_DB="6.36301" ANALYZED_DB="6.36301"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AAF//vepKv/G//qv/4z/+N//uv//b//3//+b//1///b//6r//m//9///uP//b//4v//m//99//x///b//7j//2//+o//9v//mf//b//5j//2//+o//9u//p///bP/8b//3n//V//+H//9c//pf//af/9Xv/5b//2r//V//+G//9q//xe//lv//af/9Xf/5X//2j//lv/+1//93//9a//xN//lv//aP/8Sv/5Tf/2X//Ef/+jr/90z/1W7/o3//g6/9VL/7Rd/oN+/WOe+kSv6TW+xyfOtTjdk0ncclraUmvJQnu3M4umJZuUJqqDJ6liN6lSSJdCWJYyaYUjeXQUeA=="
+            TITLE="TS-LongKick"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="TS-LongKick.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="1" PLAYTIME_FLOAT="0.751225" FLAGS="14" FILESIZE="192"></INFO>
+            <TEMPO BPM="159.739" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="1.62215" PERCEIVED_DB="6.9902" ANALYZED_DB="6.9902"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AABt6P6fyvque+nKfZi3immFh1lmdWdGZGVFRVRENUNDRUNDRCMzQyIjMiIjIiIiEREhEREREREREREREAAREAARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="TS-808Snare"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="TS-808Snare.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="1" PLAYTIME_FLOAT="0.393923" FLAGS="14" FILESIZE="132"></INFO>
+            <TEMPO BPM="152.314" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="3.83091" PERCEIVED_DB="5.95599" ANALYZED_DB="5.95599"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AAEAAAJzEQBoMhEARzMhF5aHVGVFRDIiMyIiIiIRERERIREREAEBEREREREREREREREBABEREQABEAAQAAAAAAABEQAAAAAAAAAAAQARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="TS-Handclap"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="TS-Handclap.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="1" PLAYTIME_FLOAT="0.759524" FLAGS="14" FILESIZE="196"></INFO>
+            <TEMPO BPM="157.994" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="5.29985" PERCEIVED_DB="9.80592" ANALYZED_DB="9.80592"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AAAVREREREM0QyJENDMzMzIzMiIiEiIhIREREQERERERAREAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="TS-ClosedHH"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="TS-ClosedHH.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="1" PLAYTIME_FLOAT="0.495011" FLAGS="14" FILESIZE="148"></INFO>
+            <TEMPO BPM="121.209" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="3.58034" PERCEIVED_DB="26.2314" ANALYZED_DB="26.2314"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAwAAAAAAAAAAAAAAAAAAAAAVUIREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOnQiERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFQhEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYh2QyEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADVCERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABp0IhEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJUIREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIdlMhEQAAAAAAAAAAAAAA=="
+            TITLE="B1 Snare&amp;Clap"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="B1 Snare&amp;Clap.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="13" PLAYTIME_FLOAT="12.1519" FLAGS="14" FILESIZE="2160"></INFO>
+            <TEMPO BPM="79" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-0" PERCEIVED_DB="7.97502" ANALYZED_DB="7.97502"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAwAAAAAAAAAAAAAAAAAAAAAVCERAAAAAAASIQAAAAAAACZ2MhEAAAAAAAAAACMhEQO2QiERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEIREAAAAAAAAAAAAAAAAAJnZCERAAAAAAAAAAEiEAAoUyERABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADUhEQAAAAAAAAAAAAAAAAAWdkIREAAAAAAAAAASIQABt0MhEQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANTIREAAAAAAAAAAAAAAAABV2QhEQAAAAAAAAABIhAAGGMhEQARAAAAAAAAAAAAAA=="
+            TITLE="B2 Snare Variation"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="B2 Snare Variation.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="13" PLAYTIME_FLOAT="12.1519" FLAGS="14" FILESIZE="2160"></INFO>
+            <TEMPO BPM="79" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="1.2592" PERCEIVED_DB="8.57975" ANALYZED_DB="8.57975"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAwBEQAREAEiEAIiABIjECIhATMxA1UwA0QQNEMQREEBNFEEVTAUVRBXdAFWYQV2YRZlEEh2ECViAndyGJlgF5cQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="B3 Climbin Up"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="B3 Climbin Up.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="13" PLAYTIME_FLOAT="12.1519" FLAGS="14" FILESIZE="2160"></INFO>
+            <TEMPO BPM="79" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.559461" PERCEIVED_DB="6.50428" ANALYZED_DB="6.50428"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGLvLupeJZlVmVVVmUzIiIhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABe7y7qYiWZVZlVVVlQzIiIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="B4 Rewinnnd"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="B4 Rewinnnd.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="13" PLAYTIME_FLOAT="12.1519" FLAGS="14" FILESIZE="2160"></INFO>
+            <TEMPO BPM="79" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.31032" PERCEIVED_DB="6.50687" ANALYZED_DB="6.50687"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AAATQiIhARERASISNWyoM2M0Z3WciZhWmZh2Zmq6vLh83IvcZYdGq93czIZWVnqqq8yUVXZWRVI1abzM2kI1mni6qpqGZlMiI0UzQzMiIhIiIiIhEjNGmXVWREIiIiIiIRERIhERERERESEiEhERERERERERERERIiIiIhERERERERERERIiEREREREQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="TS-FilterClap"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="TS-FilterClap.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="1" PLAYTIME_FLOAT="0.379751" FLAGS="14" FILESIZE="128"></INFO>
+            <TEMPO BPM="157.998" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="9.92558" PERCEIVED_DB="6.21962" ANALYZED_DB="6.21962"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AAA4ZoVGVVZ3h4dnZ2VGZ3d4d3VlRGZpVoZnVVRoV4WHeGZlR2anemeGZlWFemiVl1dVZll2t2pVdVdGpopJlIdHZJhbhsdqZZRZVrabWpWoSWWXWma1elikiEmEl0lkplpnpXlYhYdXdZdZd6Z5V4Z4V4aIWYaHeGaWaGaGaGeVeFd1eFeEh0h1hkhkllllhVhWhmhWhXdWdVhnhohYdXdWhXlYdoZWdXdIdYZnVnVXVYRoRnVmVnVmR2R1V1V1V1V1Z0VlZlVlZldVZVZVZVZGZWVmRVVVZGVmV0RkVFVGRVRjZUdFVGRVRjZUZGU3RVNTVDU1VGNWNUNDQzU0RA=="
+            TITLE="TS-HiBell1"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="TS-HiBell1.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Hip Hop" PLAYTIME="1" PLAYTIME_FLOAT="0.340635" FLAGS="14" FILESIZE="152"></INFO>
+            <TEMPO BPM="176.142" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="4.9102" PERCEIVED_DB="7.02242" ANALYZED_DB="7.02242"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AAAlZnZlRWWHd2VWZ3dmZWh8lsh7d6aIWIaWaVaFeGl5p6mNmdiunvn/nrjprnq3qYuGpnhYlohXZpdoV3WGanameWmlmFl2lopphpdqeKaIaZeninq4q4yYuHpohYdpZ5epa5e4i3i2eVd2dnhXlplql7h6eJV3aWaFiViWqXmHl3lYhXdIZYVpZ4eXeWaGaFd0d1ZVdXhXhYdpdZdoVnRmRmVlZ1aGd2h1dldWZGdFZXVoVoVoVoV3RmR1R1V1Z1dlhldWdGZXZnVoZnZ2V2V1V2ZleFh1h2dmhmZmZWVWVnZnZ3Z3Z2V2VlZldVdWZHdWZmZVVWVFVVVVRVRlVQ=="
+            TITLE="TS-HiBell2"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="TS-HiBell2.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Hip Hop" PLAYTIME="1" PLAYTIME_FLOAT="0.209002" FLAGS="14" FILESIZE="120"></INFO>
+            <TEMPO BPM="143.539" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="3.48215" PERCEIVED_DB="5.49157" ANALYZED_DB="5.49157"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AAFdvuzLmIeHZWVVVVVERUVFRURERDM0NDMzMzQzQzIzMzMzMyIiIzIiIiMiIiIiIiIiIiIiIiIiIhIiESIREhIhESESERERERERERERERERERERERERERERERERERERERABERERERAQAAAAEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="TS-OpenHH"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="TS-OpenHH.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="1" PLAYTIME_FLOAT="0.759501" FLAGS="14" FILESIZE="196"></INFO>
+            <TEMPO BPM="157.998" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="2.6102" PERCEIVED_DB="18.203" ANALYZED_DB="18.203"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="ABgBJmI0RXRUIzNEMzNDMzMzMyIiM0MzMiIiMiIiMiIkIhEkQkRGQ0IjIjM0QzVDMiNCNTMjMzMzI0MjIiIjMzIiEjU0RFdXUjMzMyMjMiMzMyIiIiQyMiIiIiIiIiMjMyEiMzREZCIiIjMzQyNDIyIjM0MiIzMzMjMzMiI0MzIjIQARAAERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="C1 AlarmSynth"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="C1 AlarmSynth.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="25" PLAYTIME_FLOAT="24.3038" FLAGS="14" FILESIZE="4252"></INFO>
+            <TEMPO BPM="162.47" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="3.60038" PERCEIVED_DB="9.50586" ANALYZED_DB="9.50586"></LOUDNESS>
+            <MUSICAL_KEY VALUE="15"></MUSICAL_KEY>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAX/uGQgAAAATM//+6v2QhEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//IZCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC/8lkIAAAACy///yr+UMREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL/2WQhAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="C2 Q + Whoop"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="C2 Q + Whoop.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="13" PLAYTIME_FLOAT="12.1519" FLAGS="14" FILESIZE="2160"></INFO>
+            <TEMPO BPM="79" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="2.60018" PERCEIVED_DB="1.55012" ANALYZED_DB="1.55012"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAwlVVRENURVVEZVRFREVmZERVZmdlZWVFVEREREREREQ0ZVM0RFRURURVREREd3dlVURVVEVnZFVERERERFVEQzVVREQ1ZVVERmZlZlVndlRFV2Z4VmZURERERFVVVEQzRkRDREZWRFRWZlZlV3d2VFVVRVRWd0RURERERFVVVDNEVTNDVmVVVVREVURWd2QzZWZndWZlRFRERERFVERENGRERDNUVURVVVRFRHd2VERVZUVUZnVFRDREREVUREQ0VEM0RFVUVUZWVmZmdmZUNVZnd1VWVEREREREVURDMzZUMzNGVVVEVlZmZlZndlREMiIiMzQzMhERERERERAA=="
+            TITLE="C3 Bells #1"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="C3 Bells #1.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="13" PLAYTIME_FLOAT="12.1519" FLAGS="14" FILESIZE="2160"></INFO>
+            <TEMPO BPM="79" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="4.6999" PERCEIVED_DB="7.67402" ANALYZED_DB="7.67402"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAwWZVVENUVVVVZmZmZmZmZVRmd4hlZmVVRFVVVVVVVVRFZmVVRFVUVUZmZmZVd3dlV3ZmVlVnZVVVVVVVVWVVVVZmZVVGVVVUV2ZmZlZmZlRGZ2Z3VmZUVVVVVVVVVVVUV2dlVUZWVERnd3dmaIh3ZWdmZWVXiFVVVVVVVWZVZURnZmVEVmVFVWZVVVVWd3ZVeJh4dWZlRFRVVVVWZVZURXZlVVRlZVVWdmVVVWeHZlZlZlVVd3VVVVVVVVVmZlVVZ2VURFVVVUd2ZmVWZnZUR2iHd1VWVUVVVVVVVmVVVEdmZURGVVVVZ3h3ZVd4h2ZVVVVEREMzIjMzMzMzMzRA=="
+            TITLE="C4 Bells #2"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="C4 Bells #2.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="13" PLAYTIME_FLOAT="12.1519" FLAGS="14" FILESIZE="2160"></INFO>
+            <TEMPO BPM="79" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="4.81865" PERCEIVED_DB="6.55138" ANALYZED_DB="6.55138"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AAMG///////////////uy7q7qqmYd2d2ZlVWZlZVZmZmZmZ3d3dmVVVVREREMzMyIiIiIiIiIiIiIiIiIiIiIiIiIiIiIREhERIRERERERERERERERERERERERERERERERERERERERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="TS-ChurchBell"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="TS-ChurchBell.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Hip Hop" PLAYTIME="4" PLAYTIME_FLOAT="3.42857" FLAGS="14" FILESIZE="952"></INFO>
+            <TEMPO BPM="140" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.346513" PERCEIVED_DB="2.09174" ANALYZED_DB="2.09174"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AAAAAREAAREAAREBEQAREBERERERIREhESEQIREhESEQIhEiISIhIhEyEiISIhIiEiIiISIhIiIiEiISIiIhIiIiIiISIhIhIiIiIjIiMhIiIyIjIjIiMiMiJDMzM0MzMzQzNDNDNEM0NDQzQzNDNDM0MjMyQyMzJDNDQ0Q0NDRDVERURUVVVWVVZVZWVmVmZXZmd1d2aGZ3Z3d3eHeIaHdmZlVVRENERERUREVUQiIzMxIjMzMyEiIjMzMiIiIRERAAEREiEQEREBEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="TS-BabyVoice"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="TS-BabyVoice.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="1" PLAYTIME_FLOAT="0.253832" FLAGS="14" FILESIZE="108"></INFO>
+            <TEMPO BPM="118.188" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="6.3521" PERCEIVED_DB="8.9653" ANALYZED_DB="8.9653"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AAAjElZCRCWqRUE1U2hDd0rGaUWVR0nXa2frW3brb6f9j6j7z576/4/8/M+/9/vvfcr3m456p9aIWml1lXRWWEhmhGR3R0hzRHQjRkEiEzECVBERAQASE0IBIRE0ISMhETQhIzERQxAjESEiERETQgEiEBNCABEQAjMQERABIyAAEQASIQABAAARARAAEQAREREREREREREREREREREREREAAAAAAAAAEREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="TS-LowSqueak"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="TS-LowSqueak.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="1" PLAYTIME_FLOAT="0.28483" FLAGS="14" FILESIZE="112"></INFO>
+            <TEMPO BPM="210.652" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="2.46711" PERCEIVED_DB="4.02608" ANALYZED_DB="4.02608"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AAEmZ1WWe7lmZVZVVVREWIZ4VoVVVVZDVFVERDRDRUUzNEMzVFVDMzQzMjIiMzMzMiMjMyIiIyIiIiIiIjIiIiIhIhIiIiEiISISEiIREhEhERERERIRESEREREREREREREREREREREREREREREREREQEREREREREREREREREREREREQEREAAREQAAAQAAAAERERAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="TS-JustShaker"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="TS-JustShaker.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Hip Hop" PLAYTIME="1" PLAYTIME_FLOAT="0.857143" FLAGS="14" FILESIZE="284"></INFO>
+            <TEMPO BPM="140" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.301383" PERCEIVED_DB="19.2691" ANALYZED_DB="19.2691"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AAwCM0WGIAAAAAAAAAADM0RkIAAAAAAAAAAkQ0eEEAAAAFqGUzMiIyEQAAAAAEqWUzOftCERAAAAAAAAAAAAAAAAJEQ0YwAAAAAAAAAANDNpQhAAAAAAAAABNDNEUQAAAAWpZTMyIjMREAAAAAOaZUNO/5MhEAAAAAAAAAAAAAAAAkM0ZTAAAAAAAAAAAjQjVCEAAAAAAAAAE0Q0QxAAAABKllQzIiIyEQAAAAA4plQzf/kyEQAAAAAAAAAAAAAAACM0VEIQAAAAAAAAABMzNWMQAAAAAAAAATQ0RDEAAAADmmVDMiEjIRAAAAACi2ZDNM+jIRAAAAAAAAAAAAAAAA=="
+            TITLE="D1 BabyPercussion"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="D1 BabyPercussion.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="13" PLAYTIME_FLOAT="12.1519" FLAGS="14" FILESIZE="2160"></INFO>
+            <TEMPO BPM="158" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-0" PERCEIVED_DB="5.97439" ANALYZED_DB="5.97439"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            AUDIO_ID="AAy+cxAAAAAAAAAAAADcYhAAAAAAAahBAAH7UhAAAAAAAAAAAAP6UhAAAAAABPlCAAX5QQAAAAAAAAAAAAAAAAAI9zEAAAAAAAAAAAAL1jEAAAAAAA3GIQAAAAAAAAAAAAAAAAAAAAAAL6UhAD+lIQAAAAAAT5QgAF+EEAAAAAAAf4QQAAAAAAAAAAAAnnMQAAAAAAC9YxAAzWMQAAAAAAAAAAAB62IQAAAAAAL6UhAC+lIQAAAAAAP5QhAAAAAABfhBAAAAAAAAAAAAB/gxAAAAAAAJ5zEACucxAAAAAAAAAAAADcYhAAAAAAAetSEAL/hBAAAAAAAAAAAAAAAAAA=="
+            TITLE="D2 Lazy Snare Fill"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="D2 Lazy Snare Fill.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="13" PLAYTIME_FLOAT="12.1519" FLAGS="14" FILESIZE="2160"></INFO>
+            <TEMPO BPM="79" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.000265068" PERCEIVED_DB="0.876915" ANALYZED_DB="0.876915"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            AUDIO_ID="AAw1QyEQNUMhEDVDIRBFQyEQeGQyEEUyIQF3VDIRRDIhAZhUMhFUMiEBVDIhAVQyIQFUMiECVDIhA4ZDIQJUMiEEhkMhAlQyEQWGQyEDVDIRA1QyEQRUMhEEVCIQBFQiEBd1QyEUQyIQFEMiEBVDIhAVQyIQFUMiEBVDIhAlQyIQJUMiECVDIhAlQyIQNUMhEDVDIRA1QyEQNUMhEEVDIRB4ZDIQRTIhAEUyIQFFMiEBVTIhAVQyIQKHVDIRVDIhAodTMgJUMiEDhkMhAlQyIQJUMiEDVDIRA1QyEQNUMhEDVDIRBFQyEQRUIhAEVCIQBFMiEBRTIhAVUyIQFUMiEA=="
+            TITLE="D3 Eighth Shaker"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="D3 Eighth Shaker.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="13" PLAYTIME_FLOAT="12.1519" FLAGS="14" FILESIZE="2160"></INFO>
+            <TEMPO BPM="158" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.688198" PERCEIVED_DB="4.77219" ANALYZED_DB="4.77219"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            AUDIO_ID="AAw1QzIiEREREQAAAAAAAAAARUMyIhEREREAAAAAAAAAAERDMiIRERERAAAAAAAAAAFUQzIiEREREQAAAAAAAAACVDMiIhEREREAAAAAAAAAA1QzIiEREREQAAAAAAAAAAREMyIhEREREAAAAAAAAAAVRDMiIRERERAAAAAAAAAAFUQzIiEREREQAAAAAAAAACVDMiIRERERAAAAAAAAAABFQzIiEREREQAAAAAAAAAAREMyIhEREREAAAAAAAAAAVRDMiIRERERAAAAAAAAAAJUMyIiEREREQAAAAAAAAADVDMiIRERERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="D4 ReverbShaker"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="D4 ReverbShaker.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="13" PLAYTIME_FLOAT="12.1519" FLAGS="14" FILESIZE="2160"></INFO>
+            <TEMPO BPM="79" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.812466" PERCEIVED_DB="21.733" ANALYZED_DB="21.733"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AAARMjM0RVZ2l6mqrLvLvNzO7///////////////////////////////////////////7//e/d/N7O6+zdvq6trbytrZ6Ojpy419mdbZfXrGu1yly1u1nGfIS7V7hJtkqlSqY5pjeoNZlSaYQnl0JphCWIUjaHQUd2MUZ2QTV2UhRWVBFFZUITRVQhI1VTIRNEQyESNEQyASM0MhASIzMiEAESIhEAAREREQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="TS-Q-Drop"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="TS-Q-Drop.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="1" PLAYTIME_FLOAT="0.277642" FLAGS="14" FILESIZE="112"></INFO>
+            <TEMPO BPM="216.106" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="2.60018" PERCEIVED_DB="0.048172" ANALYZED_DB="0.048172"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AAFHaHZrl4mI29zdq5z5qYzJrO7c27rNvb3avdqrmqqpvarLm6y9ubqWqarNralohsh4eHeIZ4eIh3l5iZi6rJyaqId4V2ZlZmdmZWVmV1VXZlVURUVlVUVFdVVVd2ZYVVh2VmWHRHRWV2dkRFZWVUVmVlVmVERWdVU1ZlVGVmVVVWdlVjV4dkRmh2RFZXRVNEQzdDIjRjRDEkRCQhMyJDIjQhMiE1QSIhIyMyIyQiMhETMiEiMiEhIhIiQhEhEhERERMzEhERAhEhEQAAIhERABISEAARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="TS-Rewind"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="TS-Rewind.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="2116800" GENRE="Hip Hop" PLAYTIME="2" PLAYTIME_FLOAT="1.15383" FLAGS="14" FILESIZE="364"></INFO>
+            <TEMPO BPM="208.003" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.300564" PERCEIVED_DB="2.09256" ANALYZED_DB="2.09256"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AAEAAAAHyZhmU0QyNTQ1mtzOqEIlWKnL3HYyJVdmmIVEISISJVRmhkQ0IiMmZTEyJGNmhjVGMREVMiIhEiIRMhESQiEiERQiEzEhMhESETITIyEREyMiQyIhECIQAjERIxERMRAREhIBIRARABEBEhABEREhEiMTMyEyIRERIREjIhQzITEiIhEyEhMhECIBAiAQEhAAARAQERERERERERERAAAAERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="TS-RimShotVoice"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="TS-RimShotVoice.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="1" PLAYTIME_FLOAT="0.569637" FLAGS="14" FILESIZE="164"></INFO>
+            <TEMPO BPM="210.66" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="2.81487" PERCEIVED_DB="14.2688" ANALYZED_DB="14.2688"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51711"
+            AUDIO_ID="AACP/////v3t3N3dzMy6mIZWaIeIiczN7v7//t////////7/////////////////////////////////////3L3///u83///y9///83Mq9/+79zO///Jd4nNyprMqqqruYiIrdyqupqqmruoiJzLvMu5iZh4nO/////////////////////7iDIjRVQyEkQyIzMiNEMjVVVmZTNFMkVTMzMjMyIiIREREjNDEREQEREhEQEiISEREREBERERIRABEREQEQARABEREAAAABEAAAERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="TS-Whoop"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="TS-Whoop.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Hip Hop" PLAYTIME="1" PLAYTIME_FLOAT="0.474694" FLAGS="14" FILESIZE="148"></INFO>
+            <TEMPO BPM="126.397" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="2.60018" PERCEIVED_DB="-1.73092" ANALYZED_DB="-1.73092"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51708"
+            AUDIO_ID="AA9ctZp2EQCZdzAAqXdBABAB7GVTIRAAjZS4dlMhjYMAAZ2CAAO4dkMhAAS4d7xiEAb4VUIREAAABrd2QhEQAAAFzFmnYRAJl3MACpd0EAEAHsZVMhEACNlLh2UyGNgwABnYIAA7h2QyEABLh3vGIQBvlVQhEQAAAGt3ZCERAAAAXMWadhEAmncwAJl3QQAQAOxlUyEQAI2UuHZTIY2TAAGdgwADuHZDIQADuHe8chAG+VVDERAAAAa3dkIREAAABMxZp2IQCadzAAmXdBABEA7GVTIRAAfZS4d1MhjZMAAZ2DAAK4dkMhAAO4d7xyEAX5VUMREAAABrd2QhEQAAAA=="
+            TITLE="A1 Intro Beat"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="A1-Complextro130.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Electro House" PLAYTIME="15" PLAYTIME_FLOAT="14.7693" FLAGS="14" FILESIZE="2608"></INFO>
+            <TEMPO BPM="64.9999" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.000265068" PERCEIVED_DB="2.53319" ANALYZED_DB="2.53319"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51708"
+            AUDIO_ID="AA//////////qLy76t///////////////939utyprLdmVZyUQzW4Z2QyIiSndqtiERboVUIREAAABqdlMhEQAAAP//////////////z/////////////7/6/y4y6ist2VVnJRDNbdmZDIiFKd2q2IRFuhVQhEQAAAFp2UyERAAAA/////////6i8u+ve///////////////d/brcqay3ZlWcpEM1uGdkMiIkp3abYhEV6FVCERAAAAWnZTIREAAAD//////////////8/////////////+/+v8uMuorLdlVZyUQzW3ZmQyIhSndptiERXoVUIhEAAABadlMhEQAAAA=="
+            TITLE="A2 808 Deep"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="A2-Complextro130.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Electro House" PLAYTIME="15" PLAYTIME_FLOAT="14.7693" FLAGS="14" FILESIZE="2608"></INFO>
+            <TEMPO BPM="130" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.000265068" PERCEIVED_DB="2.34868" ANALYZED_DB="2.34868"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AA+v////uUAAAO////+5MAAB/////7ggAAH////+tyAAAv////6nEAAE/////aYQAAX////8pRAACP////ykEAAK////+5QAAA3////7kwAAD/////uCAAAf////64IAAC/////qcgAAP////9phAABf////ylEAAH/////KUQAAr////7lAAADf////uTAAAP////+4MAAB/////rggAAL////+pyAAA/////2mEAAF/////KUQAAf////8pRAACv////uUAAAN////+5MAAA/////7gwAAH////+uCAAAv////6nIAAD/////aYQAAX////8pRAAB/////ylEAAA=="
+            TITLE="A3 Heavy Kick"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="A3-Complextro130.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Electro House" PLAYTIME="15" PLAYTIME_FLOAT="14.7693" FLAGS="14" FILESIZE="2608"></INFO>
+            <TEMPO BPM="130" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.720395" PERCEIVED_DB="-1.63232" ANALYZED_DB="-1.63232"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AA+//////////////Zr///////+IqqqYh3e77NhlREMzNKrcpTISEREUqt2DIREQAASq3HMhAAAABavrYhEAAAAL/+//3LuqqZ3N27l////tz+/N26iId3Z7rryGVEMzM0qtylMhIREROq3YQhEQAABKrccyEAAAAFq+tiEQAAAAr/////////////6a////////iKqqmId3u+zYZURDMzSq3KUzEhERE6rdhCEREAAEqtxzIQAAAAWr7GIRAAAACv/v/9y7qqmdzeu5f///7c/v3euoiHd2e67MhlRDMzNKrcpTISERETqt2EIREQAASq3HMhAAAABavsYhEAAAAA=="
+            TITLE="A4 Reverse Kick"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="A4-Complextro130.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Electro House" PLAYTIME="15" PLAYTIME_FLOAT="14.7693" FLAGS="14" FILESIZE="2608"></INFO>
+            <TEMPO BPM="130" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.000265068" PERCEIVED_DB="3.85516" ANALYZED_DB="3.85516"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AA8QAAAAQgARAb/6dSBCABAAEAAAAFEAEAPv6WQRUQAQABAAAAFBABAF/9hkEkEAEAEQAAACQAXGOP/HUwNURUMRAAAABDABEBv/p1IEIAEAAQAAAAUgAQA9/pZBFRABAAEAAAAUEAEAX/2GQSQQAQARAAAAJBBcY4/8dTA1RFQxEAAAAEMAEQG/+3UgQgAQABAAAABCABAD3+lkEVEAEAAQAAABQQAQBf/YZBJBABABEAAAAkEFxjf/x1MDVEVDEQAAAAQwARAb/7dSBCABAAEAAAAEIAEAPf6WQRUQAQABAAAAFBABAF/9hkEkEAEAEQAAACQQXGN//HUwNURUMQ=="
+            TITLE="B1 HiHat and Clap"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="B1-Complextro130.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Electro House" PLAYTIME="15" PLAYTIME_FLOAT="14.7693" FLAGS="14" FILESIZE="2608"></INFO>
+            <TEMPO BPM="130" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.88378" PERCEIVED_DB="1.12684" ANALYZED_DB="1.12684"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AA8gAAAANAAAA8+mQxBDAAAAIAAAAFIAAAXfhUMRYgAAARAAAAFSAAAX/oVCAVEAAAEQAAACUQEgKfx0MgNRAAACAAAAA0AAADz6ZDEEMAAAAgAAAAUwAABd+FQxBSAAABIAAAAVIAABf+hUIBUQAAARAAAAJRASAp/HQyA1EAAAIQAAADQAAAPPpkMQQwAAACAAAABTAAAF34VDEFIAAAAgAAABUgAAF/6FQhFRAAABEAAAAlEBICn9dDIDUQAAAhAAAANBAAA8+2QxBDAAAAIAAAAFMAAAXfhkMQUgAAACAAAAFSAAAX/oVCEWEAAAEQAAACUQEgKf10MgNRAAAA=="
+            TITLE="B4 Mellow HatClap"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="B4-Complextro130.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Electro House" PLAYTIME="15" PLAYTIME_FLOAT="14.7693" FLAGS="14" FILESIZE="2608"></INFO>
+            <TEMPO BPM="64.9999" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.0100791" PERCEIVED_DB="1.27824" ANALYZED_DB="1.27824"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51708"
+            AUDIO_ID="AAcRAAAAEQAAAFYhAAARAAAT3///ud///7nf//+p7///qe///qhmRBAE7//+qu///qr///2mEAAABv///av///yVEAAAARAAAAEQAAABAAAAHf//+5d1QgAXUhAAARAAAAIAAAABAAAAAQAAABEAAABv///ah2RBAEdVVFVVVDMRIQAAABEAAAARAAAAEAAAAd///7l3VCABdSEAABEAAAAgAAAAEAAAABAAAAEQAAAG///9qHZEEANzEAABEAAAARAAAAEQAAABEAAAAQAAAB3///uXdUIAF1IQAAEQAAACAAAAAQAAAAEAAAABAAAAb///6odkQQA3MQAAEQAAAA=="
+            TITLE="B2 Snare Fill"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="11 FX-1.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Electro House" PLAYTIME="8" PLAYTIME_FLOAT="7.38463" FLAGS="14" FILESIZE="1336"></INFO>
+            <TEMPO BPM="64.9999" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.000530161" PERCEIVED_DB="0.0729141" ANALYZED_DB="0.0729141"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AA9DEAAAaTABCP/6QRB4IAAAUhAAAIcgARv/9jERlhAAAVIAAAGWEAEt/9UhApUQAANBAAADpiIxT/+kIQWTEAAEMQAABpMAEH//gyEHggAABSEAAAhyABG//2MRGWIAABUgAAAZYQAS3/1SEClRAAA0EAAAS1NnfP/8QRBuyiERUxAAAFkwAQf/+kEQeCAAAFIQAACHIAEL//cxEZYgAAFSAAABlhABLf/VIQKVEAADQQAAA6YhMU//tCEElBAABDEAAAaTEBB//4MhB4IAAAUhAAAIcgAQv/9zERlyAAAVIQAAGWEAEt/9UhApUQAAJBAAAEtjZ3z//VEQbsohEQ=="
+            TITLE="B3 Glassy HatClap"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="B3-Complextro130.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Electro House" PLAYTIME="15" PLAYTIME_FLOAT="14.7693" FLAGS="14" FILESIZE="2608"></INFO>
+            <TEMPO BPM="130" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.0100791" PERCEIVED_DB="-0.973366" ANALYZED_DB="-0.973366"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AA8AAEQAAAAAAFIAAABSAFMAAAAQAGQQYyR2QxAREQG3QxABEAAAAWECUAEQAAABAAAAAmADQAEAAAAAAAAREgAREQEAAAAAAAAAAQAAAAUwAAABAAZBBiAAAAYgAAABAAAABhAAAAAAFQAAACUAFhAAABAANiAmI1hUMQEREFtTIQAQAAAARABSABAAAAAQAAAAUwBhABAAAAAAABEBEBERARAAAAAAAAAAEAAAAWEAAAEAAmICYQAAAmAAAAEAAAADUAAAAAAEIAAABSAFQAAAAQAGUQYyR3QyAREQG3QxABEAAAAWEBUAEQAAABEAAAAWEDQAEAAAAAAAAREgAQ=="
+            TITLE="C1 Bubble Gate"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="C1-Complextro130.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Electro House" PLAYTIME="15" PLAYTIME_FLOAT="14.7693" FLAGS="14" FILESIZE="2608"></INFO>
+            <TEMPO BPM="130" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="3.40989" PERCEIVED_DB="7.41681" ANALYZED_DB="7.41681"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AA8QAAAAZwBzACAAAAB1AAAAEACXEJQREAARERER+2QhERAAAAGiAoEBEAAAAqEAAAEQBKQDk1jIVBERERf4UxESAAAABnAHMAIAAAAHUAAAAQAJcQlBEQABERERH7ZCEREAAAAaICgQEQAAACoQAAARAEpAOTWMhUERERF/hTEREAAAAGcAdAAgAAAAdQAAABAAlxCUERAAEREREft0IREQAAABogKBARAAAAKhAAABEASkA5NYyGQREREX+FMREQAAAAVwB0ACAAAAB2AAAAEACXEIQREAARERER+3QhERAAAAGiAoEBEAAAAqEAAAEQA6QDk1jIZBERERf4UxEQ=="
+            TITLE="C2 Bubble Verb"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="C2-Complextro130.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Electro House" PLAYTIME="15" PLAYTIME_FLOAT="14.7693" FLAGS="14" FILESIZE="2608"></INFO>
+            <TEMPO BPM="64.9999" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.0100791" PERCEIVED_DB="1.88828" ANALYZED_DB="1.88828"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AA9rqcqbmYdVVEMzRURENURDIyIjIjMiIRIRERERERAREQEAEREQERABREIiIhEREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJEMiIhEREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANEMiEhEREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFEQiIREREREQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAREREhIhEiIzNUM1ZEQyIiIQAAAAEA=="
+            TITLE="C3 Brake-down"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="C3-Complextro130.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Electro House" PLAYTIME="15" PLAYTIME_FLOAT="14.7693" FLAGS="14" FILESIZE="2608"></INFO>
+            <TEMPO BPM="64.9999" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="2.65183" PERCEIVED_DB="13.0221" ANALYZED_DB="13.0221"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AA9BAAAAAACpQFEAAADNp2QyUABYdjISxzFBEAAC/ZdkMzAAAAAAA8YiMAAABPuGVDQgAnh0IRe1FCERJGz/p3Q0EAAAAAAKlBUQAAAM2nZDJQAFh2MhLHMUEQAAL9l2QzMAAAAAADxiIwAAAE+4ZUNCACeHQhF7UUIREkbP+ndDQQAAAAAAqUFBAAAAvadkMlAAWHYyEscxQRAAAv2nZDNAAAAAAAPGIjAAAAT7hlQ0IAJ4dCEWtRQhESRs/6d0NBAAAAAACZQUEAAAC9p2QyUABYdjISxzFBEAAC/adkM0AAAAAAA9YiMAAABPuGVDQgAnh0IRbFEyERJGz/p3Qw=="
+            TITLE="C4 Bright Bubbles"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="C4-Complextro130.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Electro House" PLAYTIME="15" PLAYTIME_FLOAT="14.7693" FLAGS="14" FILESIZE="2608"></INFO>
+            <TEMPO BPM="64.9999" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.0100791" PERCEIVED_DB="0.517899" ANALYZED_DB="0.517899"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51709"
+            AUDIO_ID="AA9f///+zNiHllRlR2VkR2NDNTVUJEM0NDM0NCEkIiIjISIjERIjEiEiIhERIREREhERIREREREREQEREREREAEBEAEAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAX////szYh5ZUZUdlZEdzQzU1VCRDNDMzNDQhJCIiIyEiIxESIxIhIiIRESERERIRESEREREREREBERERERABARABABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="D1 Deep Verb Splash"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="D1-Complextro130.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Electro House" PLAYTIME="15" PLAYTIME_FLOAT="14.7693" FLAGS="14" FILESIZE="2612"></INFO>
+            <TEMPO BPM="130" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-0" PERCEIVED_DB="14.0735" ANALYZED_DB="14.0735"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            AUDIO_ID="AA/P//25ZDMzMv///bn//u/9hUMyIu/+//3///2oVDMzNf///KhUMzMm///srf/9//tlQzIn////7///65ZDMzMt///blkMzMy///9uf/+7/2FQzIi7/7//f///ahUMzM1///8qFQzMyb//+ys//3/+2VDMif////v///rlkMzMy3//9uWQzMzL///25//7v/YVDMiLv/v/9///9qFQzMzX///yoVDMzNv///Kz//f/7ZUMyJ////+///+uXRDMzLP//25ZDMzMv///bn//u/9hUMyIu/+//3///2oVDMzNf///KhUMzM2///8rP/9//tlQzIn////////65dEMzMg=="
+            TITLE="D3 Deep Acid"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="D3-Complextro130.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Electro House" PLAYTIME="15" PLAYTIME_FLOAT="14.7693" FLAGS="14" FILESIZE="2608"></INFO>
+            <TEMPO BPM="130" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-0" PERCEIVED_DB="1.97303" ANALYZED_DB="1.97303"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            AUDIO_ID="AA81ZmZlVVZlVVVWZlVmZWZVZ1VmZmZmVmVmd2V3ZmZmZlZmZlZnZmZ2ZmZWdlZmhmZnd2Zmd2Zmdmdnd3d3dmZ3d2ZmZ4dndnd3d2eId4eHd3eHd3d3dnd4mYh3iIeHd4mGeHeImImXiIiHiYiZh4mZiJmYh4mJmYiZiIiJmImZmJmYmJmZmZmbqZmJmqiZmZqamZmqupqqqpmruqmaqZqqupu6qqqqu7urqru7u7u7zLu7y7y8u7u7q7vNy8y8y8zN3bzdzd3d3c3N7d3c3u3e3d3d3u7u/t7v/+//////7//u7u7u7/7u3d7d3d3d3d3d7d3d3d3d3M3d3c3czA=="
+            TITLE="D2 Pink Noise In"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="D2-Complextro130.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Electro House" PLAYTIME="15" PLAYTIME_FLOAT="14.7693" FLAGS="14" FILESIZE="2608"></INFO>
+            <TEMPO BPM="130" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.0555791" PERCEIVED_DB="-3.35297" ANALYZED_DB="-3.35297"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/10/12"
+            MODIFIED_TIME="51710"
+            AUDIO_ID="AA9Hnf///yH/gVit/3r/////hAHFEv///2+Ivv//r6/caK3///7/////cQTzF/////9xBtEa///2y4nP////////ed////If+BV53/ev////+EAcUS////b4i+//+vr9xorf///v////9xBPQX/////3IF0Rn///a8ic////////953///8h/4FXnf96/////4QBxRL///9fiL7//6+v3Wit///+/////3ED9Bb/////chXRGf//9ryJz////////3nP///yH/kVed/4r/////hAHGEv///1+Ivv//r6/daK3///7/////cQP0Fv////9yFdIZ///2vInP///////w=="
+            TITLE="D4 BassComplex"
+            ARTIST="Native Instruments">
+            <LOCATION DIR="/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:" FILE="D4-Complextro130.wav" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="1411200" GENRE="Electro House" PLAYTIME="15" PLAYTIME_FLOAT="14.7693" FLAGS="14" FILESIZE="2612"></INFO>
+            <TEMPO BPM="130" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.0100791" PERCEIVED_DB="5.45197" ANALYZED_DB="5.45197"></LOUDNESS>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2014/6/2"
+            MODIFIED_TIME="69016"
+            AUDIO_ID="AV4AAAAAAAERERERERERERERERERERERERERERERESERIiIiIiIiIjM0QzMzMzMzMzMyMzRERDMzRERERERERERVZUVERURURVZ1RVRVVlVlZWVmZ2eYiXh3d5d3Z4eIh3d4d4h4iId2iYmKqHd4iImHh3iamYmYmKqbqap5qtu8zLuqq7vLu5uqu7mZiYm7qouZqquruqqZq8vMq7qrvKu7mrqrrLmpiKq7u6qZqru8uqiKrMurqIiKqpiId2ipmXiIdnd3h3ZVVmeHZVVUVVVUVDNFVURDMzMzMzMyIiIiIREREREREREREREREREQAAAAAAAAAAAAAAAAAAAAAA=="
+            TITLE="Vaporware 01"
+            ARTIST="Donato Dozzy">
+            <LOCATION DIR="/:Users/:listmusik/:Music/:Donato Dozzy - Donato Dozzy Plays Bee Mask [2013]/:" FILE="01 - Vaporware 01.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <ALBUM OF_TRACKS="7" TRACK="1" TITLE="Donato Dozzy Plays Bee Mask"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Ambient" COMMENT="6A - www.NewAlbumRelease.net" COVERARTID="015/PQKIHYCPBY2AKCXT2V1PC2G3VHWD" KEY="6A" PLAYTIME="350" IMPORT_DATE="2014/3/21" RELEASE_DATE="2013/1/1" FLAGS="10" FILESIZE="13995"></INFO>
+            <TEMPO BPM_TRANSIENTCOHERENCE="250.235" BPM="250.235" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.0905364" PERCEIVED_DB="1.10538" ANALYZED_DB="1.10538"></LOUDNESS>
+            <MUSICAL_KEY VALUE="19"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="188.527" LEN="0" REPEATS="-1" HOTCUE="0"></CUE_V2>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2015/1/16"
+            MODIFIED_TIME="4765"
+            AUDIO_ID="AUwAAAABERERERERERERERESIiIiIiIiIiIiIiIiIiMzMzMzMzMzMzMzM0RERDREREVVVVVVVVVmZmZmZmd2Z3d3h3h2iImHd3iIiIiYh4iJmIeKuZmHiZiaqZmbupqIq7qYmZqaqrqoiqqambuqmaqpu7uqqru6u7qry7qqu7uqq7u6u7qru7uqqrq7qqu8u7uayqqZiKqqq7maqaqqmbvKqruru7q6mruqvLqaqZqqmrqpq6mrq6uqq7q6qqu7mrqqmZqZq6qqmZqYipmImpiYiZmHd3d3d3Z2VlZVVVRERERFREMzREMzMzMyIiIiIhEREREQAAAAAAAAAAAAAA=="
+            TITLE="Vaporware 02"
+            ARTIST="Donato Dozzy">
+            <LOCATION DIR="/:Users/:listmusik/:Music/:Donato Dozzy - Donato Dozzy Plays Bee Mask [2013]/:" FILE="02 - Vaporware 02.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <ALBUM OF_TRACKS="7" TRACK="2" TITLE="Donato Dozzy Plays Bee Mask"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Ambient" COMMENT="6A" COVERARTID="015/PQKIHYCPBY2AKCXT2V1PC2G3VHWD" KEY="6A" PLAYTIME="332" IMPORT_DATE="2014/3/21" RELEASE_DATE="2013/1/1" FLAGS="10" FILESIZE="13279"></INFO>
+            <TEMPO BPM_TRANSIENTCOHERENCE="171.376" BPM="171.376" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.357763" PERCEIVED_DB="2.85174" ANALYZED_DB="2.85174"></LOUDNESS>
+            <MUSICAL_KEY VALUE="19"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="34.1667" LEN="0" REPEATS="-1" HOTCUE="0"></CUE_V2>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2014/6/2"
+            MODIFIED_TIME="69016"
+            AUDIO_ID="ANwAAAAAAAAAAAAAABERERERERESIiIiMzMzMzM0RFVVVWZmZVVmd3ZmZmZmZneIh3d3eJmZiHiIiZiIiZiImaqqvLuqqqmYiJmZmpmZqpm7y7vLu7u7u7u7u7u7qrvLurzLu7u6uqqqqqu7u7u7u7uqq7vMzMuqvM27zLvLu7u7zMvM3cy8vMy7y7qru7vM3d7cy7vMzLvMy7zMy7u7u8zMzLuru7u7u7y7vMy6u7u7u7zMvLqrvLu7u7u8y6qqqqq7u7u6qaq7upmaqqmIeImZh4iId3dnZ2ZmZnd3Z3ZlVVVVVVVVVEMyIiIiIiIRERERERERAAAAAAAAAAAAAA=="
+            TITLE="Vaporware 03"
+            ARTIST="Donato Dozzy">
+            <LOCATION DIR="/:Users/:listmusik/:Music/:Donato Dozzy - Donato Dozzy Plays Bee Mask [2013]/:" FILE="03 - Vaporware 03.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <ALBUM OF_TRACKS="7" TRACK="3" TITLE="Donato Dozzy Plays Bee Mask"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Ambient" COMMENT="6A" COVERARTID="015/PQKIHYCPBY2AKCXT2V1PC2G3VHWD" KEY="6A" PLAYTIME="220" IMPORT_DATE="2014/3/21" RELEASE_DATE="2013/1/1" FLAGS="10" FILESIZE="8913"></INFO>
+            <TEMPO BPM_TRANSIENTCOHERENCE="194.999" BPM="194.999" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0.0111083" PERCEIVED_DB="-0.286943" ANALYZED_DB="-0.286943"></LOUDNESS>
+            <MUSICAL_KEY VALUE="19"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="42.6602" LEN="0" REPEATS="-1" HOTCUE="0"></CUE_V2>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2016/3/31"
+            MODIFIED_TIME="47925"
+            AUDIO_ID="AUMBEREREiIiIzM0MzRWZWZ3d4d2ioiIaHloiYmYqKiriKqJmrqZe4qbmZm5ybuJmpuauaqLmZqKmam5u6q7qpmqu8ucm5ubm8mprbiLvbmZmqubi5urqtq6uZqJqbmJmaurmpuaqauqqqqYqKm5mpqLm6qqmZq6q6q6qKm6uquanLvcurnOu7mpuLm5qpuru8uqubqaqqm5qbmpqpqbqruqqZmpqqm6uLqqqqyqu6vKu5qauZnJudmqm6u7q6mrqoyamKioqJmKmpmaiJmKiIeIh5d2h3h3qIh4h3hmh2ZmZlVVRURERURERDMzMiMiIhIREREREAAAAAAAAAAAAA=="
+            TITLE="Vaporware 04"
+            ARTIST="Donato Dozzy">
+            <LOCATION DIR="/:Users/:listmusik/:Music/:Donato Dozzy - Donato Dozzy Plays Bee Mask [2013]/:" FILE="04 - Vaporware 04.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <ALBUM OF_TRACKS="7" TRACK="4" TITLE="Donato Dozzy Plays Bee Mask"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Ambient" COMMENT="7B" COVERARTID="015/PQKIHYCPBY2AKCXT2V1PC2G3VHWD" KEY="7B" PLAYTIME="323" IMPORT_DATE="2014/3/21" RELEASE_DATE="2013/1/1" FLAGS="10" FILESIZE="12937"></INFO>
+            <TEMPO BPM_TRANSIENTCOHERENCE="228" BPM="114" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="0" PERCEIVED_DB="2.05788" ANALYZED_DB="2.05788"></LOUDNESS>
+            <MUSICAL_KEY VALUE="5"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="43.0815" LEN="0" REPEATS="-1" HOTCUE="0"></CUE_V2>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2014/6/2"
+            MODIFIED_TIME="69016"
+            AUDIO_ID="AWsAAREiMzRFRFVFVVVlZmZWdmZmZmZndmZ3Z3d3h3iIiYmaqpmqqqq6qrurqqu7u7u6u6u7u7u7u8u7u7u7u7u7vLu7u7u8u7u8u7u7zMy7zMvLu7zMu8u8y8u7u7y7u7zLu7u8zMu8zMy7y7y7y7vMzMvMvMu8u8zLu7zMzMzLvLu8vMu7u8zMy7zMzLu7vMvMzMy8y8zLy7zMvLu6vMvMvMy8u7vMzMy7zMzMzMvMu8u8zMzMzMzLzMzLvMzMy7u8y8y83MzMzMzMzMy8vMzMu8y7y8y7u7u8zLu7u7u7u7u7u7u6u6qqqpmYiIh3d3dlVERDMiIREQAAAAAAAA=="
+            TITLE="Vaporware 05"
+            ARTIST="Donato Dozzy">
+            <LOCATION DIR="/:Users/:listmusik/:Music/:Donato Dozzy - Donato Dozzy Plays Bee Mask [2013]/:" FILE="05 - Vaporware 05.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <ALBUM OF_TRACKS="7" TRACK="5" TITLE="Donato Dozzy Plays Bee Mask"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Ambient" COMMENT="6A - www.NewAlbumRelease.net" COVERARTID="015/PQKIHYCPBY2AKCXT2V1PC2G3VHWD" KEY="6A" PLAYTIME="363" IMPORT_DATE="2014/3/21" RELEASE_DATE="2013/1/1" FLAGS="10" FILESIZE="14512"></INFO>
+            <TEMPO BPM_TRANSIENTCOHERENCE="90" BPM="90" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.535434" PERCEIVED_DB="3.38941" ANALYZED_DB="3.38941"></LOUDNESS>
+            <MUSICAL_KEY VALUE="19"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="591.078" LEN="0" REPEATS="-1" HOTCUE="0"></CUE_V2>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2014/6/2"
+            MODIFIED_TIME="69016"
+            AUDIO_ID="ASEAAAAAAREREREiIiIjMzM0REREVVVVVWZmZmZ3d3iHiIiJmYmJiamZmZmpm7qqqqqqqqqqqqq6q6qru6qqqruqu6uqq7u7u6u7u7u7u7u7u7u7u7u7u7zMy8zMzMzMzLvMvMy8zMzM3MzMzNzczMzM3czMzMzM3dzd3d3d3N3c3d3dzd3d3d3d3d3N3d3d3d3d3c3d3c3N3d3Mzczd3d3dzM3d3d3N3dzc3d3NzMzNzMzM3czc3N3d3N3c3dzczMzM3czMzNzMy8zMy7vLvLu7u7qqq6qqqqqZmZmYiIiIh3dmZmZVVVREMzMyIiIREREREAAAAAAAAAAAAAAAAA=="
+            TITLE="Vaporware 06"
+            ARTIST="Donato Dozzy">
+            <LOCATION DIR="/:Users/:listmusik/:Music/:Donato Dozzy - Donato Dozzy Plays Bee Mask [2013]/:" FILE="06 - Vaporware 06.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <ALBUM OF_TRACKS="7" TRACK="6" TITLE="Donato Dozzy Plays Bee Mask"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Ambient" COMMENT="7A" COVERARTID="015/PQKIHYCPBY2AKCXT2V1PC2G3VHWD" KEY="7A" PLAYTIME="289" IMPORT_DATE="2014/3/21" RELEASE_DATE="2013/1/1" FLAGS="10" FILESIZE="11587"></INFO>
+            <TEMPO BPM_TRANSIENTCOHERENCE="90" BPM="90" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.208136" PERCEIVED_DB="0.288801" ANALYZED_DB="0.288801"></LOUDNESS>
+            <MUSICAL_KEY VALUE="14"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="307.563" LEN="0" REPEATS="-1" HOTCUE="0"></CUE_V2>
+        </ENTRY>
+        <ENTRY
+            MODIFIED_DATE="2014/6/2"
+            MODIFIED_TIME="69016"
+            AUDIO_ID="AhcAAREREiIzMzM0REREVWZmZmZmZmZmZlZmZmZ3dmZmd3ZmZ3ZmVWZlZoh3Z3iIiHh5iHd4iZh4qpmHisqZiZuZiIq4iIiZmHiJmpiImqmpiruqmau6mZq6mYirqqmLzNqau7mZmrupmau6mHrbu6m7mIh73Luqq8uqm+y6qby6qpu7qZmsu5mazLqZq7qZmruqmaurmZrd26m7upmZu7mYmqqZmszLqayqmYrduqu8uZiKzLu6u7qpmaqpmZmZiImZmYiIiIiIiHd3d2d2Z3iIeHd3iHh3d4d3d3d3d3d3ZmZmZlVlZWZmZmZ3ZlVFVVVERERDQzMiIhERAAAAAA=="
+            TITLE="Vaporware 07"
+            ARTIST="Donato Dozzy">
+            <LOCATION DIR="/:Users/:listmusik/:Music/:Donato Dozzy - Donato Dozzy Plays Bee Mask [2013]/:" FILE="07 - Vaporware 07.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <ALBUM OF_TRACKS="7" TRACK="7" TITLE="Donato Dozzy Plays Bee Mask"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>
+            <INFO BITRATE="320000" GENRE="Ambient" COMMENT="6A" COVERARTID="015/PQKIHYCPBY2AKCXT2V1PC2G3VHWD" KEY="6A" PLAYTIME="535" IMPORT_DATE="2014/3/21" RELEASE_DATE="2013/1/1" FLAGS="10" FILESIZE="21219"></INFO>
+            <TEMPO BPM_TRANSIENTCOHERENCE="130" BPM="130" BPM_QUALITY="100"></TEMPO>
+            <LOUDNESS PEAK_DB="-0.340422" PERCEIVED_DB="0.38983" ANALYZED_DB="0.38983"></LOUDNESS>
+            <MUSICAL_KEY VALUE="19"></MUSICAL_KEY>
+            <CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="87.8289" LEN="0" REPEATS="-1" HOTCUE="0"></CUE_V2>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2008/6/30" MODIFIED_TIME="32606" TITLE="Piece One" ARTIST="Gelg">
+            <LOCATION DIR="/:Users/:listmusik/:Music/:Gelg/:" FILE="01 Piece One.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <ALBUM OF_TRACKS="9" TRACK="1" TITLE="Look Around You"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="importer"></MODIFICATION_INFO>
+            <INFO BITRATE="128000" GENRE="Soundtrack" COVERARTID="045/NRCNWGD0KVTFOBNWS1X4BTSVR0TB" PLAYTIME="96" IMPORT_DATE="2017/2/2" FLAGS="8" FILESIZE="1686"></INFO>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2008/6/30" MODIFIED_TIME="32606" TITLE="Piece Two" ARTIST="Gelg">
+            <LOCATION DIR="/:Users/:listmusik/:Music/:Gelg/:" FILE="02 Piece Two.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <ALBUM OF_TRACKS="9" TRACK="2" TITLE="Look Around You"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="importer"></MODIFICATION_INFO>
+            <INFO BITRATE="132000" GENRE="Soundtrack" COVERARTID="045/NRCNWGD0KVTFOBNWS1X4BTSVR0TB" PLAYTIME="99" IMPORT_DATE="2017/2/2" FLAGS="8" FILESIZE="1785"></INFO>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2008/6/30" MODIFIED_TIME="32606" TITLE="Piece Three" ARTIST="Gelg">
+            <LOCATION DIR="/:Users/:listmusik/:Music/:Gelg/:" FILE="03 Piece Three.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <ALBUM OF_TRACKS="9" TRACK="3" TITLE="Look Around You"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="importer"></MODIFICATION_INFO>
+            <INFO BITRATE="129000" GENRE="Soundtrack" COVERARTID="045/NRCNWGD0KVTFOBNWS1X4BTSVR0TB" PLAYTIME="67" IMPORT_DATE="2017/2/2" FLAGS="8" FILESIZE="1241"></INFO>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2008/6/30" MODIFIED_TIME="32606" TITLE="Reggae" ARTIST="Gelg">
+            <LOCATION DIR="/:Users/:listmusik/:Music/:Gelg/:" FILE="04 Reggae.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <ALBUM OF_TRACKS="9" TRACK="4" TITLE="Look Around You"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="importer"></MODIFICATION_INFO>
+            <INFO BITRATE="180000" GENRE="Soundtrack" COVERARTID="045/NRCNWGD0KVTFOBNWS1X4BTSVR0TB" PLAYTIME="48" IMPORT_DATE="2017/2/2" FLAGS="8" FILESIZE="1247"></INFO>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2008/6/30" MODIFIED_TIME="32606" TITLE="Imhotep" ARTIST="Gelg">
+            <LOCATION DIR="/:Users/:listmusik/:Music/:Gelg/:" FILE="05 Imhotep.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <ALBUM OF_TRACKS="9" TRACK="5" TITLE="Look Around You"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="importer"></MODIFICATION_INFO>
+            <INFO BITRATE="139000" GENRE="Soundtrack" COVERARTID="045/NRCNWGD0KVTFOBNWS1X4BTSVR0TB" PLAYTIME="62" IMPORT_DATE="2017/2/2" FLAGS="8" FILESIZE="1229"></INFO>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2008/6/30" MODIFIED_TIME="32608" TITLE="Sulphagne" ARTIST="Gelg">
+            <LOCATION DIR="/:Users/:listmusik/:Music/:Gelg/:" FILE="06 Sulphagne.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <ALBUM OF_TRACKS="9" TRACK="6" TITLE="Look Around You"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="importer"></MODIFICATION_INFO>
+            <INFO BITRATE="201000" GENRE="Soundtrack" COVERARTID="045/NRCNWGD0KVTFOBNWS1X4BTSVR0TB" PLAYTIME="187" IMPORT_DATE="2017/2/2" FLAGS="8" FILESIZE="4792"></INFO>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2008/6/30" MODIFIED_TIME="32608" TITLE="Eight Ladies" ARTIST="Gelg">
+            <LOCATION DIR="/:Users/:listmusik/:Music/:Gelg/:" FILE="07 Eight Ladies.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <ALBUM OF_TRACKS="9" TRACK="7" TITLE="Look Around You"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="importer"></MODIFICATION_INFO>
+            <INFO BITRATE="130000" GENRE="Soundtrack" COVERARTID="045/NRCNWGD0KVTFOBNWS1X4BTSVR0TB" PLAYTIME="40" IMPORT_DATE="2017/2/2" FLAGS="8" FILESIZE="806"></INFO>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2008/6/30" MODIFIED_TIME="32608" TITLE="Haunted Laboratory" ARTIST="Gelg">
+            <LOCATION DIR="/:Users/:listmusik/:Music/:Gelg/:" FILE="08 Haunted Laboratory.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <ALBUM OF_TRACKS="9" TRACK="8" TITLE="Look Around You"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="importer"></MODIFICATION_INFO>
+            <INFO BITRATE="146000" GENRE="Soundtrack" COVERARTID="045/NRCNWGD0KVTFOBNWS1X4BTSVR0TB" PLAYTIME="92" IMPORT_DATE="2017/2/2" FLAGS="8" FILESIZE="1827"></INFO>
+        </ENTRY>
+        <ENTRY MODIFIED_DATE="2008/6/30" MODIFIED_TIME="32608" TITLE="Pleasant Guitar Piece" ARTIST="Gelg">
+            <LOCATION DIR="/:Users/:listmusik/:Music/:Gelg/:" FILE="09 Pleasant Guitar Piece.mp3" VOLUME="Macintosh SDD" VOLUMEID="Macintosh SDD"></LOCATION>
+            <ALBUM OF_TRACKS="9" TRACK="9" TITLE="Look Around You"></ALBUM>
+            <MODIFICATION_INFO AUTHOR_TYPE="importer"></MODIFICATION_INFO>
+            <INFO BITRATE="140000" GENRE="Soundtrack" COVERARTID="045/NRCNWGD0KVTFOBNWS1X4BTSVR0TB" PLAYTIME="56" IMPORT_DATE="2017/2/2" FLAGS="8" FILESIZE="1132"></INFO>
+        </ENTRY>
+    </COLLECTION>
+    <SETS ENTRIES="0"></SETS>
+    <PLAYLISTS>
+        <NODE TYPE="FOLDER" NAME="$ROOT">
+            <SUBNODES COUNT="7">
+                <NODE TYPE="PLAYLIST" NAME="Demo Remix Sets">
+                    <PLAYLIST ENTRIES="4" TYPE="LIST" UUID="da1c279995dd4e60ae6a6641a7f3bebe">
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="SET" KEY="/:2012y05m09d_14h17m44s33409788396.set"></PRIMARYKEY>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="SET" KEY="/:2012y05m09d_14h33m09s35693014335.set"></PRIMARYKEY>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="SET" KEY="/:2012y05m09d_14h33m39s35767512426.set"></PRIMARYKEY>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="SET" KEY="/:2012y05m09d_14h33m55s35807589894.set"></PRIMARYKEY>
+                        </ENTRY>
+                    </PLAYLIST>
+                </NODE>
+                <NODE TYPE="PLAYLIST" NAME="Demo Tracks">
+                    <PLAYLIST ENTRIES="8" TYPE="LIST" UUID="5f8ce68b5bb940bb94b008cd7911ca51">
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK" KEY="Macintosh SDD/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:Loopmasters_Dubstep1.mp3"></PRIMARYKEY>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK" KEY="Macintosh SDD/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:Loopmasters_Dubstep2.mp3"></PRIMARYKEY>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK" KEY="Macintosh SDD/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:Loopmasters_House1.mp3"></PRIMARYKEY>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK" KEY="Macintosh SDD/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:Loopmasters_House2.mp3"></PRIMARYKEY>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK" KEY="Macintosh SDD/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:Loopmasters_TechHouse1.mp3"></PRIMARYKEY>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK" KEY="Macintosh SDD/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:Loopmasters_TechHouse2.mp3"></PRIMARYKEY>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK" KEY="Macintosh SDD/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:Loopmasters_Techno1.mp3"></PRIMARYKEY>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK" KEY="Macintosh SDD/:Library/:Application Support/:Native Instruments/:Traktor 2/:Factory Sounds/:Loopmasters_Techno2.mp3"></PRIMARYKEY>
+                        </ENTRY>
+                    </PLAYLIST>
+                </NODE>
+                <NODE TYPE="FOLDER" NAME="MyFolder">
+                    <SUBNODES COUNT="1">
+                        <NODE TYPE="PLAYLIST" NAME="Sublist">
+                            <PLAYLIST ENTRIES="2" TYPE="LIST" UUID="edab5b866be84473a1911911f545894f">
+                                <ENTRY>
+                                    <PRIMARYKEY TYPE="TRACK" KEY="Macintosh SDD/:Users/:listmusik/:Music/:Donato Dozzy - Donato Dozzy Plays Bee Mask [2013]/:01 - Vaporware 01.mp3"></PRIMARYKEY>
+                                </ENTRY>
+                                <ENTRY>
+                                    <PRIMARYKEY TYPE="TRACK" KEY="Macintosh SDD/:Users/:listmusik/:Music/:Donato Dozzy - Donato Dozzy Plays Bee Mask [2013]/:07 - Vaporware 07.mp3"></PRIMARYKEY>
+                                </ENTRY>
+                            </PLAYLIST>
+                        </NODE>
+                    </SUBNODES>
+                </NODE>
+                <NODE TYPE="PLAYLIST" NAME="Preparation">
+                    <PLAYLIST ENTRIES="0" TYPE="LIST" UUID="dc641f324e5c4d88a7c5f8b8edeccff2"></PLAYLIST>
+                </NODE>
+                <NODE TYPE="PLAYLIST" NAME="Test">
+                    <PLAYLIST ENTRIES="2" TYPE="LIST" UUID="59ab220f11bc45a2b63d0a26f79cecd5">
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK" KEY="Macintosh SDD/:Users/:listmusik/:Music/:Gelg/:03 Piece Three.mp3"></PRIMARYKEY>
+                        </ENTRY>
+                        <ENTRY>
+                            <PRIMARYKEY TYPE="TRACK" KEY="Macintosh SDD/:Users/:listmusik/:Music/:Donato Dozzy - Donato Dozzy Plays Bee Mask [2013]/:03 - Vaporware 03.mp3"></PRIMARYKEY>
+                        </ENTRY>
+                    </PLAYLIST>
+                </NODE>
+                <NODE TYPE="PLAYLIST" NAME="_LOOPS">
+                    <PLAYLIST ENTRIES="0" TYPE="LIST" UUID="862fe50db65d4f7f945be6ebd9fc4550"></PLAYLIST>
+                </NODE>
+                <NODE TYPE="PLAYLIST" NAME="_RECORDINGS">
+                    <PLAYLIST ENTRIES="0" TYPE="LIST" UUID="2a84b9a3c8dc42568e0e9fc91cc2ff71"></PLAYLIST>
+                </NODE>
+            </SUBNODES>
+        </NODE>
+    </PLAYLISTS>
+</NML>
