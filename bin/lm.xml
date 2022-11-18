@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF8'?>
+<LISTMUSIK_DATA Version="dver0.0.1">
+  <PRODUCT Name="listmusik" Version="0.0.1"/>
+  <COLLECTION Length="16">
+    <TRACK Name="Vaporware 01" Artist="Donato Dozzy" Album="Donato Dozzy Plays Bee Mask" Genre="Ambient" DateAdded="2017-02-02" Location="file://localhost/Users/listmusik/Music/Donato%20Dozzy%20-%20Donato%20Dozzy%20Plays%20Bee%20Mask%20%5b2013%5d/01%20-%20Vaporware%2001.mp3"/>
+    <TRACK Name="Vaporware 07" Artist="Donato Dozzy" Album="Donato Dozzy Plays Bee Mask" Genre="Ambient" DateAdded="2017-02-02" Location="file://localhost/Users/listmusik/Music/Donato%20Dozzy%20-%20Donato%20Dozzy%20Plays%20Bee%20Mask%20%5b2013%5d/07%20-%20Vaporware%2007.mp3"/>
+    <TRACK Name="Piece Three" Artist="Gelg" Album="Look Around You" Genre="Soundtrack" DateAdded="2017-02-02" Location="file://localhost/Users/listmusik/Music/Gelg/03%20Piece%20Three.mp3"/>
+    <TRACK Name="Vaporware 03" Artist="Donato Dozzy" Album="Donato Dozzy Plays Bee Mask" Genre="Ambient" DateAdded="2017-02-02" Location="file://localhost/Users/listmusik/Music/Donato%20Dozzy%20-%20Donato%20Dozzy%20Plays%20Bee%20Mask%20%5b2013%5d/03%20-%20Vaporware%2003.mp3"/>
+    <TRACK Name="Vaporware 02" Artist="Donato Dozzy" Album="Donato Dozzy Plays Bee Mask" Genre="Ambient" DateAdded="2017-02-02" Location="file://localhost/Users/listmusik/Music/Donato%20Dozzy%20-%20Donato%20Dozzy%20Plays%20Bee%20Mask%20%5b2013%5d/02%20-%20Vaporware%2002.mp3"/>
+    <TRACK Name="Vaporware 04" Artist="Donato Dozzy" Album="Donato Dozzy Plays Bee Mask" Genre="Ambient" DateAdded="2017-02-02" Location="file://localhost/Users/listmusik/Music/Donato%20Dozzy%20-%20Donato%20Dozzy%20Plays%20Bee%20Mask%20%5b2013%5d/04%20-%20Vaporware%2004.mp3"/>
+    <TRACK Name="Vaporware 05" Artist="Donato Dozzy" Album="Donato Dozzy Plays Bee Mask" Genre="Ambient" DateAdded="2017-02-02" Location="file://localhost/Users/listmusik/Music/Donato%20Dozzy%20-%20Donato%20Dozzy%20Plays%20Bee%20Mask%20%5b2013%5d/05%20-%20Vaporware%2005.mp3"/>
+    <TRACK Name="Vaporware 06" Artist="Donato Dozzy" Album="Donato Dozzy Plays Bee Mask" Genre="Ambient" DateAdded="2017-02-02" Location="file://localhost/Users/listmusik/Music/Donato%20Dozzy%20-%20Donato%20Dozzy%20Plays%20Bee%20Mask%20%5b2013%5d/06%20-%20Vaporware%2006.mp3"/>
+    <TRACK Name="Piece One" Artist="Gelg" Album="Look Around You" Genre="Soundtrack" DateAdded="2017-02-02" Location="file://localhost/Users/listmusik/Music/Gelg/01%20Piece%20One.mp3"/>
+    <TRACK Name="Piece Two" Artist="Gelg" Album="Look Around You" Genre="Soundtrack" DateAdded="2017-02-02" Location="file://localhost/Users/listmusik/Music/Gelg/02%20Piece%20Two.mp3"/>
+    <TRACK Name="Reggae" Artist="Gelg" Album="Look Around You" Genre="Soundtrack" DateAdded="2017-02-02" Location="file://localhost/Users/listmusik/Music/Gelg/04%20Reggae.mp3"/>
+    <TRACK Name="Imhotep" Artist="Gelg" Album="Look Around You" Genre="Soundtrack" DateAdded="2017-02-02" Location="file://localhost/Users/listmusik/Music/Gelg/05%20Imhotep.mp3"/>
+    <TRACK Name="Sulphagne" Artist="Gelg" Album="Look Around You" Genre="Soundtrack" DateAdded="2017-02-02" Location="file://localhost/Users/listmusik/Music/Gelg/06%20Sulphagne.mp3"/>
+    <TRACK Name="Eight Ladies" Artist="Gelg" Album="Look Around You" Genre="Soundtrack" DateAdded="2017-02-02" Location="file://localhost/Users/listmusik/Music/Gelg/07%20Eight%20Ladies.mp3"/>
+    <TRACK Name="Haunted Laboratory" Artist="Gelg" Album="Look Around You" Genre="Soundtrack" DateAdded="2017-02-02" Location="file://localhost/Users/listmusik/Music/Gelg/08%20Haunted%20Laboratory.mp3"/>
+    <TRACK Name="Pleasant Guitar Piece" Artist="Gelg" Album="Look Around You" Genre="Soundtrack" DateAdded="2017-02-02" Location="file://localhost/Users/listmusik/Music/Gelg/09%20Pleasant%20Guitar%20Piece.mp3"/>
+  </COLLECTION>
+  <PLAYLISTS>
+    <FOLDER Name="ROOT" Count="3">
+      <FOLDER Name="F1" Count="1">
+        <PLAYLIST Name="ROOT_F1_P1" Length="2">
+          <ENTRY Location="file://localhost/Users/listmusik/Music/Donato%20Dozzy%20-%20Donato%20Dozzy%20Plays%20Bee%20Mask%20%5b2013%5d/01%20-%20Vaporware%2001.mp3"/>
+          <ENTRY Location="file://localhost/Users/listmusik/Music/Donato%20Dozzy%20-%20Donato%20Dozzy%20Plays%20Bee%20Mask%20%5b2013%5d/07%20-%20Vaporware%2007.mp3"/>
+        </PLAYLIST>
+      </FOLDER>
+      <PLAYLIST Name="ROOT_P2" Length="2">
+        <ENTRY Location="file://localhost/Users/listmusik/Music/Gelg/03%20Piece%20Three.mp3"/>
+        <ENTRY Location="file://localhost/Users/listmusik/Music/Donato%20Dozzy%20-%20Donato%20Dozzy%20Plays%20Bee%20Mask%20%5b2013%5d/03%20-%20Vaporware%2003.mp3"/>
+      </PLAYLIST>
+    </FOLDER>
+  </PLAYLISTS>
+</LISTMUSIK_DATA>

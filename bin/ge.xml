@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF8'?>
+<LISTMUSIK_DATA>
+  <PRODUCT/>
+  <COLLECTION Length="2">
+    <TRACK Name="Piece One" Artist="Gelg" Album="Look Around You" Genre="Soundtrack" DateAdded="2017-02-02" Location="file://localhost/Users/listmusik/Music/Gelg/01%20Piece%20One.mp3"/>
+    <TRACK Name="Piece Two" Artist="Gelg" Album="Look Around You" Genre="Soundtrack" DateAdded="2017-02-02" Location="file://localhost/Users/listmusik/Music/Gelg/02%20Piece%20Two.mp3"/>
+  </COLLECTION>
+  <PLAYLISTS>
+    <FOLDER Name="ROOT" Count="0">
+      <PLAYLIST Name="Faves" Length="2">
+        <ENTRY Location="file://localhost/Users/listmusik/Music/Gelg/01%20Piece%20One.mp3"/>
+        <ENTRY Location="file://localhost/Users/listmusik/Music/Donato%20Dozzy%20-%20Donato%20Dozzy%20Plays%20Bee%20Mask%20%5b2013%5d/01%20-%20Vaporware%2001.mp3"/>
+        <ENTRY Location="file://localhost/Users/listmusik/Music/Gelg/02%20Piece%20Two.mp3"/>
+      </PLAYLIST>
+    </FOLDER>
+  </PLAYLISTS>
+</LISTMUSIK_DATA>

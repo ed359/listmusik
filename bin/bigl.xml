@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LISTMUSIC_DATA Version="0.0.1 (format)">
+  <PRODUCT Name="rekordbox" Version="4.2.5" Company="Pioneer DJ"/>
+  <COLLECTION Length="0"/>
+  <PLAYLISTS>
+    <FOLDER Name="ROOT" Length="10">
+      <FOLDER Name="0Folders" Length="20">
+        <FOLDER Name="2014" Length="3">
+          <PLAYLIST Name="2014-01" Length="0"/>
+          <PLAYLIST Name="2014-02" Length="0"/>
+          <PLAYLIST Name="2014-04" Length="0"/>
+        </FOLDER>
+        <PLAYLIST Name="2015-05" Length="0"/>
+        <PLAYLIST Name="2015-06" Length="0"/>
+        <PLAYLIST Name="2015-07" Length="0"/>
+        <PLAYLIST Name="2015-08" Length="0"/>
+        <PLAYLIST Name="2015-09" Length="0"/>
+        <PLAYLIST Name="2015-10" Length="0"/>
+        <PLAYLIST Name="2015-11" Length="0"/>
+        <PLAYLIST Name="2015-12" Length="0"/>
+        <PLAYLIST Name="2016-01" Length="0"/>
+        <PLAYLIST Name="2016-02" Length="0"/>
+        <PLAYLIST Name="2016-03" Length="0"/>
+        <PLAYLIST Name="2016-04" Length="0"/>
+        <PLAYLIST Name="2016-06" Length="0"/>
+        <PLAYLIST Name="2016-07" Length="0"/>
+        <PLAYLIST Name="2016-08" Length="0"/>
+        <PLAYLIST Name="2016-09" Length="0"/>
+        <PLAYLIST Name="2016-10" Length="0"/>
+        <PLAYLIST Name="2016-11" Length="0"/>
+        <PLAYLIST Name="2017-01" Length="0"/>
+      </FOLDER>
+      <FOLDER Name="0Genres" Length="18">
+        <PLAYLIST Name="2012 Deep" Length="0"/>
+        <PLAYLIST Name="Acid" Length="0"/>
+        <PLAYLIST Name="Classics" Length="0"/>
+        <PLAYLIST Name="Deep House" Length="0"/>
+        <PLAYLIST Name="Dub Techno" Length="0"/>
+        <PLAYLIST Name="Ethereal Techno" Length="0"/>
+        <PLAYLIST Name="Futuregarage" Length="0"/>
+        <PLAYLIST Name="House" Length="0"/>
+        <PLAYLIST Name="Hypnotech" Length="0"/>
+        <PLAYLIST Name="Jungle" Length="0"/>
+        <PLAYLIST Name="Melodic Tech" Length="0"/>
+        <PLAYLIST Name="Minimal" Length="0"/>
+        <PLAYLIST Name="Slow House" Length="0"/>
+        <PLAYLIST Name="Tech House" Length="0"/>
+        <PLAYLIST Name="Tech[no|house]" Length="0"/>
+        <PLAYLIST Name="Techno" Length="0"/>
+        <PLAYLIST Name="Wonky" Length="0"/>
+        <PLAYLIST Name="Z Deep House" Length="0"/>
+      </FOLDER>
+      <FOLDER Name="0Styles" Length="15">
+        <PLAYLIST Name="Ambientish" Length="0"/>
+        <PLAYLIST Name="Bouncers" Length="0"/>
+        <PLAYLIST Name="Breathers" Length="0"/>
+        <PLAYLIST Name="Broken Robots" Length="0"/>
+        <PLAYLIST Name="Builders" Length="0"/>
+        <PLAYLIST Name="Chuggers" Length="0"/>
+        <PLAYLIST Name="Deep Sub" Length="0"/>
+        <PLAYLIST Name="Dubby" Length="0"/>
+        <PLAYLIST Name="Fusion" Length="0"/>
+        <PLAYLIST Name="Happy Melodic" Length="0"/>
+        <PLAYLIST Name="Melancholy" Length="0"/>
+        <PLAYLIST Name="Morning Music" Length="0"/>
+        <PLAYLIST Name="Silly" Length="0"/>
+        <PLAYLIST Name="Tist" Length="0"/>
+        <PLAYLIST Name="Wintergarten" Length="0"/>
+      </FOLDER>
+      <FOLDER Name="0Origins" Length="7">
+        <PLAYLIST Name="2015-07 Forest Rave" Length="0"/>
+        <PLAYLIST Name="2015-07 Louis" Length="0"/>
+        <PLAYLIST Name="2015-08 Gethin" Length="0"/>
+        <PLAYLIST Name="Mikel" Length="0"/>
+        <PLAYLIST Name="San Miguel, etc" Length="0"/>
+        <PLAYLIST Name="Tobi Dei" Length="0"/>
+        <PLAYLIST Name="Unders" Length="0"/>
+      </FOLDER>
+      <FOLDER Name="0Prep" Length="4">
+        <PLAYLIST Name="LC Longlist" Length="0"/>
+        <PLAYLIST Name="My Techno" Length="0"/>
+        <PLAYLIST Name="Hologram #3" Length="0"/>
+        <PLAYLIST Name="Holo 3 Shortlist" Length="0"/>
+      </FOLDER>
+      <FOLDER Name="0Sets" Length="17">
+        <PLAYLIST Name="2015-07 Mix" Length="0"/>
+        <PLAYLIST Name="2015-08-01" Length="0"/>
+        <PLAYLIST Name="2015-08-02" Length="0"/>
+        <PLAYLIST Name="2015-08-23 Bangers Chill" Length="0"/>
+        <PLAYLIST Name="2015-10-11 Autumn tunes" Length="0"/>
+        <PLAYLIST Name="2015-12 Dark Melodic" Length="0"/>
+        <PLAYLIST Name="2015-12 Winter Wonky" Length="0"/>
+        <PLAYLIST Name="2016-04-27 Brazil" Length="0"/>
+        <PLAYLIST Name="2016-08 Bangers Slow" Length="0"/>
+        <PLAYLIST Name="2016-08 Bem-2-vi" Length="0"/>
+        <PLAYLIST Name="2016-08 SCIENCE" Length="0"/>
+        <PLAYLIST Name="2016-08 Slow Wonk" Length="0"/>
+        <PLAYLIST Name="2016-10-28 La Cabina" Length="0"/>
+        <PLAYLIST Name="2016-11 Holo Series" Length="0"/>
+        <PLAYLIST Name="2016-11 Holo2 afterparty" Length="0"/>
+        <PLAYLIST Name="2016-11 Hologram #2" Length="0"/>
+        <PLAYLIST Name="Inspired by Berlin" Length="0"/>
+      </FOLDER>
+      <PLAYLIST Name="0Fixme" Length="0"/>
+      <PLAYLIST Name="Preparation" Length="0"/>
+      <PLAYLIST Name="Samples" Length="0"/>
+      <PLAYLIST Name="Unsorted" Length="0"/>
+    </FOLDER>
+  </PLAYLISTS>
+</LISTMUSIC_DATA>

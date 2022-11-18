@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DJ_PLAYLISTS Version="1.0.0">
+  <PRODUCT Name="rekordbox" Version="4.2.5" Company="Pioneer DJ"/>
+  <COLLECTION Entries="16">
+    <TRACK TrackID="5" Name="Vaporware 01" Artist="Donato Dozzy" Composer=""
+           Album="Donato Dozzy Plays Bee Mask" Grouping="" Genre="Ambient"
+           Kind="MP3 File" Size="14331333" TotalTime="350" DiscNumber="0"
+           TrackNumber="1" Year="2013" AverageBpm="163.80" DateAdded="2017-02-02"
+           BitRate="320" SampleRate="44100" Comments="6A" PlayCount="0"
+           Rating="0" Location="file://localhost/Users/listmusik/Music/Donato%20Dozzy%20-%20Donato%20Dozzy%20Plays%20Bee%20Mask%20%5b2013%5d/01%20-%20Vaporware%2001.mp3"
+           Remixer="" Tonality="6A" Label="" Mix="">
+      <TEMPO Inizio="0.047" Bpm="163.80" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="72.207" Bpm="163.80" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="141.803" Bpm="163.80" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="207.736" Bpm="163.80" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="272.570" Bpm="163.80" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="344.730" Bpm="163.80" Metro="4/4" Battito="4"/>
+    </TRACK>
+    <TRACK TrackID="2141" Name="The Return Of The Gardenbirds" Artist="Jay Phonic"
+           Composer="" Album="echogarden - compilation #2" Grouping="" Genre=""
+           Kind="MP3 File" Size="14972454" TotalTime="369" DiscNumber="0"
+           TrackNumber="5" Year="2015" AverageBpm="109.83" DateAdded="2017-01-29"
+           BitRate="320" SampleRate="44100" Comments="Visit http://echogarden.bandcamp.com"
+           PlayCount="1" Rating="0" Location="file://localhost/Users/ewan/Music/2017-01/Jay%20Phonic%20-%20echogarden%20-%20compilation%20#2%20-%2005%20The%20Return%20Of%20The%20Gardenbirds.mp3"
+           Remixer="" Tonality="Fm" Label="" Mix=""/>
+    <TRACK TrackID="6" Name="Vaporware 07" Artist="Donato Dozzy" Composer=""
+           Album="Donato Dozzy Plays Bee Mask" Grouping="" Genre="Ambient"
+           Kind="MP3 File" Size="21728267" TotalTime="534" DiscNumber="0"
+           TrackNumber="7" Year="2013" AverageBpm="130.00" DateAdded="2017-02-02"
+           BitRate="320" SampleRate="44100" Comments="6A" PlayCount="0"
+           Rating="0" Location="file://localhost/Users/listmusik/Music/Donato%20Dozzy%20-%20Donato%20Dozzy%20Plays%20Bee%20Mask%20%5b2013%5d/07%20-%20Vaporware%2007.mp3"
+           Remixer="" Tonality="6A" Label="" Mix="">
+      <TEMPO Inizio="0.332" Bpm="130.00" Metro="4/4" Battito="2"/>
+    </TRACK>
+    <TRACK TrackID="7" Name="Piece Three" Artist="Gelg" Composer="" Album="Look Around You"
+           Grouping="" Genre="Soundtrack" Kind="MP3 File" Size="1271207"
+           TotalTime="67" DiscNumber="1" TrackNumber="3" Year="0" AverageBpm="100.34"
+           DateAdded="2017-02-02" BitRate="0" SampleRate="44100" Comments=""
+           PlayCount="0" Rating="0" Location="file://localhost/Users/listmusik/Music/Gelg/03%20Piece%20Three.mp3"
+           Remixer="" Tonality="" Label="" Mix="">
+      <TEMPO Inizio="0.436" Bpm="100.34" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="11.200" Bpm="100.34" Metro="4/4" Battito="4"/>
+    </TRACK>
+    <TRACK TrackID="8" Name="Vaporware 03" Artist="Donato Dozzy" Composer=""
+           Album="Donato Dozzy Plays Bee Mask" Grouping="" Genre="Ambient"
+           Kind="MP3 File" Size="9127321" TotalTime="220" DiscNumber="0"
+           TrackNumber="3" Year="2013" AverageBpm="97.50" DateAdded="2017-02-02"
+           BitRate="320" SampleRate="44100" Comments="6A" PlayCount="0"
+           Rating="0" Location="file://localhost/Users/listmusik/Music/Donato%20Dozzy%20-%20Donato%20Dozzy%20Plays%20Bee%20Mask%20%5b2013%5d/03%20-%20Vaporware%2003.mp3"
+           Remixer="" Tonality="6A" Label="" Mix="">
+      <TEMPO Inizio="0.107" Bpm="97.50" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="0.723" Bpm="97.50" Metro="4/4" Battito="3"/>
+    </TRACK>
+    <TRACK TrackID="9" Name="Vaporware 02" Artist="Donato Dozzy" Composer=""
+           Album="Donato Dozzy Plays Bee Mask" Grouping="" Genre="Ambient"
+           Kind="MP3 File" Size="13598190" TotalTime="331" DiscNumber="0"
+           TrackNumber="2" Year="2013" AverageBpm="175.48" DateAdded="2017-02-02"
+           BitRate="320" SampleRate="44100" Comments="6A" PlayCount="0"
+           Rating="0" Location="file://localhost/Users/listmusik/Music/Donato%20Dozzy%20-%20Donato%20Dozzy%20Plays%20Bee%20Mask%20%5b2013%5d/02%20-%20Vaporware%2002.mp3"
+           Remixer="" Tonality="6A" Label="" Mix="">
+      <TEMPO Inizio="0.201" Bpm="175.48" Metro="4/4" Battito="3"/>
+    </TRACK>
+    <TRACK TrackID="10" Name="Vaporware 04" Artist="Donato Dozzy" Composer=""
+           Album="Donato Dozzy Plays Bee Mask" Grouping="" Genre="Ambient"
+           Kind="MP3 File" Size="13247811" TotalTime="323" DiscNumber="0"
+           TrackNumber="4" Year="2013" AverageBpm="130.29" DateAdded="2017-02-02"
+           BitRate="320" SampleRate="44100" Comments="7B" PlayCount="0"
+           Rating="0" Location="file://localhost/Users/listmusik/Music/Donato%20Dozzy%20-%20Donato%20Dozzy%20Plays%20Bee%20Mask%20%5b2013%5d/04%20-%20Vaporware%2004.mp3"
+           Remixer="" Tonality="7B" Label="" Mix="">
+      <TEMPO Inizio="0.108" Bpm="130.29" Metro="4/4" Battito="3"/>
+    </TRACK>
+    <TRACK TrackID="11" Name="Vaporware 05" Artist="Donato Dozzy" Composer=""
+           Album="Donato Dozzy Plays Bee Mask" Grouping="" Genre="Ambient"
+           Kind="MP3 File" Size="14860818" TotalTime="363" DiscNumber="0"
+           TrackNumber="5" Year="2013" AverageBpm="90.00" DateAdded="2017-02-02"
+           BitRate="320" SampleRate="44100" Comments="6A - www.NewAlbumRelease.net"
+           PlayCount="0" Rating="0" Location="file://localhost/Users/listmusik/Music/Donato%20Dozzy%20-%20Donato%20Dozzy%20Plays%20Bee%20Mask%20%5b2013%5d/05%20-%20Vaporware%2005.mp3"
+           Remixer="" Tonality="6A" Label="" Mix="">
+      <TEMPO Inizio="0.098" Bpm="90.00" Metro="4/4" Battito="3"/>
+    </TRACK>
+    <TRACK TrackID="12" Name="Vaporware 06" Artist="Donato Dozzy" Composer=""
+           Album="Donato Dozzy Plays Bee Mask" Grouping="" Genre="Ambient"
+           Kind="MP3 File" Size="11865640" TotalTime="288" DiscNumber="0"
+           TrackNumber="6" Year="2013" AverageBpm="90.00" DateAdded="2017-02-02"
+           BitRate="320" SampleRate="44100" Comments="7A" PlayCount="0"
+           Rating="0" Location="file://localhost/Users/listmusik/Music/Donato%20Dozzy%20-%20Donato%20Dozzy%20Plays%20Bee%20Mask%20%5b2013%5d/06%20-%20Vaporware%2006.mp3"
+           Remixer="" Tonality="7A" Label="" Mix="">
+      <TEMPO Inizio="0.626" Bpm="90.00" Metro="4/4" Battito="3"/>
+    </TRACK>
+    <TRACK TrackID="13" Name="Piece One" Artist="Gelg" Composer="" Album="Look Around You"
+           Grouping="" Genre="Soundtrack" Kind="MP3 File" Size="1727065"
+           TotalTime="96" DiscNumber="1" TrackNumber="1" Year="0" AverageBpm="126.76"
+           DateAdded="2017-02-02" BitRate="0" SampleRate="44100" Comments=""
+           PlayCount="0" Rating="0" Location="file://localhost/Users/listmusik/Music/Gelg/01%20Piece%20One.mp3"
+           Remixer="" Tonality="" Label="" Mix="">
+      <TEMPO Inizio="0.094" Bpm="126.76" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="0.568" Bpm="126.76" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="25.182" Bpm="126.76" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="52.636" Bpm="126.76" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="81.510" Bpm="126.76" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="14" Name="Piece Two" Artist="Gelg" Composer="" Album="Look Around You"
+           Grouping="" Genre="Soundtrack" Kind="MP3 File" Size="1828601"
+           TotalTime="99" DiscNumber="1" TrackNumber="2" Year="0" AverageBpm="105.82"
+           DateAdded="2017-02-02" BitRate="0" SampleRate="44100" Comments=""
+           PlayCount="0" Rating="0" Location="file://localhost/Users/listmusik/Music/Gelg/02%20Piece%20Two.mp3"
+           Remixer="" Tonality="" Label="" Mix="">
+      <TEMPO Inizio="0.187" Bpm="105.82" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="1.320" Bpm="105.82" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="3.589" Bpm="105.82" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="4.722" Bpm="105.82" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="69.926" Bpm="105.82" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="70.494" Bpm="105.82" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="72.761" Bpm="105.82" Metro="4/4" Battito="4"/>
+    </TRACK>
+    <TRACK TrackID="15" Name="Reggae" Artist="Gelg" Composer="" Album="Look Around You"
+           Grouping="" Genre="Soundtrack" Kind="MP3 File" Size="1277140"
+           TotalTime="48" DiscNumber="1" TrackNumber="4" Year="0" AverageBpm="83.58"
+           DateAdded="2017-02-02" BitRate="0" SampleRate="44100" Comments=""
+           PlayCount="0" Rating="0" Location="file://localhost/Users/listmusik/Music/Gelg/04%20Reggae.mp3"
+           Remixer="" Tonality="" Label="" Mix="">
+      <TEMPO Inizio="0.015" Bpm="83.58" Metro="4/4" Battito="4"/>
+    </TRACK>
+    <TRACK TrackID="16" Name="Imhotep" Artist="Gelg" Composer="" Album="Look Around You"
+           Grouping="" Genre="Soundtrack" Kind="MP3 File" Size="1258626"
+           TotalTime="62" DiscNumber="1" TrackNumber="5" Year="0" AverageBpm="110.08"
+           DateAdded="2017-02-02" BitRate="0" SampleRate="44100" Comments=""
+           PlayCount="0" Rating="0" Location="file://localhost/Users/listmusik/Music/Gelg/05%20Imhotep.mp3"
+           Remixer="" Tonality="" Label="" Mix="">
+      <TEMPO Inizio="0.307" Bpm="110.08" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="3.033" Bpm="110.08" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="35.192" Bpm="110.08" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="17" Name="Sulphagne" Artist="Gelg" Composer="" Album="Look Around You"
+           Grouping="" Genre="Soundtrack" Kind="MP3 File" Size="4907910"
+           TotalTime="187" DiscNumber="1" TrackNumber="6" Year="0" AverageBpm="95.76"
+           DateAdded="2017-02-02" BitRate="0" SampleRate="44100" Comments=""
+           PlayCount="0" Rating="0" Location="file://localhost/Users/listmusik/Music/Gelg/06%20Sulphagne.mp3"
+           Remixer="" Tonality="" Label="" Mix="">
+      <TEMPO Inizio="0.255" Bpm="95.76" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="18" Name="Eight Ladies" Artist="Gelg" Composer="" Album="Look Around You"
+           Grouping="" Genre="Soundtrack" Kind="MP3 File" Size="826139"
+           TotalTime="40" DiscNumber="1" TrackNumber="7" Year="0" AverageBpm="119.22"
+           DateAdded="2017-02-02" BitRate="0" SampleRate="44100" Comments=""
+           PlayCount="0" Rating="0" Location="file://localhost/Users/listmusik/Music/Gelg/07%20Eight%20Ladies.mp3"
+           Remixer="" Tonality="" Label="" Mix="">
+      <TEMPO Inizio="0.323" Bpm="119.22" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="2.840" Bpm="119.22" Metro="4/4" Battito="2"/>
+    </TRACK>
+    <TRACK TrackID="19" Name="Haunted Laboratory" Artist="Gelg" Composer=""
+           Album="Look Around You" Grouping="" Genre="Soundtrack" Kind="MP3 File"
+           Size="1871358" TotalTime="92" DiscNumber="1" TrackNumber="8"
+           Year="0" AverageBpm="173.45" DateAdded="2017-02-02" BitRate="0"
+           SampleRate="44100" Comments="" PlayCount="0" Rating="0" Location="file://localhost/Users/listmusik/Music/Gelg/08%20Haunted%20Laboratory.mp3"
+           Remixer="" Tonality="" Label="" Mix="">
+      <TEMPO Inizio="0.199" Bpm="173.45" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="20" Name="Pleasant Guitar Piece" Artist="Gelg" Composer=""
+           Album="Look Around You" Grouping="" Genre="Soundtrack" Kind="MP3 File"
+           Size="1159751" TotalTime="56" DiscNumber="1" TrackNumber="9"
+           Year="0" AverageBpm="114.22" DateAdded="2017-02-02" BitRate="0"
+           SampleRate="44100" Comments="" PlayCount="0" Rating="0" Location="file://localhost/Users/listmusik/Music/Gelg/09%20Pleasant%20Guitar%20Piece.mp3"
+           Remixer="" Tonality="" Label="" Mix="">
+      <TEMPO Inizio="0.025" Bpm="114.22" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="14.734" Bpm="114.22" Metro="4/4" Battito="4"/>
+    </TRACK>
+  </COLLECTION>
+  <PLAYLISTS>
+    <NODE Type="0" Name="ROOT" Count="3">
+      <NODE Name="MyFolder" Type="0" Count="1">
+        <NODE Name="Sublist" Type="1" KeyType="0" Entries="2">
+          <TRACK Key="5"/>
+          <TRACK Key="6"/>
+        </NODE>
+      </NODE>
+      <NODE Name="Test" Type="1" KeyType="0" Entries="2">
+        <TRACK Key="7"/>
+        <TRACK Key="8"/>
+      </NODE>
+      <NODE Name="TestByLocation" Type="1" KeyType="0" Entries="0"/>
+    </NODE>
+  </PLAYLISTS>
+</DJ_PLAYLISTS>
